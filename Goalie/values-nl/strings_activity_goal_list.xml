@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_goal_list">Doelen</string>
+    <string name="goal_list_empty">Geen doelen gevonden</string>
+    <string name="goal_list_loading">Bezig met laden van de doelen&#8230;</string>
+    <string name="goal_load_failure">Ophalen van de doelen is mislukt</string>
+    <string name="refresh">Verversen</string>
+    <string name="goalie_is_paused">Goalie is gepauzeerd! Je krijgt geen herinneringen en de automatische metingen staan uit.</string>
+    <string name="goal_icon">goal-icoon</string>
+
+</resources>

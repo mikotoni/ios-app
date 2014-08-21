@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_sleep_entry_label">Duration</string>
+    <string name="task_sleep_entry_question">How many hours did you sleep last night?</string>
+    <string name="task_sleep_label">Enter sleep duration</string>
+    <string name="task_sleep_explanation">Please enter how long you slept last night.</string>
+    <string name="task_sleep_bedtime_label">Sleep on time</string>
+    <string name="task_sleep_bedtime">It is important to go to sleep on time in order to feel energized in the morning. Try to go to sleep at %1$s.</string>
+    <string name="task_sleep_waketime_label">Wake up on time</string>
+    <string name="task_sleep_waketime">It is important to wake up on time in order to feel energized during the day. Try to get up at %1$s.</string>
+
+</resources>

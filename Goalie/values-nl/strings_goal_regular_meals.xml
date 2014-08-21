@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_regular_meals">Regelmatig eten</string>
+    <string name="goal_intro_regular_meals">Gezond en regelmatig eten zorgt ervoor dat je je energieker voelt.</string>
+    <string name="goal_descr_regular_meals">Gezond en regelmatig eten zorgt ervoor dat je je energieker voelt. Hierdoor kan je actiever zijn en zul je je beter voelen.</string>
+    <string name="goal_help_regular_meals">Goalie herinnert je op vaste tijden om je maaltijden in te vullen, een keer voor je ontbijt, een keer voor lunch, en een keer voor avondeten. Voor iedere maaltijd die je invult krijg je twee punten, en als je binnen een half uur van de afgesproken tijd hebt gegeten verdien je nog vier punten extra.</string>
+    <string name="goal_meals_notif_title">Regelmatig eten</string>
+    <string name="goal_meals_notif_text">Vergeet niet om je %1$s in te vullen.</string>
+    <string name="task_breakfast_header">Ontbijt</string>
+    <string name="task_lunch_header">Lunch</string>
+    <string name="task_dinner_header">Avondeten</string>
+
+</resources>

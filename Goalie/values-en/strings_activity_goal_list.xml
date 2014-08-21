@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_goal_list">Goals</string>
+    <string name="goal_list_empty">No goals found</string>
+    <string name="goal_list_loading">Loading your goals&#8230;</string>
+    <string name="goal_load_failure">Failed to load the list of goals</string>
+    <string name="refresh">Refresh</string>
+    <string name="goalie_is_paused">Goalie is paused! You will not get any reminders, and all sensing is disabled.</string>
+    <string name="goal_icon">goal icon</string>
+
+</resources>

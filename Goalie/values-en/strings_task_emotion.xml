@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_emotion_explanation">Drag your finger across the face to input your current mood.</string>
+    <string name="task_emotion_label">Log mood</string>
+    <string name="task_emotion_button_label">Log your mood now</string>
+    <string name="task_emotion_question">How do you feel?</string>
+    <string name="task_emotion_fieldlabel">Mood:</string>
+    <string name="task_emotion_score">You just earned %1$d points!</string>
+    <string name="task_emotion_no_score">Great! Your entry was saved, but you can only get points once for each period of the day.</string>
+	
+</resources>

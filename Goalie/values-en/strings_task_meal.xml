@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_meal_breakfast_explanation">Please enter the time at which you had breakfast today.</string>
+    <string name="task_meal_lunch_explanation">Please enter the time at which you had lunch today.</string>
+    <string name="task_meal_dinner_explanation">Please enter the time at which you had dinner today.</string>
+    <string name="task_meal_breakfast_label">Enter breakfast time</string>
+    <string name="task_meal_lunch_label">Enter lunch time</string>
+    <string name="task_meal_dinner_label">Enter dinner time</string>
+    <string name="task_meal_fieldlabel">Time:</string>
+    <string name="task_meal_breakfast">breakfast</string>
+    <string name="task_meal_lunch">lunch</string>
+    <string name="task_meal_dinner">dinner</string>
+    <string name="task_meal_score">You just earned %1$d points!</string>
+    <string name="invalid_meal_time">Invalid input: this time is in the future.</string>
+    <string name="task_meal_no_score">You can only get points once for each meal.</string>
+
+</resources>

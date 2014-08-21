@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_about">About Goalie</string>
+    <string name="version">Version %1$s</string>
+    <string name="q_what_does_goalie_do">What does Goalie do?</string>
+    <string name="a_what_does_goalie_do">Goalie is an app that helps you to reach your goals. Goalie does so by motivating you to keep a regular and healthy lifestyle. You and your therapist decide together which goals are most appropriate for you.</string>
+    <string name="q_for_whom">Who uses Goalie?</string>
+    <string name="a_for_whom">Goalie is meant for mental health patients.</string>
+    <string name="q_get_account">How do I get an account?</string>
+    <string name="a_get_account">Together with your therapist you register for an account for Goalie. You choose your own account name and password, try not to forget them.</string>
+    <string name="q_more_info">Additional info</string>
+    <string name="a_more_info">If you want more information you can always contact your therapist, but you can also take a look online at <a href="goalie.sense-os.nl">goalie.sense-os.nl</a>.</string>
+
+</resources>

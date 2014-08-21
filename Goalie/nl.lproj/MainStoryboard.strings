@@ -1,0 +1,705 @@
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "12"; */
+"12.title" = "Master";
+
+/* Class = "IBUINavigationItem"; title = "My Goals"; ObjectID = "36"; */
+"36.title" = "Mijn doelen";
+
+/* Class = "IBUILabel"; text = "Radius:"; ObjectID = "0BF-Oe-WSi"; */
+"0BF-Oe-WSi.text" = "Radius:";
+
+/* Class = "IBUILabel"; text = "08:54"; ObjectID = "0QU-aA-8f1"; */
+"0QU-aA-8f1.text" = "08:54";
+
+/* Class = "IBUILabel"; text = "0/100"; ObjectID = "0Vf-bH-D7k"; */
+"0Vf-bH-D7k.text" = "0/100";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "0cs-b5-w4d"; */
+"0cs-b5-w4d.text" = "0";
+
+/* Class = "IBUILabel"; text = "Brews"; ObjectID = "0pr-yJ-Jzh"; */
+"0pr-yJ-Jzh.text" = "Putjes";
+
+/* Class = "IBUILabel"; text = "hours"; ObjectID = "1K3-Pd-Db6"; */
+"1K3-Pd-Db6.text" = "uur";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "1Ul-KC-2cm"; */
+"1Ul-KC-2cm.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "0/100"; ObjectID = "1iU-tJ-c4Y"; */
+"1iU-tJ-c4Y.text" = "0/100";
+
+/* Class = "IBUILabel"; text = "Adjust time"; ObjectID = "2De-N0-2IY"; */
+"2De-N0-2IY.text" = "Tijd instellen";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Testing menu"; ObjectID = "2hQ-it-zJe"; */
+"2hQ-it-zJe.headerTitle" = "Testmenu";
+
+/* Class = "IBUILabel"; text = "Motion"; ObjectID = "2m1-pq-jQc"; */
+"2m1-pq-jQc.text" = "Bewegen";
+
+/* Class = "IBUILabel"; text = "-"; ObjectID = "37Y-Dx-ksP"; */
+"37Y-Dx-ksP.text" = "-";
+
+/* Class = "IBUINavigationItem"; title = "Tasks"; ObjectID = "3Vo-Pb-6fc"; */
+"3Vo-Pb-6fc.title" = "Tasks";
+
+/* Class = "IBUINavigationItem"; title = "Take a picture"; ObjectID = "3fa-1M-nMp"; */
+"3fa-1M-nMp.title" = "Een foto maken";
+
+/* Class = "IBUILabel"; text = "Emotion"; ObjectID = "3nY-hE-J2s"; */
+"3nY-hE-J2s.text" = "Stemming";
+
+/* Class = "IBUILabel"; text = "Your emotion this morning"; ObjectID = "3yu-DE-1nR"; */
+"3yu-DE-1nR.text" = "Je stemming deze ochtend";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "513-ac-MVT"; */
+"513-ac-MVT.text" = "0";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "580-dj-1XW"; */
+"580-dj-1XW.text" = "Ondertitel";
+
+/* Class = "IBUILabel"; text = "LoginMessage"; ObjectID = "5Pw-En-wpK"; */
+"5Pw-En-wpK.text" = "Login bericht";
+
+/* Class = "IBUILabel"; text = "Active Task"; ObjectID = "5xU-rx-nbz"; */
+"5xU-rx-nbz.text" = "Actieve taak";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "62c-fR-O0n"; */
+"62c-fR-O0n.text" = "punten";
+
+/* Class = "IBUIButton"; normalTitle = "Registreren"; ObjectID = "6AZ-gX-4gp"; */
+"6AZ-gX-4gp.normalTitle" = "Registreren";
+
+/* Class = "IBUILabel"; text = "completed"; ObjectID = "6I0-62-Fxm"; */
+"6I0-62-Fxm.text" = "voltooid:";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "6Ib-3i-AuE"; */
+"6Ib-3i-AuE.text" = "punten";
+
+/* Class = "IBUINavigationItem"; title = "Sleep"; ObjectID = "6Ur-gY-I7H"; */
+"6Ur-gY-I7H.title" = "Slapen";
+
+/* Class = "IBUILabel"; text = "Begin:"; ObjectID = "7BR-9B-sAr"; */
+"7BR-9B-sAr.text" = "Begin:";
+
+/* Class = "IBUIBarButtonItem"; title = "Select filter"; ObjectID = "7VW-di-Osk"; */
+"7VW-di-Osk.title" = "Select filter";
+
+/* Class = "IBUILabel"; text = "Activity today:"; ObjectID = "7xl-FN-riT"; */
+"7xl-FN-riT.text" = "Vandaag:";
+
+/* Class = "IBUINavigationItem"; title = "New goal"; ObjectID = "8Us-W0-fUh"; */
+"8Us-W0-fUh.title" = "Nieuw doel";
+
+/* Class = "IBUILabel"; text = "Regular sleep rythm"; ObjectID = "8h5-On-Off"; */
+"8h5-On-Off.text" = "Regular sleep rythm";
+
+/* Class = "IBUILabel"; text = "Occurrence:"; ObjectID = "9TI-HM-tP6"; */
+"9TI-HM-tP6.text" = "Occurrence:";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "9TW-LY-iIx"; */
+"9TW-LY-iIx.text" = "0";
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "9ek-xd-Nzr"; */
+"9ek-xd-Nzr.placeholder" = "Email";
+
+/* Class = "IBUILabel"; text = "Deadline: Today"; ObjectID = "9q1-3Q-3eD"; */
+"9q1-3Q-3eD.text" = "Deadline: Vandaag";
+
+/* Class = "IBUILabel"; text = "Having breakfast"; ObjectID = "ABd-YQ-QbH"; */
+"ABd-YQ-QbH.text" = "Op tijd ontbijten";
+
+/* Class = "IBUIBarButtonItem"; title = "Delete all"; ObjectID = "AJX-mv-Jp6"; */
+"AJX-mv-Jp6.title" = "Alles verwijderen";
+
+/* Class = "IBUILabel"; text = "Preferred time:"; ObjectID = "AJY-sO-wEV"; */
+"AJY-sO-wEV.text" = "Gewenst:";
+
+/* Class = "IBUINavigationItem"; title = "Sleep state"; ObjectID = "AS4-yY-8JS"; */
+"AS4-yY-8JS.title" = "Slaap meting";
+
+/* Class = "IBUILabel"; text = "Open question"; ObjectID = "AgD-s8-Koj"; */
+"AgD-s8-Koj.text" = "Open vraag";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ApG-Qy-ya8"; */
+"ApG-Qy-ya8.text" = "Titel";
+
+/* Class = "IBUINavigationItem"; title = "Doel beschrijving"; ObjectID = "AsJ-qf-jFK"; */
+"AsJ-qf-jFK.title" = "Doel beschrijving";
+
+/* Class = "IBUILabel"; text = "Vul hier je Goalie gebruikersnaam en wachtwoord in"; ObjectID = "B5y-XA-maE"; */
+"B5y-XA-maE.text" = "Vul hier je Goalie gebruikersnaam en wachtwoord in";
+
+/* Class = "IBUILabel"; text = "Switch task"; ObjectID = "Bvc-ax-IhM"; */
+"Bvc-ax-IhM.text" = "Switch task";
+
+/* Class = "IBUISegmentedControl"; C2i-ha-t86.segmentTitles[0] = "Ja"; ObjectID = "C2i-ha-t86"; */
+"C2i-ha-t86.segmentTitles[0]" = "Ja";
+
+/* Class = "IBUISegmentedControl"; C2i-ha-t86.segmentTitles[1] = "Nee"; ObjectID = "C2i-ha-t86"; */
+"C2i-ha-t86.segmentTitles[1]" = "Nee";
+
+/* Class = "IBUINavigationItem"; title = "Scheduled notifications"; ObjectID = "C52-HJ-aEt"; */
+"C52-HJ-aEt.title" = "Geplande notificaties";
+
+/* Class = "IBUIButton"; normalTitle = "Inloggen"; ObjectID = "C6V-PW-dsP"; */
+"C6V-PW-dsP.normalTitle" = "Inloggen";
+
+/* Class = "IBUILabel"; text = "Exercise"; ObjectID = "CYI-IN-3uf"; */
+"CYI-IN-3uf.text" = "Bewegen";
+
+/* Class = "IBUIViewController"; title = "Beschrijving"; ObjectID = "Cea-K8-cIL"; */
+"Cea-K8-cIL.title" = "Beschrijving";
+
+/* Class = "IBUILabel"; text = "Location:"; ObjectID = "DIx-7Y-SJN"; */
+"DIx-7Y-SJN.text" = "Locatie:";
+
+/* Class = "IBUILabel"; text = "18"; ObjectID = "DXL-Bk-xB6"; */
+"DXL-Bk-xB6.text" = "18";
+
+/* Class = "IBUILabel"; text = "Number of visits:"; ObjectID = "DXt-n5-8be"; */
+"DXt-n5-8be.text" = "Deze week:";
+
+/* Class = "IBUILabel"; text = "Today at 15.15"; ObjectID = "Dxq-LH-7MW"; */
+"Dxq-LH-7MW.text" = "Vandaag om 15.15";
+
+/* Class = "IBUILabel"; text = "Triggers"; ObjectID = "EMm-1g-LzF"; */
+"EMm-1g-LzF.text" = "Triggers";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "EV6-UI-VqB"; */
+"EV6-UI-VqB.text" = "punten";
+
+/* Class = "IBUILabel"; text = "name"; ObjectID = "Egz-PC-15B"; */
+"Egz-PC-15B.text" = "naam";
+
+/* Class = "IBUILabel"; text = "Goal for this week:"; ObjectID = "FMI-RB-s8t"; */
+"FMI-RB-s8t.text" = "Gewenst:";
+
+/* Class = "IBUIBarButtonItem"; title = "Synchroniseren"; ObjectID = "Faz-eV-Y6V"; */
+"Faz-eV-Y6V.title" = "Synchroniseren";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "Fxd-cg-dln"; */
+"Fxd-cg-dln.text" = "punten";
+
+/* Class = "IBUITextField"; text = "50"; ObjectID = "G3S-jL-PTn"; */
+"G3S-jL-PTn.text" = "50";
+
+/* Class = "IBUITextView"; text = "Als je over langere tijd bijhoudt hoe je stemming is, kun je zien welke dingen je stemming beïnvloeden. Ook kun je dan zien wat voor effect de behandeling op je heeft.\n\nProbeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds aan te geven hoe je je voelt."; ObjectID = "GA4-na-9NM"; */
+"GA4-na-9NM.text" = "Als je over langere tijd bijhoudt hoe je stemming is, kun je zien welke dingen je stemming beïnvloeden. Ook kun je dan zien wat voor effect de behandeling op je heeft.\n\nProbeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds aan te geven hoe je je voelt.";
+
+/* Class = "IBUINavigationItem"; title = "New goal"; ObjectID = "GHG-zg-Cug"; */
+"GHG-zg-Cug.title" = "Nieuw doel";
+
+/* Class = "IBUINavigationItem"; title = "Explanation"; ObjectID = "GOc-Ps-gcS"; */
+"GOc-Ps-gcS.title" = "Uitleg";
+
+/* Class = "IBUITextView"; text = "Explanation about the goal"; ObjectID = "GRf-ge-MWU"; */
+"GRf-ge-MWU.text" = "Uitleg over het doel";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "GRi-5h-19f"; */
+"GRi-5h-19f.text" = "punten";
+
+/* Class = "IBUINavigationItem"; title = "Enter a value"; ObjectID = "Geu-Ad-jrC"; */
+"Geu-Ad-jrC.title" = "Vul een waarde in";
+
+/* Class = "IBUILabel"; text = "View sleep state"; ObjectID = "HZX-4B-F05"; */
+"HZX-4B-F05.text" = "Slaap meting bekijken";
+
+/* Class = "IBUILabel"; text = "Jan Jaap"; ObjectID = "Hc1-rM-roE"; */
+"Hc1-rM-roE.text" = "Jan Jaap";
+
+/* Class = "IBUILabel"; text = "153"; ObjectID = "HkF-I5-T0E"; */
+"HkF-I5-T0E.text" = "153";
+
+/* Class = "IBUILabel"; text = "100"; ObjectID = "HzJ-jt-3Lz"; */
+"HzJ-jt-3Lz.text" = "100";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "IWU-GH-Fnl"; */
+"IWU-GH-Fnl.text" = "punten";
+
+/* Class = "IBUINavigationItem"; title = "Specific values"; ObjectID = "Ihw-lp-juL"; */
+"Ihw-lp-juL.title" = "Specifieke waarden";
+
+/* Class = "IBUIBarButtonItem"; title = "Next"; ObjectID = "Jc2-Fn-pn0"; */
+"Jc2-Fn-pn0.title" = "Volgende";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "Jja-88-93Z"; */
+"Jja-88-93Z.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "Joe-UG-0IK"; */
+"Joe-UG-0IK.text" = "Gebruiker";
+
+/* Class = "IBUILabel"; text = "[51.932, 4.471]"; ObjectID = "Jq7-Mm-XVu"; */
+"Jq7-Mm-XVu.text" = "[51.932, 4.471]";
+
+/* Class = "IBUILabel"; text = "Description"; ObjectID = "JzN-VH-q1U"; */
+"JzN-VH-q1U.text" = "Omschrijving";
+
+/* Class = "IBUITextField"; placeholder = "Gebruikersnaam"; ObjectID = "Lgz-vH-pSH"; */
+"Lgz-vH-pSH.placeholder" = "Gebruikersnaam";
+
+/* Class = "IBUILabel"; text = "Specific values"; ObjectID = "Lho-3D-QIg"; */
+"Lho-3D-QIg.text" = "Specifieke waarden";
+
+/* Class = "IBUILabel"; text = "2013-07-08T07:00:00Z"; ObjectID = "MAU-HN-R10"; */
+"MAU-HN-R10.text" = "2013-07-08T07:00:00Z";
+
+/* Class = "IBUILabel"; text = "taskId"; ObjectID = "MES-r4-iNn"; */
+"MES-r4-iNn.text" = "taskId";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "Mhf-lP-ApG"; */
+"Mhf-lP-ApG.text" = "punten";
+
+/* Class = "IBUILabel"; text = "Number of visits this week:"; ObjectID = "Mxq-hn-gUa"; */
+"Mxq-hn-gUa.text" = "Number of visits this week:";
+
+/* Class = "IBUILabel"; text = "Last activity: 22/01/13 09:30"; ObjectID = "N7P-66-Kf7"; */
+"N7P-66-Kf7.text" = "Laatste activiteit: 22/01/13 09:30";
+
+/* Class = "IBUINavigationItem"; title = "Doel details"; ObjectID = "NQS-0W-BaN"; */
+"NQS-0W-BaN.title" = "Doel details";
+
+/* Class = "IBUILabel"; text = "At what time?"; ObjectID = "Nv2-FN-Wdf"; */
+"Nv2-FN-Wdf.text" = "Hoe laat?";
+
+/* Class = "IBUITextField"; placeholder = "Gebruikersnaam"; ObjectID = "O88-l8-OF0"; */
+"O88-l8-OF0.placeholder" = "Gebruikersnaam";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "OB3-cf-dhe"; */
+"OB3-cf-dhe.text" = "Titel";
+
+/* Class = "IBUINavigationItem"; title = "Points"; ObjectID = "OeE-v6-sfz"; */
+"OeE-v6-sfz.title" = "Punten";
+
+/* Class = "IBUILabel"; text = "-"; ObjectID = "Oee-kc-pWf"; */
+"Oee-kc-pWf.text" = "-";
+
+/* Class = "IBUITextField"; text = "50"; ObjectID = "P0P-e0-lrj"; */
+"P0P-e0-lrj.text" = "50";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "P4G-f5-W03"; */
+"P4G-f5-W03.text" = "punten";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "PSg-vu-Cpk"; */
+"PSg-vu-Cpk.text" = "0";
+
+/* Class = "IBUILabel"; text = "earned\npoints"; ObjectID = "PnX-YF-XhC"; */
+"PnX-YF-XhC.text" = "verdiende\npunten";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "Q2e-Sx-PH7"; */
+"Q2e-Sx-PH7.text" = "Naam";
+
+/* Class = "IBUILabel"; text = "Minutes active today:"; ObjectID = "Q8k-ow-N3R"; */
+"Q8k-ow-N3R.text" = "Aantal minuten actief vandaag:";
+
+/* Class = "IBUINavigationItem"; title = "Pick a task"; ObjectID = "QAw-eV-ldR"; */
+"QAw-eV-ldR.title" = "Kies een taak";
+
+/* Class = "IBUITextView"; text = "Your answer"; ObjectID = "QCg-rT-koC"; */
+"QCg-rT-koC.text" = "Het antwoord";
+
+/* Class = "IBUILabel"; text = "Last night:"; ObjectID = "QQe-Bz-OL8"; */
+"QQe-Bz-OL8.text" = "Vannacht:";
+
+/* Class = "IBUILabel"; text = "8"; ObjectID = "QUo-DQ-os5"; */
+"QUo-DQ-os5.text" = "8";
+
+/* Class = "IBUIBarButtonItem"; title = "Logout"; ObjectID = "Qc9-gq-Hf7"; */
+"Qc9-gq-Hf7.title" = "Uitloggen";
+
+/* Class = "IBUINavigationItem"; title = "Monitored Regions"; ObjectID = "QfV-Pe-AWC"; */
+"QfV-Pe-AWC.title" = "Detecteerbare gebieden";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Qfa-N7-LVo"; */
+"Qfa-N7-LVo.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "Keep track of daily rythm"; ObjectID = "R7c-Uh-5mC"; */
+"R7c-Uh-5mC.text" = "Dagritme bijhouden";
+
+/* Class = "IBUIBarButtonItem"; title = "Next"; ObjectID = "RAd-hK-QLF"; */
+"RAd-hK-QLF.title" = "Volgende";
+
+/* Class = "IBUILabel"; text = "unknown"; ObjectID = "RNx-ja-tIr"; */
+"RNx-ja-tIr.text" = "onbekend";
+
+/* Class = "IBUILabel"; text = "8"; ObjectID = "Rft-Fy-jcM"; */
+"Rft-Fy-jcM.text" = "8";
+
+/* Class = "IBUILabel"; text = "end"; ObjectID = "Rs5-g1-j6P"; */
+"Rs5-g1-j6P.text" = "eind";
+
+/* Class = "IBUILabel"; text = "Deadline"; ObjectID = "Rtr-z5-GrY"; */
+"Rtr-z5-GrY.text" = "Deadline";
+
+/* Class = "IBUILabel"; text = "Description"; ObjectID = "S3A-uf-OiT"; */
+"S3A-uf-OiT.text" = "Omschrijving";
+
+/* Class = "IBUIButton"; normalTitle = ">"; ObjectID = "SA8-IG-U9g"; */
+"SA8-IG-U9g.normalTitle" = ">";
+
+/* Class = "IBUINavigationItem"; title = "Active Timers"; ObjectID = "STE-OX-cbu"; */
+"STE-OX-cbu.title" = "Actieve timers";
+
+/* Class = "IBUINavigationItem"; title = "Having breakfast"; ObjectID = "SZc-bi-7bv"; */
+"SZc-bi-7bv.title" = "Ontbijten";
+
+/* Class = "IBUILabel"; text = "08:30"; ObjectID = "SrK-7v-WEm"; */
+"SrK-7v-WEm.text" = "08:30";
+
+/* Class = "IBUITextField"; placeholder = "Soort foto"; ObjectID = "TNC-Tu-jej"; */
+"TNC-Tu-jej.placeholder" = "Soort foto";
+
+/* Class = "IBUILabel"; text = "-"; ObjectID = "TZH-DF-lJF"; */
+"TZH-DF-lJF.text" = "-";
+
+/* Class = "IBUILabel"; text = "15"; ObjectID = "TlV-Fz-1YS"; */
+"TlV-Fz-1YS.text" = "15";
+
+/* Class = "IBUILabel"; text = "-"; ObjectID = "UBS-OJ-r0p"; */
+"UBS-OJ-r0p.text" = "-";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "UKh-S7-X8j"; */
+"UKh-S7-X8j.text" = "0";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "UjZ-xv-vMs"; */
+"UjZ-xv-vMs.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "180"; ObjectID = "VdF-1C-L43"; */
+"VdF-1C-L43.text" = "180";
+
+/* Class = "IBUILabel"; text = "Take a picture"; ObjectID = "W0b-9M-Pvp"; */
+"W0b-9M-Pvp.text" = "Een foto maken";
+
+/* Class = "IBUILabel"; text = "start"; ObjectID = "W7A-OD-INc"; */
+"W7A-OD-INc.text" = "start";
+
+/* Class = "IBUILabel"; text = "Monitored Regions"; ObjectID = "Wug-xQ-d5o"; */
+"Wug-xQ-d5o.text" = "Detecteerbare gebieden";
+
+/* Class = "IBUILabel"; text = "Scheduled local notifications"; ObjectID = "Ww9-gx-8n3"; */
+"Ww9-gx-8n3.text" = "Geplande notificaties";
+
+/* Class = "IBUITextField"; text = "50"; ObjectID = "XHs-dC-yEv"; */
+"XHs-dC-yEv.text" = "50";
+
+/* Class = "IBUIButton"; normalTitle = "Maak een nieuw account"; ObjectID = "XZI-tH-P7R"; */
+"XZI-tH-P7R.normalTitle" = "Maak een nieuw account";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "XaY-1a-ua1"; */
+"XaY-1a-ua1.text" = "0";
+
+/* Class = "IBUILabel"; text = "Desired:"; ObjectID = "Xee-nr-xjT"; */
+"Xee-nr-xjT.text" = "Gewenst:";
+
+/* Class = "IBUILabel"; text = "Completed: "; ObjectID = "Xym-Cb-KeP"; */
+"Xym-Cb-KeP.text" = "Voltooid: ";
+
+/* Class = "IBUILabel"; text = "AB783498AF87AF812EB"; ObjectID = "Y3N-ub-HWM"; */
+"Y3N-ub-HWM.text" = "AB783498AF87AF812EB";
+
+/* Class = "IBUILabel"; text = "..."; ObjectID = "YN6-TF-nit"; */
+"YN6-TF-nit.text" = "...";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "YS1-3A-mjo"; */
+"YS1-3A-mjo.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUIButton"; normalTitle = "Nee, maak een nieuw account"; ObjectID = "Yns-9V-cYG"; */
+"Yns-9V-cYG.normalTitle" = "Nee, maak een nieuw account";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Yof-BL-yg6"; */
+"Yof-BL-yg6.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "ZFS-Pj-BPs"; */
+"ZFS-Pj-BPs.text" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "Ja, ik heb al een account"; ObjectID = "a6p-74-Nfi"; */
+"a6p-74-Nfi.normalTitle" = "Ja, ik heb al een account";
+
+/* Class = "IBUILabel"; text = "5"; ObjectID = "aIi-ai-ewt"; */
+"aIi-ai-ewt.text" = "5";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "aXW-DA-II8"; */
+"aXW-DA-II8.text" = "Ondertitel";
+
+/* Class = "IBUILabel"; text = "Slider"; ObjectID = "acy-ZQ-A8Q"; */
+"acy-ZQ-A8Q.text" = "Schuif";
+
+/* Class = "IBUILabel"; text = "Explanation"; ObjectID = "aud-7s-WTv"; */
+"aud-7s-WTv.text" = "Uitleg";
+
+/* Class = "IBUILabel"; text = "Tuesday morning"; ObjectID = "bEV-n1-i4B"; */
+"bEV-n1-i4B.text" = "Dinsdag ochtend";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "bij-N0-00O"; */
+"bij-N0-00O.text" = "0";
+
+/* Class = "IBUILabel"; text = "begin"; ObjectID = "cMy-Uz-bO0"; */
+"cMy-Uz-bO0.text" = "begin";
+
+/* Class = "IBUILabel"; text = "Take a picture"; ObjectID = "cVy-6e-o1r"; */
+"cVy-6e-o1r.text" = "Maak een foto";
+
+/* Class = "IBUILabel"; text = "Triggers:"; ObjectID = "dAu-gY-MW9"; */
+"dAu-gY-MW9.text" = "Triggers:";
+
+/* Class = "IBUILabel"; text = "08:30"; ObjectID = "dH8-AP-MMq"; */
+"dH8-AP-MMq.text" = "08:30";
+
+/* Class = "IBUILabel"; text = "CB783438A187AF812AB"; ObjectID = "df7-VO-pPm"; */
+"df7-VO-pPm.text" = "CB783438A187AF812AB";
+
+/* Class = "IBUILabel"; text = "Sleep"; ObjectID = "dxY-2j-qD0"; */
+"dxY-2j-qD0.text" = "Slapen";
+
+/* Class = "IBUILabel"; text = "3"; ObjectID = "e2D-Vp-nG7"; */
+"e2D-Vp-nG7.text" = "3";
+
+/* Class = "IBUILabel"; text = "Earned Points:"; ObjectID = "e4R-dp-MTf"; */
+"e4R-dp-MTf.text" = "Punten:";
+
+/* Class = "IBUINavigationItem"; title = "Open question"; ObjectID = "eE1-y1-Nxq"; */
+"eE1-y1-Nxq.title" = "Open vraag";
+
+/* Class = "IBUIButton"; normalTitle = "Shoot"; ObjectID = "eJ4-Hc-laJ"; */
+"eJ4-Hc-laJ.normalTitle" = "Maak een foto";
+
+/* Class = "IBUILabel"; text = "2013-07-08T07:00:00Z"; ObjectID = "fPc-ZE-Rb0"; */
+"fPc-ZE-Rb0.text" = "2013-07-08T07:00:00Z";
+
+/* Class = "IBUILabel"; text = "Testing"; ObjectID = "fUo-jg-p2g"; */
+"fUo-jg-p2g.text" = "Testen";
+
+/* Class = "IBUILabel"; text = "activeGoalId"; ObjectID = "fXi-eT-b3F"; */
+"fXi-eT-b3F.text" = "activeGoalId";
+
+/* Class = "IBUILabel"; text = "Tasks"; ObjectID = "fe5-iJ-Pvt"; */
+"fe5-iJ-Pvt.text" = "Tasks";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "fgT-GH-3LB"; */
+"fgT-GH-3LB.text" = "Label";
+
+/* Class = "IBUILabel"; text = "value"; ObjectID = "g06-yM-dK1"; */
+"g06-yM-dK1.text" = "waarde";
+
+/* Class = "IBUILabel"; text = "Switch"; ObjectID = "g5A-nr-iGg"; */
+"g5A-nr-iGg.text" = "Schakelaar";
+
+/* Class = "IBUILabel"; text = "Try to log certain events in your"; ObjectID = "gBP-uZ-hPe"; */
+"gBP-uZ-hPe.text" = "Try to log certain events in your";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "gC3-vg-R1b"; */
+"gC3-vg-R1b.text" = "Ondertitel";
+
+/* Class = "IBUILabel"; text = "Daily goal:"; ObjectID = "gNO-dx-g1m"; */
+"gNO-dx-g1m.text" = "Gewenst:";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Account"; ObjectID = "gn1-K9-rbd"; */
+"gn1-K9-rbd.headerTitle" = "Account";
+
+/* Class = "IBUILabel"; text = "Visit Eudokiaplein"; ObjectID = "hTk-Af-7BC"; */
+"hTk-Af-7BC.text" = "Bezoek het Eudokiaplein";
+
+/* Class = "IBUILabel"; text = "Earned points:"; ObjectID = "hxA-oP-3WS"; */
+"hxA-oP-3WS.text" = "Behaalde punten:";
+
+/* Class = "IBUILabel"; text = "30"; ObjectID = "hyh-eb-lXi"; */
+"hyh-eb-lXi.text" = "30";
+
+/* Class = "IBUINavigationItem"; title = "Enter your emotion"; ObjectID = "i2t-Na-YeT"; */
+"i2t-Na-YeT.title" = "Vul je stemming in";
+
+/* Class = "IBUILabel"; text = "Registered time:"; ObjectID = "i3D-Zs-Hx8"; */
+"i3D-Zs-Hx8.text" = "Vandaag:";
+
+/* Class = "IBUILabel"; text = "Vroesenpark"; ObjectID = "iQH-Ga-l1d"; */
+"iQH-Ga-l1d.text" = "Vroesenpark";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "ioZ-9Z-eSI"; */
+"ioZ-9Z-eSI.title" = "Inloggen";
+
+/* Class = "IBUINavigationItem"; title = "Visit a location"; ObjectID = "itM-3a-ba5"; */
+"itM-3a-ba5.title" = "Bezoek een locatie";
+
+/* Class = "IBUINavigationItem"; title = "Switch on off"; ObjectID = "j9s-w7-Fj8"; */
+"j9s-w7-Fj8.title" = "Aan/uit schakelaar";
+
+/* Class = "IBUIButton"; normalTitle = "<"; ObjectID = "jBJ-uu-Y65"; */
+"jBJ-uu-Y65.normalTitle" = "<";
+
+/* Class = "IBUILabel"; text = "10:12:43"; ObjectID = "jUW-Uy-dC4"; */
+"jUW-Uy-dC4.text" = "10:12:43";
+
+/* Class = "IBUITextField"; placeholder = "Wachtwoord"; ObjectID = "jcA-m2-ace"; */
+"jcA-m2-ace.placeholder" = "Wachtwoord";
+
+/* Class = "IBUILabel"; text = "Stemming"; ObjectID = "jlo-C3-cTg"; */
+"jlo-C3-cTg.text" = "Stemming";
+
+/* Class = "IBUINavigationItem"; title = "Triggers"; ObjectID = "jrY-e4-doK"; */
+"jrY-e4-doK.title" = "Triggers";
+
+/* Class = "IBUINavigationItem"; title = "Goal details"; ObjectID = "jyN-Sk-A8M"; */
+"jyN-Sk-A8M.title" = "Doel details";
+
+/* Class = "IBUILabel"; text = "Region ID:"; ObjectID = "kKW-8f-F8x"; */
+"kKW-8f-F8x.text" = "Region ID:";
+
+/* Class = "IBUILabel"; text = "brewId"; ObjectID = "kQf-L4-Mvs"; */
+"kQf-L4-Mvs.text" = "brewId";
+
+/* Class = "IBUILabel"; text = "5"; ObjectID = "kk4-ob-vTf"; */
+"kk4-ob-vTf.text" = "5";
+
+/* Class = "IBUILabel"; text = "Visit the next location:"; ObjectID = "lBG-l4-xv5"; */
+"lBG-l4-xv5.text" = "Bezoek de volgende locatie:";
+
+/* Class = "IBUILabel"; text = "100.0m"; ObjectID = "laP-YT-ihj"; */
+"laP-YT-ihj.text" = "100.0m";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "mK4-MY-VaG"; */
+"mK4-MY-VaG.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUINavigationItem"; title = "Motion"; ObjectID = "mZt-4e-Hlg"; */
+"mZt-4e-Hlg.title" = "Bewegen";
+
+/* Class = "IBUILabel"; text = "AA0DD2A9-2303-428B-9FD9-2BFC4939A8A6"; ObjectID = "mdQ-aO-pcn"; */
+"mdQ-aO-pcn.text" = "AA0DD2A9-2303-428B-9FD9-2BFC4939A8A6";
+
+/* Class = "IBUINavigationItem"; title = "Adjust time"; ObjectID = "mk0-hG-R0v"; */
+"mk0-hG-R0v.title" = "Tijd instellen";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "ml8-wR-Kgk"; */
+"ml8-wR-Kgk.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Eat"; ObjectID = "nG5-Rx-NUZ"; */
+"nG5-Rx-NUZ.text" = "Eten";
+
+/* Class = "IBUILabel"; text = "Hier kun je een nieuw Goalie account aanmaken."; ObjectID = "nMw-Ny-rgU"; */
+"nMw-Ny-rgU.text" = "Hier kun je een nieuw Goalie account aanmaken.";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "nY5-NE-TfA"; */
+"nY5-NE-TfA.text" = "punten";
+
+/* Class = "IBUILabel"; text = "Don't forget to do something"; ObjectID = "neO-ty-XIe"; */
+"neO-ty-XIe.text" = "Vergeet niet iets te doen";
+
+/* Class = "IBUILabel"; text = "end"; ObjectID = "nf0-KM-0l3"; */
+"nf0-KM-0l3.text" = "end";
+
+/* Class = "IBUILabel"; text = "End:"; ObjectID = "nmk-d4-yyF"; */
+"nmk-d4-yyF.text" = "Einde:";
+
+/* Class = "IBUILabel"; text = "F3783438B137A081209"; ObjectID = "oVs-BS-NQB"; */
+"oVs-BS-NQB.text" = "F3783438B137A081209";
+
+/* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "od0-3T-D8D"; */
+"od0-3T-D8D.title" = "Instellingen";
+
+/* Class = "IBUILabel"; text = "Tomorrow"; ObjectID = "ovF-ZD-bCt"; */
+"ovF-ZD-bCt.text" = "Morgen";
+
+/* Class = "IBUINavigationItem"; title = "Registreren"; ObjectID = "pgh-Bi-iFA"; */
+"pgh-Bi-iFA.title" = "Registreren";
+
+/* Class = "IBUILabel"; text = "Active Timers"; ObjectID = "ql7-OO-6lb"; */
+"ql7-OO-6lb.text" = "Active Timers";
+
+/* Class = "IBUITextField"; placeholder = "Wachtwoord"; ObjectID = "r5q-tN-RMT"; */
+"r5q-tN-RMT.placeholder" = "Wachtwoord";
+
+/* Class = "IBUINavigationItem"; title = "Description"; ObjectID = "r9g-hT-c53"; */
+"r9g-hT-c53.title" = "Omschrijving";
+
+/* Class = "IBUILabel"; text = "2013-07-08T07:00Z"; ObjectID = "rGw-k0-5Ef"; */
+"rGw-k0-5Ef.text" = "2013-07-08T07:00Z";
+
+/* Class = "IBUITextView"; text = "Try to log certain events in your day, every day. This can help you become aware of your daily rhythm. It can help you get more structure in your day."; ObjectID = "rg5-MV-8KS"; */
+"rg5-MV-8KS.text" = "Try to log certain events in your day, every day. This can help you become aware of your daily rhythm. It can help you get more structure in your day.";
+
+/* Class = "IBUILabel"; text = "Tasks:"; ObjectID = "s3h-HA-S2P"; */
+"s3h-HA-S2P.text" = "Taken:";
+
+/* Class = "IBUILabel"; text = "Objective:"; ObjectID = "sEt-rD-z1t"; */
+"sEt-rD-z1t.text" = "Het doel is:";
+
+/* Class = "IBUINavigationItem"; title = "Welcome"; ObjectID = "sf2-g7-z77"; */
+"sf2-g7-z77.title" = "Welkom";
+
+/* Class = "IBUILabel"; text = "18"; ObjectID = "sif-yV-NEX"; */
+"sif-yV-NEX.text" = "18";
+
+/* Class = "IBUILabel"; text = "points"; ObjectID = "tGp-7K-3FM"; */
+"tGp-7K-3FM.text" = "punten";
+
+/* Class = "IBUILabel"; text = "Set:"; ObjectID = "tI6-t9-hye"; */
+"tI6-t9-hye.text" = "Tijdstip:";
+
+/* Class = "IBUITextField"; placeholder = "Herhaal wachtwoord"; ObjectID = "tbW-Q3-kgS"; */
+"tbW-Q3-kgS.placeholder" = "Herhaal wachtwoord";
+
+/* Class = "IBUILabel"; text = "Heb je nog geen Goalie account?"; ObjectID = "tkl-uN-ue7"; */
+"tkl-uN-ue7.text" = "Heb je nog geen Goalie account?";
+
+/* Class = "IBUITextView"; text = "Where are you now?"; ObjectID = "tm4-U7-Usk"; */
+"tm4-U7-Usk.text" = "Waar ben je nu?";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "twd-j4-AK5"; */
+"twd-j4-AK5.text" = "0";
+
+/* Class = "IBUILabel"; text = "Did you have breakfast today?"; ObjectID = "uIU-47-5or"; */
+"uIU-47-5or.text" = "Heb je al ontbeten?";
+
+/* Class = "IBUILabel"; text = "-"; ObjectID = "usa-2V-JJL"; */
+"usa-2V-JJL.text" = "-";
+
+/* Class = "IBUINavigationItem"; title = "Doel details"; ObjectID = "vbq-Xr-7FT"; */
+"vbq-Xr-7FT.title" = "Doel details";
+
+/* Class = "IBUILabel"; text = "Gezonde hoeveelheid beweging"; ObjectID = "vdO-mR-h5g"; */
+"vdO-mR-h5g.text" = "Gezonde hoeveelheid beweging";
+
+/* Class = "IBUILabel"; text = "2013-07-08T07:00:00Z"; ObjectID = "voy-96-RHs"; */
+"voy-96-RHs.text" = "2013-07-08T07:00:00Z";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "vrN-bp-D8I"; */
+"vrN-bp-D8I.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Visit a location"; ObjectID = "wRj-te-Z9J"; */
+"wRj-te-Z9J.text" = "Een locatie bezoeken";
+
+/* Class = "IBUILabel"; text = "-"; ObjectID = "wmX-UX-vX7"; */
+"wmX-UX-vX7.text" = "-";
+
+/* Class = "IBUILabel"; text = "No camera available"; ObjectID = "x6R-MV-mSX"; */
+"x6R-MV-mSX.text" = "Geen camera beschikbaar";
+
+/* Class = "IBUILabel"; text = "2013-07-08T07:00Z"; ObjectID = "xI6-DS-lPY"; */
+"xI6-DS-lPY.text" = "2013-07-08T07:00Z";
+
+/* Class = "IBUILabel"; text = "occurrence"; ObjectID = "xPO-hw-2ON"; */
+"xPO-hw-2ON.text" = "occurrence";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "xUQ-LD-9X9"; */
+"xUQ-LD-9X9.text" = "Titel";
+
+/* Class = "IBUILabel"; text = "Current value:"; ObjectID = "yFs-Us-Yxx"; */
+"yFs-Us-Yxx.text" = "Huidige waarde:";
+
+/* Class = "IBUILabel"; text = "Keep track of daily rythm"; ObjectID = "yk6-aa-G2m"; */
+"yk6-aa-G2m.text" = "Keep track of daily rythm";
+
+/* Class = "IBUILabel"; text = "Slider"; ObjectID = "yvX-au-qy6"; */
+"yvX-au-qy6.text" = "Schuif";
+
+/* Class = "IBUILabel"; text = "Launch Time"; ObjectID = "zJB-a7-d1W"; */
+"zJB-a7-d1W.text" = "App starttijd";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "zLt-ai-b8g"; */
+"zLt-ai-b8g.text" = "12";
+
+/* Class = "IBUILabel"; text = "2013-07-08T07:00Z"; ObjectID = "zQa-k7-Dal"; */
+"zQa-k7-Dal.text" = "2013-07-08T07:00Z";
+
+/* Class = "IBUINavigationItem"; title = "Points overview"; ObjectID = "zd1-SI-Ywg"; */
+"zd1-SI-Ywg.title" = "Punten overzicht";
+

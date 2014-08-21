@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_agoraphobia">Omgeving verkennen</string>
+    <string name="goal_intro_agoraphobia">Deze oefening is bedoeld om je angst te overwinnen en je veilige leefomgeving uit te breiden.</string>
+    <string name="goal_descr_agoraphobia">Deze oefening is bedoeld om je veilige leefomgeving uit te breiden.\n\nMensen met klachten zoals die van jou zijn geneigd om te focussen op hoe ze zich voelen als ze ergens zijn waar ze liever niet komen. Met deze oefening proberen we je te helpen om hier beter mee om te gaan.</string>
+    <string name="goal_help_agoraphobia">Er zijn twee manieren om de oefening te beginnen. Je kan de oefening handmatig starten met de knop hieronder, of Goalie kan herkennen dat je op de afgesproken plek bent aangekomen.\n\nTijdens de oefening vraagt Goalie je om om de twee minuten aan te geven hoe gespannen je je voelt. Aangekomen op de gekozen plek kan je een foto maken van iets wat je hebt afgesproken met je behandelaar.\n\nAls je de oefening hebt afgerond krijg je 50 punten. Als je het gevoel hebt lang genoeg op de gekozen plek te zijn geweest kun je de oefening ook handmatig stopzetten.</string>
+    <string name="goal_agoraphobia_complete">Goed gedaan, de oefening is voltooid! Je hebt 50 punten verdiend.</string>
+    <string name="goal_agoraphobia_invalid_location">Je bent nog niet op de afgesproken locatie.</string>
+    <string name="goal_agoraphobia_notif_title">Omgeving verkennen</string>
+    <string name="goal_agoraphobia_notif_text_arrived_during">Goed gedaan! Je bent aangekomen op de afgesproken locatie. Vul nu je spanning in.</string>
+    <string name="goal_agoraphobia_notif_text_arrived_outside">Het lijkt erop dat je bent aangekomen op de afgesproken locatie. Vul nu in hoeveel spanning je ervaart om de oefening te starten.</string>
+    <string name="goal_agoraphobia_notif_text_daily_reminder">Vergeet niet om de oefening te doen deze week!</string>
+    <string name="goal_agoraphobia_notif_text_go_back">Je hebt de locatie verlaten. Ga terug om de oefening af te maken.</string>
+    <string name="goal_agoraphobia_notif_text_log_anxiety">Geef aan hoeveel spanning je ervaart.</string>
+    <string name="goal_agoraphobia_notif_text_weekly_reminder">Het lijkt erop dat je deze week niet op de afgesproken locatie bent geweest om je omgeving te verkennen. Misschien is het handig om je behandelaar te bellen zodat het volgende week wel lukt?</string>
+    <string name="goal_agoraphobia_photo_error">Het lijkt erop dat je geen foto hebt genomen.&#8230;</string>
+
+</resources>

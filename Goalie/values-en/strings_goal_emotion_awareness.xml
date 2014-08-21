@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_emotion_awareness">Emotion awareness</string>
+    <string name="goal_intro_emotion_awareness">Keeping track of how you feel will give you a better understanding of things that influence your mood.</string>
+    <string name="goal_descr_emotion_awareness">Keeping track of how you feel will give you a better understanding of things that influence your mood. You can also see the effects your treatment has on you.</string>
+    <string name="goal_help_emotion_awareness">Several times during the day, Goalie will ask you to indicate your emotional state. Your goal is to try to enter your emotional state at least three times a day. Every time you do so will earn you 7 points. Each day is divided in four periods of six hours each, and you can earn points once every period.</string>
+    <string name="goal_emotion_awareness_notif_title">Become aware of your emotions</string>
+    <string name="goal_emotion_awareness_notif_text">Please log how you are feeling right now</string>
+
+</resources>

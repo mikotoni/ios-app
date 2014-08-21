@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_regular_meals">Regular meals</string>
+    <string name="goal_intro_regular_meals">Eating healthy at regular times will make you feel more energized. </string>
+    <string name="goal_descr_regular_meals">Eating healthy and at regular times will make you feel more energized. This helps you to be more active and feel better.</string>
+    <string name="goal_help_regular_meals">Goalie will remind you to log your meals at set times: once for breakfast, once for lunch and once for dinner. For every meal that you log, you earn two points. Moreover, if you had your meal within half an hour of the desired meal time, you earn an extra four points.</string>
+    <string name="goal_meals_notif_title">Regular meals</string>
+    <string name="goal_meals_notif_text">Don\'t forget to enter your %1$s.</string>
+    <string name="task_breakfast_header">Breakfast</string>
+    <string name="task_lunch_header">Lunch</string>
+    <string name="task_dinner_header">Dinner</string>
+
+</resources>

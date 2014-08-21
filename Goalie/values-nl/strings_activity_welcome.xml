@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_welcome">Welkom</string>
+    <string name="welcome_intro_p1">Goalie is een app die je helpt om je doelen voor een gezond leefpatroon te bereiken.</string>
+    <string name="welcome_intro_p2">Het is bedoeld ter ondersteuning van mensen die in behandeling zijn bij PsyQ.</string>
+    <string name="welcome_button_login">Inloggen</string>
+
+</resources>

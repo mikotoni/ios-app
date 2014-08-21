@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="task_activity_entries">
+        <item>Traveling (car)</item>
+        <item>Traveling (bike)</item>
+        <item>Traveling (train)</item>
+        <item>Traveling (other)</item>
+        <item>Walking</item>
+        <item>Cooking</item>
+        <item>Eating</item>
+        <item>Relaxing</item>
+        <item>Sleeping</item>
+        <item>Cleaning</item>
+        <item>Showering</item>
+        <item>Personal hygiene</item>
+        <item>Light exercise</item>
+        <item>Intensive exercise</item>
+        <item>Shopping</item>
+        <item>Socializing</item>
+        <item>Visiting physical therapist</item>
+        <item>Visiting hosptital</item>
+        <item>Computerening</item>
+        <item>Working (administrative)</item>
+        <item>Working (physically challenging)</item>
+        <item>Working (other)</item>
+        <item>Child care</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="task_activity_explanation">Select your current activity.</string>
+    <string name="task_activity_label">Log activity</string>
+    <string name="task_activity_fieldlabel">Activity:</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_expl_anxiety">Hoe gespannen voel je je?</string>
+    <string name="task_expl_picture">Maak tijdens de oefening een foto zoals je hebt afgesproken in de behandeling.</string>
+    <string name="task_expl_start_anxiety">Start de oefening.</string>
+    <string name="task_fieldlabel_anxiety">Spanning:</string>
+    <string name="task_label_anxiety">Spanning invullen</string>
+    <string name="task_expl_anxiety_no_exercise">Alleen beschikbaar tijdens een oefening</string>
+    <string name="task_expl_anxiety_available">Voer alsjeblieft iedere %1$d minuten je spanning in</string>
+    <string name="task_label_picture">Foto nemen</string>
+    <string name="task_expl_picture_available">Je kan nu een foto maken</string>
+    <string name="task_expl_picture_done">Je hebt succesvol een foto gemaakt</string>
+    <string name="task_expl_picture_not_on_location">Je moet op je oefenlocatie zijn om een foto te kunnen maken</string>
+    <string name="task_expl_picture_no_exercise">Je moet eerst de oefening starten voordat je een foto kan maken</string>
+    <string name="task_label_start_anxiety">Oefening starten</string>
+    <string name="task_label_stop_anxiety">Oefening stoppen</string>
+    <string name="task_exercise_started">De oefening is gestart, veel succes.</string>
+    <string name="task_exercise_stopped_unsuccesfully">De oefening is gestopt maar je hebt helaas geen punten verdiend.</string>
+    <string name="task_agonizing_place_label">Bezoek oefenlocatie</string>
+    <string name="task_agonizing_place_explanation">Bezoek tijdens de oefening de plek die je met de behandelaar hebt afgesproken.</string>
+
+</resources>

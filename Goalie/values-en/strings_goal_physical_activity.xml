@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_physical_activity">Healthy activity</string>
+    <string name="goal_intro_physical_activity">Being active is important for both your physical and mental wellbeing!</string>
+    <string name="goal_descr_physical_activity">Being active is important for both your physical and mental wellbeing! </string>
+    <string name="goal_help_physical_activity">Goalie measures how much time you have been active today using the motion sensors in your phone. You don\'t have to  do a real workout, just going for a casual walk also counts. For this, it is important that you carry your phone on you. When you have been active long enough, you earn 10 points.\n\nTogether with your therapist you have also chosen a spot where you can go to enjoy yourself. When Goalie notices that you visited this place, you earn another 15 points.</string>
+
+</resources>

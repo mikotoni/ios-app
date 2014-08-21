@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_agoraphobia">Explore environment</string>
+    <string name="goal_intro_agoraphobia">This exercise is meant to lower your anxiety and expand the area where you feel safe.</string>
+    <string name="goal_descr_agoraphobia">This exercise is meant to lower your anxiety and expand the area where you feel safe.\n\nPeople with feelings similar to yours can have the tendency to focus too much on how they feel when at uncomfortable places. With this exercise, we try to help to better deal with such feelings.</string>
+    <string name="goal_help_agoraphobia">There are two ways to start the exercise. It can be started manually with the button below, or Goalie can detect that you are at the designated exercise location.\n\nDuring the exercise Goalie will ask you to enter your feelings of anxiety every two minutes. Once you arrive at the designated location, you can take a picture of something that you decided on together with your therapist.\n\nYou get 50 points for finishing the exercise. When you feel you have spent enough time at the location, you can stop the exercise manually.</string>
+    <string name="goal_agoraphobia_complete">Good job, you completed the exercise! You earned 50 points.</string>
+    <string name="goal_agoraphobia_invalid_location">You are not at the designated location (yet)</string>
+    <string name="goal_agoraphobia_notif_title">Explore your environment</string>
+    <string name="goal_agoraphobia_notif_text_arrived_during">Well done! You have arrived at the location. Now, please log your anxiety level.</string>
+    <string name="goal_agoraphobia_notif_text_arrived_outside">It seems you have arrived at the designated location. Log your anxiety to start the exercise.</string>
+    <string name="goal_agoraphobia_notif_text_daily_reminder">Don\'t forget to do your exercise this week!</string>
+    <string name="goal_agoraphobia_notif_text_go_back">You left the location. Go back to continue the exercise.</string>
+    <string name="goal_agoraphobia_notif_text_log_anxiety">Please log your anxiety level</string>
+    <string name="goal_agoraphobia_notif_text_weekly_reminder">It looks like you did not complete the exercise to explore your environment this week. Maybe you could call your therapist and make sure you reach your goals next week?</string>
+    <string name="goal_agoraphobia_photo_error">It seems you did not take a picture&#8230;</string>
+
+</resources>

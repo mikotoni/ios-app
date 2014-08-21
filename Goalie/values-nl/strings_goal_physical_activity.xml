@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_physical_activity">Voldoende bewegen</string>
+    <string name="goal_intro_physical_activity">Voldoende beweging is zowel belangrijk voor je lichamelijke als je geestelijke gezondheid!</string>
+    <string name="goal_descr_physical_activity">Voldoende beweging is zowel belangrijk voor je lichamelijke als je geestelijke gezondheid!</string>
+    <string name="goal_help_physical_activity">Goalie meet hoeveel tijd je op een dag in beweging bent door de bewegingssensoren van je telefoon te gebruiken. Je hoeft hiervoor niet speciaal te sporten, gewoon een stukje lopen telt ook al mee. Wel is het belangrijk dat je je telefoon bij je of op je draagt. Als je genoeg hebt bewogen op een dag, verdien je 10 punten.\n\nTijdens de behandeling hebt je ook plek gekozen waar je leuke dingen kan doen. Als Goalie ziet dat je op die plek bent geweest, verdien je 15 punten.</string>
+
+</resources>

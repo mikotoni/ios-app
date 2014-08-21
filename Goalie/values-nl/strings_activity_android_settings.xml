@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_android_settings">Android instellingen</string>
+    <string name="text_android_settings">Stel hier je telefoon in om Goalie optimaal te kunnen gebruiken</string>
+    <string name="title_location_settings">Locatie instellingen</string>
+    <string name="text_location_settings">Voor een juiste werking van Goalie is het noodzakelijk om "Draadloze netwerken gebruiken" en "GPS-satelieten gebruiken" aan te zetten. Klik op "Locatie instellingen" om de instellingen van je telefoon aan te passen.</string>
+	<string name="button_change_location_settings">Locatie instellingen</string>
+	<string name="location_gps_text">GPS-satelieten</string>
+	<string name="location_networks_text">Draadloze netwerken</string>
+	<string name="on">Aan</string>
+	<string name="off">Uit</string>
+</resources>
