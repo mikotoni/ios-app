@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="1.1" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event">
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="Goal" representedClassName="GOGoal" syncable="YES">
+        <attribute name="completionRate" transient="YES" attributeType="Float" defaultValueString="1" syncable="YES"/>
+        <attribute name="deadline" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="explanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastActivityDate" optional="YES" transient="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="goal" inverseEntity="Task" syncable="YES"/>
+    </entity>
+    <entity name="MealTask" representedClassName="GOMealTask" parentEntity="Task" syncable="YES">
+        <attribute name="kind" optional="YES" attributeType="String" defaultValueString="lunch" syncable="YES"/>
+    </entity>
+    <entity name="MoodTask" representedClassName="GOMoodTask" parentEntity="Task" syncable="YES">
+        <attribute name="arousal" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dominance" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pleasure" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="OpenQuestionTask" representedClassName="GOOpenQuestionTask" parentEntity="Task" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShootPhotoTask" representedClassName="GOShootPhotoTask" parentEntity="Task" syncable="YES">
+        <attribute name="photoData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="GOTask" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="manual" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString="unnamed task" syncable="YES"/>
+        <relationship name="goal" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Goal" inverseName="tasks" inverseEntity="Goal" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="Goal" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="MealTask" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="MoodTask" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="OpenQuestionTask" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="ShootPhotoTask" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="Task" positionX="0" positionY="0" width="128" height="105"/>
+    </elements>
+</model>

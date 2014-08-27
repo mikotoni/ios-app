@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="goal_title_regular_sleep">Gezond slaapritme</string>
+    <string name="goal_intro_regular_sleep">Een gezond slaapritme is belangrijk om je overdag goed te voelen. Probeer daarom voldoende en op vaste tijden te slapen.</string>
+    <string name="goal_descr_regular_sleep">Een gezond slaapritme is belangrijk om je overdag goed te voelen. Probeer daarom voldoende en op vaste tijden te slapen.</string>
+    <string name="goal_help_regular_sleep">Goalie bepaalt hoe laat je naar bed gaat en hoe laat je opstaat door de hoeveelheid geluid en beweging te meten. Dit werkt het beste als je de telefoon de hele dag bij je draagt en ook meeneemt als je naar bed gaat. Leg je telefoon op je nachtkastje of naast je kussen.\n\nIedere dag om ongeveer twaalf uur \'s middags kijkt Goalie hoeveel punten je hebt verdient: je verdient acht punten als je binnen een half uur van de afgesproken tijd naar bed bent gegaan, en je krijgt ook acht punten als je op tijd bent opgestaan.</string>
+    <string name="goal_sleep_bedtime_notif_title">Op tijd naar bed</string>
+    <string name="goal_sleep_bedtime_notif_text">Probeer om %1$s naar bed te gaan.</string>
+    <string name="goal_sleep_waketime_notif_title">Op tijd opstaan</string>
+    <string name="goal_sleep_waketime_notif_text">Het is belangrijk om op tijd op te staan en niet te lang in bed te blijven.</string>
+    <string name="goal_sleep_notif_progress">Je hebt %1$d punten vannacht verdiend. Lekker geslapen? </string>
+    <string name="goal_sleep_notif_encourage">Je hebt vannacht geen punten verdiend. Slaap je wel goed?</string>
+    <string name="sleep_bedtime">Begin slapen:</string>
+    <string name="sleep_wakeuptime">Opgestaan:</string>
+    <string name="sleep_duration_label">Tijd geslapen:</string>
+    <string name="sleep_duration">%1$.1f uur</string>
+
+</resources>

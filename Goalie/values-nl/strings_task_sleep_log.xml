@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_sleep_entry_label">Tijdsduur</string>
+    <string name="task_sleep_entry_question">Hoeveel uur heb je afgelopen nacht geslapen?</string>
+    <string name="task_sleep_label">Slaap invullen</string>
+    <string name="task_sleep_explanation">Vul hier in hoeveel slaap je afgelopen nacht hebt gehad.</string>
+    <string name="task_sleep_bedtime_label">Op tijd naar bed</string>
+    <string name="task_sleep_bedtime">Om je morgen beter uitgerust te voelen is het belangrijk om op tijd naar bed te gaan. Probeer om %1$s naar bed te gaan.</string>
+    <string name="task_sleep_waketime_label">Op tijd opstaan</string>
+    <string name="task_sleep_waketime">Voor een energieke start van je dag is het belangrijk om op tijd op te staan. Probeer om %1$s op te staan.</string>
+
+</resources>

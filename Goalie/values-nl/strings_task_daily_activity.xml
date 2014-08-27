@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_daily_activity_label">Mijn beweging vandaag</string>
+    <string name="task_daily_activity_explanation">Je ben vandaag al %1$d minuten en %2$d seconden actief. Het dagelijkse doel is %3$d minuten.</string>
+    <string name="task_daily_activity_notification">Je hebt je doel behaald! Je hebt 10 punten verdiend.</string>
+    <string name="task_daily_activity_encouragement">Je bent vandaag al %1$d minuten actief. Nog %2$d minuten en je hebt je doel bereikt voor vandaag!</string>
+    <string name="lbl_task_progress" translatable="false">%1$d/%2$d</string>
+
+</resources>

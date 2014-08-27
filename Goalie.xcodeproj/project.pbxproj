@@ -1,0 +1,1857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4B781217B244D30001FCC7 /* CommonSense.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E4B781117B244D30001FCC7 /* CommonSense.plist */; };
+		3E4B781417B244D90001FCC7 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E4B781317B244D90001FCC7 /* Settings.plist */; };
+		3EC9791D180C1AA600EA042A /* goal-keeper-dive-square_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */; };
+		F59622E519AE79E8000BB553 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */; };
+		F59622E619AE79E8000BB553 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */; };
+		F5DD99AC19AB927100543962 /* GOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */; };
+		F5DD99AE19AB94A000543962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD99AD19AB94A000543962 /* Assets.xcassets */; };
+		F5DD99B119AB970B00543962 /* GOGoalCollenctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */; };
+		F5DD99B419ABA83500543962 /* GODashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DD99B319ABA83500543962 /* GODashboardViewController.m */; };
+		F5EFD72819A646ED00BD01C4 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
+		F80198831733FCF100642D1D /* GOOpenQuestionTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F80198821733FCF100642D1D /* GOOpenQuestionTaskVC.m */; };
+		F80198861734063800642D1D /* GOOpenQuestionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F80198851734063800642D1D /* GOOpenQuestionTask.m */; };
+		F801988A17340EF500642D1D /* GONewGoalTasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F801988917340EF500642D1D /* GONewGoalTasksTableViewController.m */; };
+		F80A8B541721BD98007474B2 /* GONewTaskTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A8B531721BD98007474B2 /* GONewTaskTypeViewController.m */; };
+		F80A8B571721C6B2007474B2 /* GOGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A8B561721C6B1007474B2 /* GOGoal.m */; };
+		F80B5335177304A500F62C84 /* PaigeConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F80B5334177304A500F62C84 /* PaigeConnection.m */; };
+		F80B533C17730D5600F62C84 /* GOGoalieServices.m in Sources */ = {isa = PBXBuildFile; fileRef = F80B533B17730D5600F62C84 /* GOGoalieServices.m */; };
+		F8115FDA1754D82000143FD4 /* GOShootPhotoTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8115FD91754D82000143FD4 /* GOShootPhotoTaskVC.m */; };
+		F8115FDC1754DF7400143FD4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8115FDB1754DF7400143FD4 /* MobileCoreServices.framework */; };
+		F8115FDF1754E58600143FD4 /* GOShootPhotoTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8115FDE1754E58600143FD4 /* GOShootPhotoTask.m */; };
+		F8115FE11754EC9F00143FD4 /* image_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = F8115FE01754EC9F00143FD4 /* image_placeholder.png */; };
+		F8115FE41754F40200143FD4 /* GOMoodTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8115FE31754F40200143FD4 /* GOMoodTaskVC.m */; };
+		F81822F517B11B7F00182A7E /* goal-keeper-dive-green.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822F417B11B7F00182A7E /* goal-keeper-dive-green.png */; };
+		F81822F717B11BC100182A7E /* goal-keeper-dive-green_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822F617B11BC100182A7E /* goal-keeper-dive-green_57x57.png */; };
+		F81822FC17B11F5B00182A7E /* goal-keeper-basic.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822FB17B11F5B00182A7E /* goal-keeper-basic.png */; };
+		F818230117B123DB00182A7E /* goal-keeper-dive-square_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822FF17B121B700182A7E /* goal-keeper-dive-square_114x114.png */; };
+		F818230217B123E200182A7E /* goal-keeper-dive-square_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822FD17B121B000182A7E /* goal-keeper-dive-square_57x57.png */; };
+		F818230517B1247000182A7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F818230417B1247000182A7E /* Default@2x.png */; };
+		F818230E17B14DCE00182A7E /* IMG_1711.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818230D17B14DCE00182A7E /* IMG_1711.PNG */; };
+		F818231017B14E5F00182A7E /* IMG_1711@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818230F17B14E5F00182A7E /* IMG_1711@2x.PNG */; };
+		F818231217B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818231117B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG */; };
+		F818231417B1514900182A7E /* IMG_1712_without_statusbar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818231317B1514900182A7E /* IMG_1712_without_statusbar.PNG */; };
+		F820950F17B834FC00D1D0BC /* GOBrewTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F820950E17B834FC00D1D0BC /* GOBrewTableVC.m */; };
+		F820951317B8CF6100D1D0BC /* GOBrewValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F820951217B8CF6100D1D0BC /* GOBrewValueCell.m */; };
+		F820951617B8D02000D1D0BC /* GOBrewValuesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F820951517B8D02000D1D0BC /* GOBrewValuesTableVC.m */; };
+		F820951917B8EAE500D1D0BC /* GOActiveTimersTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F820951817B8EAE500D1D0BC /* GOActiveTimersTableVC.m */; };
+		F820951D17B9236000D1D0BC /* GOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F820951C17B9236000D1D0BC /* GOLocationManager.m */; };
+		F82CC38F17BE760100247077 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CC38E17BE760100247077 /* CustomBadge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F8318F1A17CBA3C800E5AFE3 /* CouchExtendedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8318F1917CBA3C800E5AFE3 /* CouchExtendedModel.m */; };
+		F836EAAF17BA4D8100DF3827 /* GOEarnedPointsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836EAAE17BA4D8100DF3827 /* GOEarnedPointsCell.m */; };
+		F836EAB217BA5F9600DF3827 /* GOSleepTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F836EAB117BA5F9500DF3827 /* GOSleepTask.m */; };
+		F836EAB517BA686C00DF3827 /* GOTriggersTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F836EAB417BA686C00DF3827 /* GOTriggersTableVC.m */; };
+		F844C24C17D9C7EA00D5F8E6 /* values-en in Resources */ = {isa = PBXBuildFile; fileRef = F844C24A17D9C7EA00D5F8E6 /* values-en */; };
+		F844C24D17D9C7EA00D5F8E6 /* values-nl in Resources */ = {isa = PBXBuildFile; fileRef = F844C24B17D9C7EA00D5F8E6 /* values-nl */; };
+		F844C25217D9D99500D5F8E6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F844C25417D9D99500D5F8E6 /* Localizable.strings */; };
+		F84BAB7F17D9BD08003C0D1F /* update_storyboard_strings.sh in Resources */ = {isa = PBXBuildFile; fileRef = F84BAB7E17D9BD07003C0D1F /* update_storyboard_strings.sh */; };
+		F8515F9717C6055C00D0DA80 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F8515F9617C6055C00D0DA80 /* Reachability.m */; };
+		F8515F9B17C6186B00D0DA80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8515F9A17C6186B00D0DA80 /* QuartzCore.framework */; };
+		F8515F9E17C6231000D0DA80 /* goal-keeper-basic-20.png in Resources */ = {isa = PBXBuildFile; fileRef = F8515F9C17C6231000D0DA80 /* goal-keeper-basic-20.png */; };
+		F8515F9F17C6231000D0DA80 /* goal-keeper-basic-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8515F9D17C6231000D0DA80 /* goal-keeper-basic-20@2x.png */; };
+		F8515FA217C6298B00D0DA80 /* goal-keeper-basic-33.png in Resources */ = {isa = PBXBuildFile; fileRef = F8515FA017C6298B00D0DA80 /* goal-keeper-basic-33.png */; };
+		F8515FA317C6298B00D0DA80 /* goal-keeper-basic-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8515FA117C6298B00D0DA80 /* goal-keeper-basic-33@2x.png */; };
+		F8515FA617C62F2000D0DA80 /* GOSleepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8515FA517C62F2000D0DA80 /* GOSleepManager.m */; };
+		F8515FAA17C632D700D0DA80 /* GOReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8515FA917C632D700D0DA80 /* GOReachabilityManager.m */; };
+		F8575855175F8099006E6B84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8575854175F8099006E6B84 /* SystemConfiguration.framework */; };
+		F85FC54B1784319A0074F692 /* GOKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F85FC54A1784319A0074F692 /* GOKeychain.m */; };
+		F85FC551178441760074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = F85FC550178441760074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_114.png */; };
+		F85FC553178441920074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = F85FC552178441920074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_57.png */; };
+		F85FC557178442F40074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85FC556178442F40074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x1136@2x.png */; };
+		F85FC559178442FD0074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85FC558178442FD0074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x960@2x.png */; };
+		F85FC55D178443860074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = F85FC55C178443860074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_320x480.png */; };
+		F85FC55F178443910074F692 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F85FC55E178443910074F692 /* Default.png */; };
+		F867805517730F3F006D1C71 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F867805417730F3F006D1C71 /* KeychainItemWrapper.m */; };
+		F867D5721743CE910085C6D8 /* GOMainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F867D5711743CE910085C6D8 /* GOMainApp.m */; };
+		F878F5E917B258A500776E69 /* card_bg_shadow.9.cut.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5E817B258A500776E69 /* card_bg_shadow.9.cut.png */; };
+		F878F5F117B262A700776E69 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5EB17B262A700776E69 /* food.png */; };
+		F878F5F217B262A700776E69 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5EC17B262A700776E69 /* group.png */; };
+		F878F5F317B262A700776E69 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5ED17B262A700776E69 /* location.png */; };
+		F878F5F417B262A700776E69 /* mood.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5EE17B262A700776E69 /* mood.png */; };
+		F878F5F517B262A700776E69 /* sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5EF17B262A700776E69 /* sleep.png */; };
+		F878F5F717B262B500776E69 /* activity.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5F617B262B500776E69 /* activity.png */; };
+		F878F5FB17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png in Resources */ = {isa = PBXBuildFile; fileRef = F878F5FA17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png */; };
+		F878F5FE17B3ACF200776E69 /* GORegisterNewUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F878F5FD17B3ACF200776E69 /* GORegisterNewUserVC.m */; };
+		F878F60117B3C17800776E69 /* GOMotionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F878F60017B3C17700776E69 /* GOMotionTask.m */; };
+		F878F60417B3C3B800776E69 /* GOMotionTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F878F60317B3C3B800776E69 /* GOMotionTaskVC.m */; };
+		F878F60617B4E3A500776E69 /* BrewsByTaskEndDateMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F878F60517B4E3A500776E69 /* BrewsByTaskEndDateMap.js */; };
+		F878F60C17B4FAB200776E69 /* TasksByType.js in Resources */ = {isa = PBXBuildFile; fileRef = F878F60B17B4FAB100776E69 /* TasksByType.js */; };
+		F878F60F17B5229400776E69 /* GOVisitTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F878F60E17B5229300776E69 /* GOVisitTaskVC.m */; };
+		F878F61217B525C500776E69 /* GOVisitTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F878F61117B525C400776E69 /* GOVisitTask.m */; };
+		F878F61517B52D6100776E69 /* GOScheduledNotificationsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F878F61417B52D6000776E69 /* GOScheduledNotificationsTableVC.m */; };
+		F878F61917B5361A00776E69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F878F61817B5361800776E69 /* MapKit.framework */; };
+		F87A5F5B17D7322900ABED38 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87A5F5A17D7322900ABED38 /* AssetsLibrary.framework */; };
+		F87AB880177D9C8700DBC99E /* AllTasks.js in Resources */ = {isa = PBXBuildFile; fileRef = F87AB87A177D900700DBC99E /* AllTasks.js */; };
+		F87AB881177D9C8700DBC99E /* AllGoals.js in Resources */ = {isa = PBXBuildFile; fileRef = F87AB87C177D90C000DBC99E /* AllGoals.js */; };
+		F87AB883177DC72D00DBC99E /* TasksByGoal.js in Resources */ = {isa = PBXBuildFile; fileRef = F87AB882177DC72D00DBC99E /* TasksByGoal.js */; };
+		F87AB886177DCFF300DBC99E /* GOSliderTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F87AB885177DCFF300DBC99E /* GOSliderTask.m */; };
+		F87AB88A1781A32000DBC99E /* GOSwitchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F87AB8891781A31F00DBC99E /* GOSwitchTask.m */; };
+		F87AB88C1781C8DA00DBC99E /* CompletionRateByGoalMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F87AB88B1781C8DA00DBC99E /* CompletionRateByGoalMap.js */; };
+		F87AB88E1781C8FB00DBC99E /* CompletionRateByGoalReduce.js in Resources */ = {isa = PBXBuildFile; fileRef = F87AB88D1781C8FB00DBC99E /* CompletionRateByGoalReduce.js */; };
+		F87B5AF217C26630003EEF42 /* GOAdvancedBrewsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5AF117C26630003EEF42 /* GOAdvancedBrewsTableVC.m */; };
+		F87B5B0117C2A603003EEF42 /* GOAbstractActiveTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B0017C2A603003EEF42 /* GOAbstractActiveTaskCell.m */; };
+		F87B5B0417C2A710003EEF42 /* GOActiveMealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B0317C2A710003EEF42 /* GOActiveMealCell.m */; };
+		F87B5B0717C2A83A003EEF42 /* GOActiveMoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B0617C2A83A003EEF42 /* GOActiveMoodCell.m */; };
+		F87B5B0A17C2A84C003EEF42 /* GOActiveMotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B0917C2A84C003EEF42 /* GOActiveMotionCell.m */; };
+		F87B5B0D17C2A865003EEF42 /* GOActiveVisitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B0C17C2A865003EEF42 /* GOActiveVisitCell.m */; };
+		F87B5B1017C2A873003EEF42 /* GOActiveSleepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B0F17C2A873003EEF42 /* GOActiveSleepCell.m */; };
+		F87B5B1317C2A993003EEF42 /* GOActiveGoalTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B1217C2A993003EEF42 /* GOActiveGoalTableVC.m */; };
+		F87B5B1617C2A9D6003EEF42 /* GOActiveGoalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B1517C2A9D6003EEF42 /* GOActiveGoalCell.m */; };
+		F87B5B1A17C36208003EEF42 /* SafeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B5B1917C36208003EEF42 /* SafeObserver.m */; };
+		F87C58B317BB0C49001AEC6A /* GOSleepTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F87C58B217BB0C48001AEC6A /* GOSleepTaskVC.m */; };
+		F8813976177AF90B00CF6F6A /* GOSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8813975177AF90B00CF6F6A /* GOSensor.m */; };
+		F8813979177AFA1700CF6F6A /* GOExerciseStateSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8813978177AFA1700CF6F6A /* GOExerciseStateSensor.m */; };
+		F881397C177AFA4C00CF6F6A /* GOExerciseSummarySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F881397B177AFA4C00CF6F6A /* GOExerciseSummarySensor.m */; };
+		F881397F177AFAA500CF6F6A /* GOAnxietyLogSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F881397E177AFAA500CF6F6A /* GOAnxietyLogSensor.m */; };
+		F8813984177AFB7800CF6F6A /* GOAgoraphobiaSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8813983177AFB7800CF6F6A /* GOAgoraphobiaSensor.m */; };
+		F885698717B5AD98002048D4 /* GOMonitoredRegionsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F885698617B5AD97002048D4 /* GOMonitoredRegionsTableVC.m */; };
+		F88BA05C1773364300F956A9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F88BA05B1773364300F956A9 /* libsqlite3.dylib */; };
+		F8929C93171D5AC200E02F35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C92171D5AC200E02F35 /* UIKit.framework */; };
+		F8929C95171D5AC200E02F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C94171D5AC200E02F35 /* Foundation.framework */; };
+		F8929C97171D5AC200E02F35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C96171D5AC200E02F35 /* CoreGraphics.framework */; };
+		F8929C99171D5AC200E02F35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C98171D5AC200E02F35 /* CoreData.framework */; };
+		F8929C9F171D5AC200E02F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8929C9D171D5AC200E02F35 /* InfoPlist.strings */; };
+		F8929CA1171D5AC200E02F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CA0171D5AC200E02F35 /* main.m */; };
+		F8929CA5171D5AC300E02F35 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CA4171D5AC300E02F35 /* GOAppDelegate.m */; };
+		F8929CAB171D5AC300E02F35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */; };
+		F8929CAE171D5AC300E02F35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8929CAC171D5AC300E02F35 /* MainStoryboard.storyboard */; };
+		F8929CB1171D5AC300E02F35 /* Goalie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8929CAF171D5AC300E02F35 /* Goalie.xcdatamodeld */; };
+		F8929CBF171D5AC300E02F35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929CBE171D5AC300E02F35 /* SenTestingKit.framework */; };
+		F8929CC0171D5AC300E02F35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C92171D5AC200E02F35 /* UIKit.framework */; };
+		F8929CC1171D5AC300E02F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C94171D5AC200E02F35 /* Foundation.framework */; };
+		F8929CC2171D5AC300E02F35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C98171D5AC200E02F35 /* CoreData.framework */; };
+		F8929CCA171D5AC300E02F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8929CC8171D5AC300E02F35 /* InfoPlist.strings */; };
+		F8929CCD171D5AC300E02F35 /* GoalieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CCC171D5AC300E02F35 /* GoalieTests.m */; };
+		F8929CE6171D78D400E02F35 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929CE2171D78D400E02F35 /* libTestFlight.a */; };
+		F8929CE7171D78D400E02F35 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8929CE3171D78D400E02F35 /* README.md */; };
+		F8929CE8171D78D400E02F35 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F8929CE4171D78D400E02F35 /* release_notes.md */; };
+		F8929CEA171D78FD00E02F35 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929CE9171D78FD00E02F35 /* libz.dylib */; };
+		F8946A3D1721775500123D1B /* GONewGoalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A3C1721775500123D1B /* GONewGoalTableViewController.m */; };
+		F8946A40172177A100123D1B /* GONewGoalExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A3F172177A100123D1B /* GONewGoalExplanationViewController.m */; };
+		F8946A431721AA2200123D1B /* GONewGoalTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A421721AA2100123D1B /* GONewGoalTasksViewController.m */; };
+		F89F95E617CA4A0E000EEBA3 /* GOGoalExplanationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F89F95E517CA4A0E000EEBA3 /* GOGoalExplanationVC.m */; };
+		F89FE1881782EB7C004D4EA6 /* GODescriptiveTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F89FE1871782EB7C004D4EA6 /* GODescriptiveTaskVC.m */; };
+		F89FE18B1782EEBA004D4EA6 /* GOSliderTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F89FE18A1782EEBA004D4EA6 /* GOSliderTaskVC.m */; };
+		F89FE18E1782F2DA004D4EA6 /* GOSwitchTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F89FE18D1782F2DA004D4EA6 /* GOSwitchTaskVC.m */; };
+		F8A2A4021788BD9C0020585B /* BrewsByActiveGoalTaskOccurrenceMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F8A2A4011788BD9C0020585B /* BrewsByActiveGoalTaskOccurrenceMap.js */; };
+		F8A2A406178AEB0B0020585B /* BrewsByActiveGoalTaskBeginDate.js in Resources */ = {isa = PBXBuildFile; fileRef = F8A2A405178AEB0B0020585B /* BrewsByActiveGoalTaskBeginDate.js */; };
+		F8A2A408178AEF8E0020585B /* EmptyCheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A2A407178AEF8E0020585B /* EmptyCheckbox.png */; };
+		F8A2A40A178B65830020585B /* ActiveGoalsByBeginDate.js in Resources */ = {isa = PBXBuildFile; fileRef = F8A2A409178B65830020585B /* ActiveGoalsByBeginDate.js */; };
+		F8A2A40D178B733C0020585B /* GOBrewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2A40C178B733B0020585B /* GOBrewsVC.m */; };
+		F8A2A410178B770A0020585B /* GOBrewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2A40F178B77090020585B /* GOBrewCell.m */; };
+		F8A2A412178C04320020585B /* EarnedPointsByActiveGoalTaskBeginDateMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F8A2A411178C04320020585B /* EarnedPointsByActiveGoalTaskBeginDateMap.js */; };
+		F8A2A414178C04490020585B /* EarnedPointsByActiveGoalTaskBeginDateReduce.js in Resources */ = {isa = PBXBuildFile; fileRef = F8A2A413178C04490020585B /* EarnedPointsByActiveGoalTaskBeginDateReduce.js */; };
+		F8A8BF70175601D70096D60E /* GOMoodTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A8BF6F175601D70096D60E /* GOMoodTask.m */; };
+		F8A8BF721756047D0096D60E /* affectbutton in Resources */ = {isa = PBXBuildFile; fileRef = F8A8BF711756047D0096D60E /* affectbutton */; };
+		F8A974AE17452E9D00C51D21 /* GOChooseTaskTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A974AD17452E9D00C51D21 /* GOChooseTaskTVC.m */; };
+		F8AEC2691745197E00D375DA /* GreenCheckmark.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F8AEC2671745197E00D375DA /* GreenCheckmark.tiff */; };
+		F8AEC26A1745197E00D375DA /* RedCross.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F8AEC2681745197E00D375DA /* RedCross.tiff */; };
+		F8AEC26D17451A0700D375DA /* GOTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AEC26C17451A0700D375DA /* GOTaskCell.m */; };
+		F8AFD1AB17841DE900ED99DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFD1AA17841DE900ED99DC /* CoreLocation.framework */; };
+		F8AFD1AD17841DEF00ED99DC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFD1AC17841DEF00ED99DC /* CoreMotion.framework */; };
+		F8AFD1AF17841DF500ED99DC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFD1AE17841DF500ED99DC /* CoreAudio.framework */; };
+		F8AFD1B117841DFC00ED99DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFD1B017841DFC00ED99DC /* AVFoundation.framework */; };
+		F8AFD1B317841E0300ED99DC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFD1B217841E0300ED99DC /* AudioToolbox.framework */; };
+		F8AFD1B517841E0900ED99DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AFD1B417841E0900ED99DC /* CoreTelephony.framework */; };
+		F8AFD1BD17841F9B00ED99DC /* GOSensePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1BC17841F9B00ED99DC /* GOSensePlatform.m */; };
+		F8AFD1C11784241A00ED99DC /* GOCouchCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C01784241A00ED99DC /* GOCouchCocoa.m */; };
+		F8AFD1C41784269500ED99DC /* GORestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C31784269500ED99DC /* GORestKit.m */; };
+		F8AFD1C7178426E100ED99DC /* GOCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C6178426E100ED99DC /* GOCoreData.m */; };
+		F8AFD1CA1784283600ED99DC /* GOTestFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C91784283500ED99DC /* GOTestFlight.m */; };
+		F8B15D201782160B00FC0317 /* MostRecentActivityByGoalMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B15D1F1782160B00FC0317 /* MostRecentActivityByGoalMap.js */; };
+		F8B15D221782162700FC0317 /* MostRecentActivityByGoalReduce.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B15D211782162700FC0317 /* MostRecentActivityByGoalReduce.js */; };
+		F8B15D251782175E00FC0317 /* GODescriptiveTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B15D241782175E00FC0317 /* GODescriptiveTask.m */; };
+		F8B4275117BB88670076DF71 /* GOMonitoredRegionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4275017BB88670076DF71 /* GOMonitoredRegionCell.m */; };
+		F8B696B717859EDD00CDDF8C /* GOActiveTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B696B617859EDD00CDDF8C /* GOActiveTrigger.m */; };
+		F8B696BC1785A5DA00CDDF8C /* GOTaskBrew.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B696BB1785A5DA00CDDF8C /* GOTaskBrew.m */; };
+		F8B7109817BCCB3A007A17DF /* GOSettingsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7109717BCCB3A007A17DF /* GOSettingsTableVC.m */; };
+		F8B7109B17BCDBCB007A17DF /* GOSleepStateTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7109A17BCDBCB007A17DF /* GOSleepStateTableVC.m */; };
+		F8CD547E17EB2C6F00377766 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
+		F8CD548017EB2EA600377766 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547F17EB2EA600377766 /* TouchDB.framework */; };
+		F8D23A0617CF427200A26191 /* GOActiveSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D23A0517CF427200A26191 /* GOActiveSwitchCell.m */; };
+		F8D23A0917CF4DA900A26191 /* GOActiveSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D23A0817CF4DA900A26191 /* GOActiveSliderCell.m */; };
+		F8D23A0C17CF4DB600A26191 /* GOActiveShootPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D23A0B17CF4DB600A26191 /* GOActiveShootPhotoCell.m */; };
+		F8D24C801790D974002C770A /* GOActiveTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D24C7F1790D974002C770A /* GOActiveTask.m */; };
+		F8D24C821790F3C5002C770A /* AllGoals.json in Resources */ = {isa = PBXBuildFile; fileRef = F8D24C811790F3C5002C770A /* AllGoals.json */; };
+		F8D24C841790F3F1002C770A /* AllTasks.json in Resources */ = {isa = PBXBuildFile; fileRef = F8D24C831790F3F1002C770A /* AllTasks.json */; };
+		F8D77828178444C800929584 /* GOLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D77827178444C800929584 /* GOLaunchVC.m */; };
+		F8D7782B1784603300929584 /* GORegularMealsGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D7782A1784603300929584 /* GORegularMealsGoal.m */; };
+		F8D7782D1784657D00929584 /* ActiveGoalsByTypeMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D7782C1784657D00929584 /* ActiveGoalsByTypeMap.js */; };
+		F8D778321784679C00929584 /* GOActiveGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D778311784679C00929584 /* GOActiveGoal.m */; };
+		F8D778351784765D00929584 /* GoalsByGoalType.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D778341784765D00929584 /* GoalsByGoalType.js */; };
+		F8D778381784870200929584 /* GOAgoraphobiaGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D778371784870200929584 /* GOAgoraphobiaGoal.m */; };
+		F8D7783B1784878D00929584 /* GOEmotionAwarenessGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D7783A1784878D00929584 /* GOEmotionAwarenessGoal.m */; };
+		F8D7783E178487CE00929584 /* GOPhysicalActivityGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D7783D178487CE00929584 /* GOPhysicalActivityGoal.m */; };
+		F8D7784117848AD100929584 /* GORegularSleepGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D7784017848AD100929584 /* GORegularSleepGoal.m */; };
+		F8DC2B131786CF52003663E1 /* TimeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC2B121786CF52003663E1 /* TimeWindow.m */; };
+		F8E6B181178CC210005FE7E9 /* GOAdjustTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6B180178CC210005FE7E9 /* GOAdjustTimeVC.m */; };
+		F8E6B188178F94ED005FE7E9 /* BrewsByBeginDate.js in Resources */ = {isa = PBXBuildFile; fileRef = F8E6B187178F94ED005FE7E9 /* BrewsByBeginDate.js */; };
+		F8E6B18A1790278A005FE7E9 /* BrewsByEndDate.js in Resources */ = {isa = PBXBuildFile; fileRef = F8E6B1891790278A005FE7E9 /* BrewsByEndDate.js */; };
+		F8E6E803174E297F002B1BAD /* GreenCheckmark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E801174E297F002B1BAD /* GreenCheckmark.png */; };
+		F8E6E804174E297F002B1BAD /* RedCross.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E802174E297F002B1BAD /* RedCross.png */; };
+		F8E6E807174E460B002B1BAD /* GONewTaskSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E806174E460B002B1BAD /* GONewTaskSelectionTVC.m */; };
+		F8E6E80A174E64A5002B1BAD /* GOMealTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E809174E64A5002B1BAD /* GOMealTaskVC.m */; };
+		F8E6E80D174E65D9002B1BAD /* GOMealTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E80C174E65D9002B1BAD /* GOMealTask.m */; };
+		F8E6E810174E6839002B1BAD /* GOAbstractTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E80F174E6839002B1BAD /* GOAbstractTaskVC.m */; };
+		F8EC7F8E17C75D920006DD71 /* GOSleepState.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EC7F8D17C75D920006DD71 /* GOSleepState.m */; };
+		F8EFC991175F7DB00011F5D1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFC990175F7DB00011F5D1 /* CFNetwork.framework */; };
+		F8EFC993175F7DBB0011F5D1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFC992175F7DBB0011F5D1 /* Security.framework */; };
+		F8F0080C17D8CC3700D351D4 /* GOTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0080B17D8CC3700D351D4 /* GOTranslation.m */; };
+		F8FACEE41737DBAC00081CA6 /* GOTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FACEE31737DBAC00081CA6 /* GOTask.m */; };
+		F8FACEE71737E33900081CA6 /* GOGoalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FACEE61737E33900081CA6 /* GOGoalCell.m */; };
+		F8FFD59217CF7A41004806F7 /* GOTasksTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFD59117CF7A41004806F7 /* GOTasksTableVC.m */; };
+		F8FFD59517CF9F70004806F7 /* CastFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFD59417CF9F6D004806F7 /* CastFunctions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8929CC3171D5AC300E02F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8929C87171D5AC200E02F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8929C8E171D5AC200E02F35;
+			remoteInfo = Goalie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E4B781117B244D30001FCC7 /* CommonSense.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSense.plist; sourceTree = "<group>"; };
+		3E4B781317B244D90001FCC7 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goal-keeper-dive-square_120x120.png"; sourceTree = SOURCE_ROOT; };
+		F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		F5DD99AD19AB94A000543962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5DD99AF19AB970B00543962 /* GOGoalCollenctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoalCollenctionCell.h; sourceTree = "<group>"; };
+		F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoalCollenctionCell.m; sourceTree = "<group>"; };
+		F5DD99B219ABA83500543962 /* GODashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODashboardViewController.h; sourceTree = "<group>"; };
+		F5DD99B319ABA83500543962 /* GODashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODashboardViewController.m; sourceTree = "<group>"; };
+		F80198811733FCF100642D1D /* GOOpenQuestionTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOpenQuestionTaskVC.h; sourceTree = "<group>"; };
+		F80198821733FCF100642D1D /* GOOpenQuestionTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOpenQuestionTaskVC.m; sourceTree = "<group>"; };
+		F80198841734063800642D1D /* GOOpenQuestionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOpenQuestionTask.h; sourceTree = "<group>"; };
+		F80198851734063800642D1D /* GOOpenQuestionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOpenQuestionTask.m; sourceTree = "<group>"; };
+		F801988817340EF500642D1D /* GONewGoalTasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewGoalTasksTableViewController.h; sourceTree = "<group>"; };
+		F801988917340EF500642D1D /* GONewGoalTasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewGoalTasksTableViewController.m; sourceTree = "<group>"; };
+		F80719C917BA2EA900E48C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F80719CE17BA2F3E00E48C66 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		F80719CF17BA2F3E00E48C66 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F80719D317BA352100E48C66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		F80A8B521721BD98007474B2 /* GONewTaskTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewTaskTypeViewController.h; sourceTree = "<group>"; };
+		F80A8B531721BD98007474B2 /* GONewTaskTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewTaskTypeViewController.m; sourceTree = "<group>"; };
+		F80A8B551721C6B1007474B2 /* GOGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoal.h; sourceTree = "<group>"; };
+		F80A8B561721C6B1007474B2 /* GOGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoal.m; sourceTree = "<group>"; };
+		F80B5333177304A500F62C84 /* PaigeConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaigeConnection.h; sourceTree = "<group>"; };
+		F80B5334177304A500F62C84 /* PaigeConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaigeConnection.m; sourceTree = "<group>"; };
+		F80B533A17730D5600F62C84 /* GOGoalieServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoalieServices.h; sourceTree = "<group>"; };
+		F80B533B17730D5600F62C84 /* GOGoalieServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoalieServices.m; sourceTree = "<group>"; };
+		F8115FD81754D82000143FD4 /* GOShootPhotoTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOShootPhotoTaskVC.h; sourceTree = "<group>"; };
+		F8115FD91754D82000143FD4 /* GOShootPhotoTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOShootPhotoTaskVC.m; sourceTree = "<group>"; };
+		F8115FDB1754DF7400143FD4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F8115FDD1754E58600143FD4 /* GOShootPhotoTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOShootPhotoTask.h; sourceTree = "<group>"; };
+		F8115FDE1754E58600143FD4 /* GOShootPhotoTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOShootPhotoTask.m; sourceTree = "<group>"; };
+		F8115FE01754EC9F00143FD4 /* image_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_placeholder.png; sourceTree = "<group>"; };
+		F8115FE21754F40200143FD4 /* GOMoodTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMoodTaskVC.h; sourceTree = "<group>"; };
+		F8115FE31754F40200143FD4 /* GOMoodTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMoodTaskVC.m; sourceTree = "<group>"; };
+		F81822F417B11B7F00182A7E /* goal-keeper-dive-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-dive-green.png"; path = "../goal-keeper-dive-green.png"; sourceTree = "<group>"; };
+		F81822F617B11BC100182A7E /* goal-keeper-dive-green_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-dive-green_57x57.png"; path = "../goal-keeper-dive-green_57x57.png"; sourceTree = "<group>"; };
+		F81822FB17B11F5B00182A7E /* goal-keeper-basic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goal-keeper-basic.png"; sourceTree = "<group>"; };
+		F81822FD17B121B000182A7E /* goal-keeper-dive-square_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-dive-square_57x57.png"; path = "../goal-keeper-dive-square_57x57.png"; sourceTree = "<group>"; };
+		F81822FF17B121B700182A7E /* goal-keeper-dive-square_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-dive-square_114x114.png"; path = "../goal-keeper-dive-square_114x114.png"; sourceTree = "<group>"; };
+		F818230417B1247000182A7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		F818230817B1247400182A7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F818230A17B1247600182A7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		F818230D17B14DCE00182A7E /* IMG_1711.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1711.PNG; sourceTree = "<group>"; };
+		F818230F17B14E5F00182A7E /* IMG_1711@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1711@2x.PNG"; sourceTree = "<group>"; };
+		F818231117B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1711_withoutstatus@2x.PNG"; sourceTree = "<group>"; };
+		F818231317B1514900182A7E /* IMG_1712_without_statusbar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1712_without_statusbar.PNG; sourceTree = "<group>"; };
+		F820950D17B834FC00D1D0BC /* GOBrewTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewTableVC.h; sourceTree = "<group>"; };
+		F820950E17B834FC00D1D0BC /* GOBrewTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOBrewTableVC.m; sourceTree = "<group>"; };
+		F820951117B8CF6100D1D0BC /* GOBrewValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewValueCell.h; sourceTree = "<group>"; };
+		F820951217B8CF6100D1D0BC /* GOBrewValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOBrewValueCell.m; sourceTree = "<group>"; };
+		F820951417B8D02000D1D0BC /* GOBrewValuesTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewValuesTableVC.h; sourceTree = "<group>"; };
+		F820951517B8D02000D1D0BC /* GOBrewValuesTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOBrewValuesTableVC.m; sourceTree = "<group>"; };
+		F820951717B8EAE500D1D0BC /* GOActiveTimersTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveTimersTableVC.h; sourceTree = "<group>"; };
+		F820951817B8EAE500D1D0BC /* GOActiveTimersTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveTimersTableVC.m; sourceTree = "<group>"; };
+		F820951B17B9236000D1D0BC /* GOLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLocationManager.h; sourceTree = "<group>"; };
+		F820951C17B9236000D1D0BC /* GOLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLocationManager.m; sourceTree = "<group>"; };
+		F82CC38D17BE760100247077 /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBadge.h; sourceTree = "<group>"; };
+		F82CC38E17BE760100247077 /* CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBadge.m; sourceTree = "<group>"; };
+		F8318F1817CBA3C800E5AFE3 /* CouchExtendedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchExtendedModel.h; sourceTree = "<group>"; };
+		F8318F1917CBA3C800E5AFE3 /* CouchExtendedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchExtendedModel.m; sourceTree = "<group>"; };
+		F836EAAD17BA4D8100DF3827 /* GOEarnedPointsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOEarnedPointsCell.h; sourceTree = "<group>"; };
+		F836EAAE17BA4D8100DF3827 /* GOEarnedPointsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOEarnedPointsCell.m; sourceTree = "<group>"; };
+		F836EAB017BA5F9500DF3827 /* GOSleepTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSleepTask.h; sourceTree = "<group>"; };
+		F836EAB117BA5F9500DF3827 /* GOSleepTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSleepTask.m; sourceTree = "<group>"; };
+		F836EAB317BA686C00DF3827 /* GOTriggersTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTriggersTableVC.h; sourceTree = "<group>"; };
+		F836EAB417BA686C00DF3827 /* GOTriggersTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTriggersTableVC.m; sourceTree = "<group>"; };
+		F844C24A17D9C7EA00D5F8E6 /* values-en */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "values-en"; sourceTree = "<group>"; };
+		F844C24B17D9C7EA00D5F8E6 /* values-nl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "values-nl"; sourceTree = "<group>"; };
+		F844C25317D9D99500D5F8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F844C25517D9ED6A00D5F8E6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F84BAB7E17D9BD07003C0D1F /* update_storyboard_strings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_storyboard_strings.sh; sourceTree = "<group>"; };
+		F8515F9517C6055C00D0DA80 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F8515F9617C6055C00D0DA80 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F8515F9A17C6186B00D0DA80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F8515F9C17C6231000D0DA80 /* goal-keeper-basic-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-basic-20.png"; path = "images/goal-keeper-basic-20.png"; sourceTree = "<group>"; };
+		F8515F9D17C6231000D0DA80 /* goal-keeper-basic-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-basic-20@2x.png"; path = "images/goal-keeper-basic-20@2x.png"; sourceTree = "<group>"; };
+		F8515FA017C6298B00D0DA80 /* goal-keeper-basic-33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-basic-33.png"; path = "images/goal-keeper-basic-33.png"; sourceTree = "<group>"; };
+		F8515FA117C6298B00D0DA80 /* goal-keeper-basic-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goal-keeper-basic-33@2x.png"; path = "images/goal-keeper-basic-33@2x.png"; sourceTree = "<group>"; };
+		F8515FA417C62F2000D0DA80 /* GOSleepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSleepManager.h; sourceTree = "<group>"; };
+		F8515FA517C62F2000D0DA80 /* GOSleepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSleepManager.m; sourceTree = "<group>"; };
+		F8515FA817C632D700D0DA80 /* GOReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOReachabilityManager.h; sourceTree = "<group>"; };
+		F8515FA917C632D700D0DA80 /* GOReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOReachabilityManager.m; sourceTree = "<group>"; };
+		F8575854175F8099006E6B84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F85B7FBA17CCF536000CA0D4 /* Cortex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cortex.framework; sourceTree = "<group>"; };
+		F85FC5491784319A0074F692 /* GOKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOKeychain.h; sourceTree = "<group>"; };
+		F85FC54A1784319A0074F692 /* GOKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOKeychain.m; sourceTree = "<group>"; };
+		F85FC550178441760074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GIRL_35_HOCKEY_GOALIE_App_Icon_114.png; path = ../GIRL_35_HOCKEY_GOALIE_App_Icon_114.png; sourceTree = "<group>"; };
+		F85FC552178441920074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GIRL_35_HOCKEY_GOALIE_App_Icon_57.png; path = ../GIRL_35_HOCKEY_GOALIE_App_Icon_57.png; sourceTree = "<group>"; };
+		F85FC554178442750074F692 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		F85FC556178442F40074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GIRL_35_HOCKEY_GOALIE_Launch_Image_640x1136@2x.png"; sourceTree = "<group>"; };
+		F85FC558178442FD0074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GIRL_35_HOCKEY_GOALIE_Launch_Image_640x960@2x.png"; sourceTree = "<group>"; };
+		F85FC55A178443580074F692 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F85FC55C178443860074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIRL_35_HOCKEY_GOALIE_Launch_Image_320x480.png; sourceTree = "<group>"; };
+		F85FC55E178443910074F692 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		F867805317730F3F006D1C71 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		F867805417730F3F006D1C71 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		F867D5701743CE900085C6D8 /* GOMainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMainApp.h; sourceTree = "<group>"; };
+		F867D5711743CE910085C6D8 /* GOMainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMainApp.m; sourceTree = "<group>"; };
+		F878F5E817B258A500776E69 /* card_bg_shadow.9.cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bg_shadow.9.cut.png; sourceTree = "<group>"; };
+		F878F5EB17B262A700776E69 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		F878F5EC17B262A700776E69 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		F878F5ED17B262A700776E69 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		F878F5EE17B262A700776E69 /* mood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mood.png; sourceTree = "<group>"; };
+		F878F5EF17B262A700776E69 /* sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleep.png; sourceTree = "<group>"; };
+		F878F5F617B262B500776E69 /* activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activity.png; sourceTree = "<group>"; };
+		F878F5FA17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSTexturedFullScreenBackgroundColor.png; sourceTree = "<group>"; };
+		F878F5FC17B3ACF200776E69 /* GORegisterNewUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORegisterNewUserVC.h; sourceTree = "<group>"; };
+		F878F5FD17B3ACF200776E69 /* GORegisterNewUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORegisterNewUserVC.m; sourceTree = "<group>"; };
+		F878F5FF17B3C17700776E69 /* GOMotionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMotionTask.h; sourceTree = "<group>"; };
+		F878F60017B3C17700776E69 /* GOMotionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMotionTask.m; sourceTree = "<group>"; };
+		F878F60217B3C3B800776E69 /* GOMotionTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMotionTaskVC.h; sourceTree = "<group>"; };
+		F878F60317B3C3B800776E69 /* GOMotionTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMotionTaskVC.m; sourceTree = "<group>"; };
+		F878F60517B4E3A500776E69 /* BrewsByTaskEndDateMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BrewsByTaskEndDateMap.js; sourceTree = "<group>"; };
+		F878F60B17B4FAB100776E69 /* TasksByType.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TasksByType.js; sourceTree = "<group>"; };
+		F878F60D17B5229300776E69 /* GOVisitTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOVisitTaskVC.h; sourceTree = "<group>"; };
+		F878F60E17B5229300776E69 /* GOVisitTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOVisitTaskVC.m; sourceTree = "<group>"; };
+		F878F61017B525C300776E69 /* GOVisitTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOVisitTask.h; sourceTree = "<group>"; };
+		F878F61117B525C400776E69 /* GOVisitTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOVisitTask.m; sourceTree = "<group>"; };
+		F878F61317B52D6000776E69 /* GOScheduledNotificationsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOScheduledNotificationsTableVC.h; sourceTree = "<group>"; };
+		F878F61417B52D6000776E69 /* GOScheduledNotificationsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOScheduledNotificationsTableVC.m; sourceTree = "<group>"; };
+		F878F61817B5361800776E69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F87A5F5A17D7322900ABED38 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F87AB87A177D900700DBC99E /* AllTasks.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AllTasks.js; sourceTree = "<group>"; };
+		F87AB87C177D90C000DBC99E /* AllGoals.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AllGoals.js; sourceTree = "<group>"; };
+		F87AB882177DC72D00DBC99E /* TasksByGoal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TasksByGoal.js; sourceTree = "<group>"; };
+		F87AB884177DCFF300DBC99E /* GOSliderTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSliderTask.h; sourceTree = "<group>"; };
+		F87AB885177DCFF300DBC99E /* GOSliderTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSliderTask.m; sourceTree = "<group>"; };
+		F87AB8871781849F00DBC99E /* GOModelClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOModelClasses.h; sourceTree = "<group>"; };
+		F87AB8881781A31F00DBC99E /* GOSwitchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSwitchTask.h; sourceTree = "<group>"; };
+		F87AB8891781A31F00DBC99E /* GOSwitchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSwitchTask.m; sourceTree = "<group>"; };
+		F87AB88B1781C8DA00DBC99E /* CompletionRateByGoalMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CompletionRateByGoalMap.js; sourceTree = "<group>"; };
+		F87AB88D1781C8FB00DBC99E /* CompletionRateByGoalReduce.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CompletionRateByGoalReduce.js; sourceTree = "<group>"; };
+		F87B5AF017C26630003EEF42 /* GOAdvancedBrewsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAdvancedBrewsTableVC.h; sourceTree = "<group>"; };
+		F87B5AF117C26630003EEF42 /* GOAdvancedBrewsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAdvancedBrewsTableVC.m; sourceTree = "<group>"; };
+		F87B5AFF17C2A603003EEF42 /* GOAbstractActiveTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAbstractActiveTaskCell.h; sourceTree = "<group>"; };
+		F87B5B0017C2A603003EEF42 /* GOAbstractActiveTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAbstractActiveTaskCell.m; sourceTree = "<group>"; };
+		F87B5B0217C2A710003EEF42 /* GOActiveMealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveMealCell.h; sourceTree = "<group>"; };
+		F87B5B0317C2A710003EEF42 /* GOActiveMealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveMealCell.m; sourceTree = "<group>"; };
+		F87B5B0517C2A83A003EEF42 /* GOActiveMoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveMoodCell.h; sourceTree = "<group>"; };
+		F87B5B0617C2A83A003EEF42 /* GOActiveMoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveMoodCell.m; sourceTree = "<group>"; };
+		F87B5B0817C2A84C003EEF42 /* GOActiveMotionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveMotionCell.h; sourceTree = "<group>"; };
+		F87B5B0917C2A84C003EEF42 /* GOActiveMotionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveMotionCell.m; sourceTree = "<group>"; };
+		F87B5B0B17C2A865003EEF42 /* GOActiveVisitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveVisitCell.h; sourceTree = "<group>"; };
+		F87B5B0C17C2A865003EEF42 /* GOActiveVisitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveVisitCell.m; sourceTree = "<group>"; };
+		F87B5B0E17C2A873003EEF42 /* GOActiveSleepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveSleepCell.h; sourceTree = "<group>"; };
+		F87B5B0F17C2A873003EEF42 /* GOActiveSleepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveSleepCell.m; sourceTree = "<group>"; };
+		F87B5B1117C2A992003EEF42 /* GOActiveGoalTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveGoalTableVC.h; sourceTree = "<group>"; };
+		F87B5B1217C2A993003EEF42 /* GOActiveGoalTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveGoalTableVC.m; sourceTree = "<group>"; };
+		F87B5B1417C2A9D6003EEF42 /* GOActiveGoalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveGoalCell.h; sourceTree = "<group>"; };
+		F87B5B1517C2A9D6003EEF42 /* GOActiveGoalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveGoalCell.m; sourceTree = "<group>"; };
+		F87B5B1817C36208003EEF42 /* SafeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeObserver.h; sourceTree = "<group>"; };
+		F87B5B1917C36208003EEF42 /* SafeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeObserver.m; sourceTree = "<group>"; };
+		F87C58B017BAD2E2001AEC6A /* GOGenericModelClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOGenericModelClasses.h; sourceTree = "<group>"; };
+		F87C58B117BB0C46001AEC6A /* GOSleepTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSleepTaskVC.h; sourceTree = "<group>"; };
+		F87C58B217BB0C48001AEC6A /* GOSleepTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSleepTaskVC.m; sourceTree = "<group>"; };
+		F8813974177AF90B00CF6F6A /* GOSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSensor.h; sourceTree = "<group>"; };
+		F8813975177AF90B00CF6F6A /* GOSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSensor.m; sourceTree = "<group>"; };
+		F8813977177AFA1600CF6F6A /* GOExerciseStateSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOExerciseStateSensor.h; sourceTree = "<group>"; };
+		F8813978177AFA1700CF6F6A /* GOExerciseStateSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOExerciseStateSensor.m; sourceTree = "<group>"; };
+		F881397A177AFA4C00CF6F6A /* GOExerciseSummarySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOExerciseSummarySensor.h; sourceTree = "<group>"; };
+		F881397B177AFA4C00CF6F6A /* GOExerciseSummarySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOExerciseSummarySensor.m; sourceTree = "<group>"; };
+		F881397D177AFAA400CF6F6A /* GOAnxietyLogSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAnxietyLogSensor.h; sourceTree = "<group>"; };
+		F881397E177AFAA500CF6F6A /* GOAnxietyLogSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAnxietyLogSensor.m; sourceTree = "<group>"; };
+		F8813982177AFB7800CF6F6A /* GOAgoraphobiaSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAgoraphobiaSensor.h; sourceTree = "<group>"; };
+		F8813983177AFB7800CF6F6A /* GOAgoraphobiaSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAgoraphobiaSensor.m; sourceTree = "<group>"; };
+		F885698517B5AD97002048D4 /* GOMonitoredRegionsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMonitoredRegionsTableVC.h; sourceTree = "<group>"; };
+		F885698617B5AD97002048D4 /* GOMonitoredRegionsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMonitoredRegionsTableVC.m; sourceTree = "<group>"; };
+		F88BA05B1773364300F956A9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F8929C8F171D5AC200E02F35 /* Goalie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goalie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8929C92171D5AC200E02F35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8929C94171D5AC200E02F35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8929C96171D5AC200E02F35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8929C98171D5AC200E02F35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F8929C9C171D5AC200E02F35 /* Goalie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Goalie-Info.plist"; sourceTree = "<group>"; };
+		F8929C9E171D5AC200E02F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8929CA0171D5AC200E02F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8929CA2171D5AC200E02F35 /* Goalie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Goalie-Prefix.pch"; sourceTree = "<group>"; };
+		F8929CA3171D5AC200E02F35 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		F8929CA4171D5AC300E02F35 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
+		F8929CA6171D5AC300E02F35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F8929CA8171D5AC300E02F35 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8929CB0171D5AC300E02F35 /* Goalie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Goalie.xcdatamodel; sourceTree = "<group>"; };
+		F8929CB2171D5AC300E02F35 /* GOMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOMasterViewController.h; sourceTree = "<group>"; };
+		F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOMasterViewController.m; sourceTree = "<group>"; };
+		F8929CBD171D5AC300E02F35 /* GoalieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoalieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8929CBE171D5AC300E02F35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8929CC7171D5AC300E02F35 /* GoalieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoalieTests-Info.plist"; sourceTree = "<group>"; };
+		F8929CC9171D5AC300E02F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8929CCB171D5AC300E02F35 /* GoalieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoalieTests.h; sourceTree = "<group>"; };
+		F8929CCC171D5AC300E02F35 /* GoalieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoalieTests.m; sourceTree = "<group>"; };
+		F8929CD8171D660400E02F35 /* GOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLoginViewController.h; sourceTree = "<group>"; };
+		F8929CD9171D660400E02F35 /* GOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLoginViewController.m; sourceTree = "<group>"; };
+		F8929CE2171D78D400E02F35 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		F8929CE3171D78D400E02F35 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F8929CE4171D78D400E02F35 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		F8929CE5171D78D400E02F35 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		F8929CE9171D78FD00E02F35 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F8946A38172176EE00123D1B /* GONewGoalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewGoalVC.h; sourceTree = "<group>"; };
+		F8946A39172176EE00123D1B /* GONewGoalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewGoalVC.m; sourceTree = "<group>"; };
+		F8946A3B1721775500123D1B /* GONewGoalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewGoalTableViewController.h; sourceTree = "<group>"; };
+		F8946A3C1721775500123D1B /* GONewGoalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewGoalTableViewController.m; sourceTree = "<group>"; };
+		F8946A3E172177A100123D1B /* GONewGoalExplanationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewGoalExplanationViewController.h; sourceTree = "<group>"; };
+		F8946A3F172177A100123D1B /* GONewGoalExplanationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewGoalExplanationViewController.m; sourceTree = "<group>"; };
+		F8946A411721AA2100123D1B /* GONewGoalTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewGoalTasksViewController.h; sourceTree = "<group>"; };
+		F8946A421721AA2100123D1B /* GONewGoalTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewGoalTasksViewController.m; sourceTree = "<group>"; };
+		F89F95E417CA4A0E000EEBA3 /* GOGoalExplanationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoalExplanationVC.h; sourceTree = "<group>"; };
+		F89F95E517CA4A0E000EEBA3 /* GOGoalExplanationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoalExplanationVC.m; sourceTree = "<group>"; };
+		F89FE1861782EB7C004D4EA6 /* GODescriptiveTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODescriptiveTaskVC.h; sourceTree = "<group>"; };
+		F89FE1871782EB7C004D4EA6 /* GODescriptiveTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODescriptiveTaskVC.m; sourceTree = "<group>"; };
+		F89FE1891782EEBA004D4EA6 /* GOSliderTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSliderTaskVC.h; sourceTree = "<group>"; };
+		F89FE18A1782EEBA004D4EA6 /* GOSliderTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSliderTaskVC.m; sourceTree = "<group>"; };
+		F89FE18C1782F2D9004D4EA6 /* GOSwitchTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSwitchTaskVC.h; sourceTree = "<group>"; };
+		F89FE18D1782F2DA004D4EA6 /* GOSwitchTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSwitchTaskVC.m; sourceTree = "<group>"; };
+		F8A2A4011788BD9C0020585B /* BrewsByActiveGoalTaskOccurrenceMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BrewsByActiveGoalTaskOccurrenceMap.js; sourceTree = "<group>"; };
+		F8A2A405178AEB0B0020585B /* BrewsByActiveGoalTaskBeginDate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BrewsByActiveGoalTaskBeginDate.js; sourceTree = "<group>"; };
+		F8A2A407178AEF8E0020585B /* EmptyCheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyCheckbox.png; sourceTree = "<group>"; };
+		F8A2A409178B65830020585B /* ActiveGoalsByBeginDate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ActiveGoalsByBeginDate.js; sourceTree = "<group>"; };
+		F8A2A40B178B733A0020585B /* GOBrewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewsVC.h; sourceTree = "<group>"; };
+		F8A2A40C178B733B0020585B /* GOBrewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOBrewsVC.m; sourceTree = "<group>"; };
+		F8A2A40E178B77080020585B /* GOBrewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewCell.h; sourceTree = "<group>"; };
+		F8A2A40F178B77090020585B /* GOBrewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOBrewCell.m; sourceTree = "<group>"; };
+		F8A2A411178C04320020585B /* EarnedPointsByActiveGoalTaskBeginDateMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EarnedPointsByActiveGoalTaskBeginDateMap.js; sourceTree = "<group>"; };
+		F8A2A413178C04490020585B /* EarnedPointsByActiveGoalTaskBeginDateReduce.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EarnedPointsByActiveGoalTaskBeginDateReduce.js; sourceTree = "<group>"; };
+		F8A8BF6E175601D70096D60E /* GOMoodTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMoodTask.h; sourceTree = "<group>"; };
+		F8A8BF6F175601D70096D60E /* GOMoodTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMoodTask.m; sourceTree = "<group>"; };
+		F8A8BF711756047D0096D60E /* affectbutton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = affectbutton; sourceTree = "<group>"; };
+		F8A974AC17452E9D00C51D21 /* GOChooseTaskTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GOChooseTaskTVC.h; path = ../GOChooseTaskTVC.h; sourceTree = "<group>"; };
+		F8A974AD17452E9D00C51D21 /* GOChooseTaskTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GOChooseTaskTVC.m; path = ../GOChooseTaskTVC.m; sourceTree = "<group>"; };
+		F8A974AF174532E100C51D21 /* GOTaskVCProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOTaskVCProtocol.h; sourceTree = "<group>"; };
+		F8AEC2671745197E00D375DA /* GreenCheckmark.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = GreenCheckmark.tiff; path = images/GreenCheckmark.tiff; sourceTree = "<group>"; };
+		F8AEC2681745197E00D375DA /* RedCross.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = RedCross.tiff; path = images/RedCross.tiff; sourceTree = "<group>"; };
+		F8AEC26B17451A0700D375DA /* GOTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTaskCell.h; sourceTree = "<group>"; };
+		F8AEC26C17451A0700D375DA /* GOTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTaskCell.m; sourceTree = "<group>"; };
+		F8AFD1AA17841DE900ED99DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F8AFD1AC17841DEF00ED99DC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F8AFD1AE17841DF500ED99DC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F8AFD1B017841DFC00ED99DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F8AFD1B217841E0300ED99DC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F8AFD1B417841E0900ED99DC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F8AFD1BB17841F9B00ED99DC /* GOSensePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSensePlatform.h; sourceTree = "<group>"; };
+		F8AFD1BC17841F9B00ED99DC /* GOSensePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSensePlatform.m; sourceTree = "<group>"; };
+		F8AFD1BF1784241A00ED99DC /* GOCouchCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCouchCocoa.h; sourceTree = "<group>"; };
+		F8AFD1C01784241A00ED99DC /* GOCouchCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCouchCocoa.m; sourceTree = "<group>"; };
+		F8AFD1C21784269500ED99DC /* GORestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORestKit.h; sourceTree = "<group>"; };
+		F8AFD1C31784269500ED99DC /* GORestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORestKit.m; sourceTree = "<group>"; };
+		F8AFD1C5178426E100ED99DC /* GOCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCoreData.h; sourceTree = "<group>"; };
+		F8AFD1C6178426E100ED99DC /* GOCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCoreData.m; sourceTree = "<group>"; };
+		F8AFD1C81784283500ED99DC /* GOTestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTestFlight.h; sourceTree = "<group>"; };
+		F8AFD1C91784283500ED99DC /* GOTestFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTestFlight.m; sourceTree = "<group>"; };
+		F8B15D1F1782160B00FC0317 /* MostRecentActivityByGoalMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MostRecentActivityByGoalMap.js; sourceTree = "<group>"; };
+		F8B15D211782162700FC0317 /* MostRecentActivityByGoalReduce.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MostRecentActivityByGoalReduce.js; sourceTree = "<group>"; };
+		F8B15D231782175E00FC0317 /* GODescriptiveTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODescriptiveTask.h; sourceTree = "<group>"; };
+		F8B15D241782175E00FC0317 /* GODescriptiveTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODescriptiveTask.m; sourceTree = "<group>"; };
+		F8B24CC3176F38B200E14B5C /* Goalie 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Goalie 2.xcdatamodel"; sourceTree = "<group>"; };
+		F8B4274F17BB88670076DF71 /* GOMonitoredRegionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMonitoredRegionCell.h; sourceTree = "<group>"; };
+		F8B4275017BB88670076DF71 /* GOMonitoredRegionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMonitoredRegionCell.m; sourceTree = "<group>"; };
+		F8B696B517859EDC00CDDF8C /* GOActiveTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveTrigger.h; sourceTree = "<group>"; };
+		F8B696B617859EDD00CDDF8C /* GOActiveTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveTrigger.m; sourceTree = "<group>"; };
+		F8B696BA1785A5D900CDDF8C /* GOTaskBrew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTaskBrew.h; sourceTree = "<group>"; };
+		F8B696BB1785A5DA00CDDF8C /* GOTaskBrew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTaskBrew.m; sourceTree = "<group>"; };
+		F8B7109617BCCB3A007A17DF /* GOSettingsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSettingsTableVC.h; sourceTree = "<group>"; };
+		F8B7109717BCCB3A007A17DF /* GOSettingsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSettingsTableVC.m; sourceTree = "<group>"; };
+		F8B7109917BCDBCB007A17DF /* GOSleepStateTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSleepStateTableVC.h; sourceTree = "<group>"; };
+		F8B7109A17BCDBCB007A17DF /* GOSleepStateTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSleepStateTableVC.m; sourceTree = "<group>"; };
+		F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchCocoa.framework; sourceTree = "<group>"; };
+		F8CD547F17EB2EA600377766 /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TouchDB.framework; sourceTree = "<group>"; };
+		F8D23A0217CE2C4100A26191 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		F8D23A0317CE2C4100A26191 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		F8D23A0417CF427200A26191 /* GOActiveSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveSwitchCell.h; sourceTree = "<group>"; };
+		F8D23A0517CF427200A26191 /* GOActiveSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveSwitchCell.m; sourceTree = "<group>"; };
+		F8D23A0717CF4DA900A26191 /* GOActiveSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveSliderCell.h; sourceTree = "<group>"; };
+		F8D23A0817CF4DA900A26191 /* GOActiveSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveSliderCell.m; sourceTree = "<group>"; };
+		F8D23A0A17CF4DB600A26191 /* GOActiveShootPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveShootPhotoCell.h; sourceTree = "<group>"; };
+		F8D23A0B17CF4DB600A26191 /* GOActiveShootPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveShootPhotoCell.m; sourceTree = "<group>"; };
+		F8D24C7E1790D973002C770A /* GOActiveTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveTask.h; sourceTree = "<group>"; };
+		F8D24C7F1790D974002C770A /* GOActiveTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveTask.m; sourceTree = "<group>"; };
+		F8D24C811790F3C5002C770A /* AllGoals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllGoals.json; sourceTree = "<group>"; };
+		F8D24C831790F3F1002C770A /* AllTasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllTasks.json; sourceTree = "<group>"; };
+		F8D77826178444C800929584 /* GOLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLaunchVC.h; sourceTree = "<group>"; };
+		F8D77827178444C800929584 /* GOLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLaunchVC.m; sourceTree = "<group>"; };
+		F8D778291784603300929584 /* GORegularMealsGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORegularMealsGoal.h; sourceTree = "<group>"; };
+		F8D7782A1784603300929584 /* GORegularMealsGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORegularMealsGoal.m; sourceTree = "<group>"; };
+		F8D7782C1784657D00929584 /* ActiveGoalsByTypeMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ActiveGoalsByTypeMap.js; sourceTree = "<group>"; };
+		F8D778301784679C00929584 /* GOActiveGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveGoal.h; sourceTree = "<group>"; };
+		F8D778311784679C00929584 /* GOActiveGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveGoal.m; sourceTree = "<group>"; };
+		F8D778341784765D00929584 /* GoalsByGoalType.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoalsByGoalType.js; sourceTree = "<group>"; };
+		F8D778361784870200929584 /* GOAgoraphobiaGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAgoraphobiaGoal.h; sourceTree = "<group>"; };
+		F8D778371784870200929584 /* GOAgoraphobiaGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAgoraphobiaGoal.m; sourceTree = "<group>"; };
+		F8D778391784878D00929584 /* GOEmotionAwarenessGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOEmotionAwarenessGoal.h; sourceTree = "<group>"; };
+		F8D7783A1784878D00929584 /* GOEmotionAwarenessGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOEmotionAwarenessGoal.m; sourceTree = "<group>"; };
+		F8D7783C178487CE00929584 /* GOPhysicalActivityGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOPhysicalActivityGoal.h; sourceTree = "<group>"; };
+		F8D7783D178487CE00929584 /* GOPhysicalActivityGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOPhysicalActivityGoal.m; sourceTree = "<group>"; };
+		F8D7783F17848AD100929584 /* GORegularSleepGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORegularSleepGoal.h; sourceTree = "<group>"; };
+		F8D7784017848AD100929584 /* GORegularSleepGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORegularSleepGoal.m; sourceTree = "<group>"; };
+		F8DC2B111786CF52003663E1 /* TimeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeWindow.h; sourceTree = "<group>"; };
+		F8DC2B121786CF52003663E1 /* TimeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeWindow.m; sourceTree = "<group>"; };
+		F8E6B17F178CC210005FE7E9 /* GOAdjustTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAdjustTimeVC.h; sourceTree = "<group>"; };
+		F8E6B180178CC210005FE7E9 /* GOAdjustTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAdjustTimeVC.m; sourceTree = "<group>"; };
+		F8E6B187178F94ED005FE7E9 /* BrewsByBeginDate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BrewsByBeginDate.js; sourceTree = "<group>"; };
+		F8E6B1891790278A005FE7E9 /* BrewsByEndDate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BrewsByEndDate.js; sourceTree = "<group>"; };
+		F8E6E801174E297F002B1BAD /* GreenCheckmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GreenCheckmark.png; path = images/GreenCheckmark.png; sourceTree = "<group>"; };
+		F8E6E802174E297F002B1BAD /* RedCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedCross.png; path = images/RedCross.png; sourceTree = "<group>"; };
+		F8E6E805174E460B002B1BAD /* GONewTaskSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewTaskSelectionTVC.h; sourceTree = "<group>"; };
+		F8E6E806174E460B002B1BAD /* GONewTaskSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewTaskSelectionTVC.m; sourceTree = "<group>"; };
+		F8E6E808174E64A5002B1BAD /* GOMealTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMealTaskVC.h; sourceTree = "<group>"; };
+		F8E6E809174E64A5002B1BAD /* GOMealTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMealTaskVC.m; sourceTree = "<group>"; };
+		F8E6E80B174E65D9002B1BAD /* GOMealTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMealTask.h; sourceTree = "<group>"; };
+		F8E6E80C174E65D9002B1BAD /* GOMealTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMealTask.m; sourceTree = "<group>"; };
+		F8E6E80E174E6839002B1BAD /* GOAbstractTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAbstractTaskVC.h; sourceTree = "<group>"; };
+		F8E6E80F174E6839002B1BAD /* GOAbstractTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAbstractTaskVC.m; sourceTree = "<group>"; };
+		F8EC7F8C17C75D920006DD71 /* GOSleepState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSleepState.h; sourceTree = "<group>"; };
+		F8EC7F8D17C75D920006DD71 /* GOSleepState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSleepState.m; sourceTree = "<group>"; };
+		F8EFC990175F7DB00011F5D1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F8EFC992175F7DBB0011F5D1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F8F0080A17D8CC3600D351D4 /* GOTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTranslation.h; sourceTree = "<group>"; };
+		F8F0080B17D8CC3700D351D4 /* GOTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTranslation.m; sourceTree = "<group>"; };
+		F8FACEE21737DBAC00081CA6 /* GOTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTask.h; sourceTree = "<group>"; };
+		F8FACEE31737DBAC00081CA6 /* GOTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTask.m; sourceTree = "<group>"; };
+		F8FACEE51737E33800081CA6 /* GOGoalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoalCell.h; sourceTree = "<group>"; };
+		F8FACEE61737E33900081CA6 /* GOGoalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoalCell.m; sourceTree = "<group>"; };
+		F8FFD59017CF7A41004806F7 /* GOTasksTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTasksTableVC.h; sourceTree = "<group>"; };
+		F8FFD59117CF7A41004806F7 /* GOTasksTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTasksTableVC.m; sourceTree = "<group>"; };
+		F8FFD59317CF9F6B004806F7 /* CastFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastFunctions.h; sourceTree = "<group>"; };
+		F8FFD59417CF9F6D004806F7 /* CastFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastFunctions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8929C8C171D5AC200E02F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EFD72819A646ED00BD01C4 /* Cortex.framework in Frameworks */,
+				F87A5F5B17D7322900ABED38 /* AssetsLibrary.framework in Frameworks */,
+				F8515F9B17C6186B00D0DA80 /* QuartzCore.framework in Frameworks */,
+				F8CD547E17EB2C6F00377766 /* CouchCocoa.framework in Frameworks */,
+				F878F61917B5361A00776E69 /* MapKit.framework in Frameworks */,
+				F8575855175F8099006E6B84 /* SystemConfiguration.framework in Frameworks */,
+				F8AFD1B517841E0900ED99DC /* CoreTelephony.framework in Frameworks */,
+				F8AFD1B317841E0300ED99DC /* AudioToolbox.framework in Frameworks */,
+				F8AFD1B117841DFC00ED99DC /* AVFoundation.framework in Frameworks */,
+				F8AFD1AF17841DF500ED99DC /* CoreAudio.framework in Frameworks */,
+				F8CD548017EB2EA600377766 /* TouchDB.framework in Frameworks */,
+				F8AFD1AD17841DEF00ED99DC /* CoreMotion.framework in Frameworks */,
+				F8AFD1AB17841DE900ED99DC /* CoreLocation.framework in Frameworks */,
+				F88BA05C1773364300F956A9 /* libsqlite3.dylib in Frameworks */,
+				F8115FDC1754DF7400143FD4 /* MobileCoreServices.framework in Frameworks */,
+				F8EFC993175F7DBB0011F5D1 /* Security.framework in Frameworks */,
+				F8EFC991175F7DB00011F5D1 /* CFNetwork.framework in Frameworks */,
+				F8929CEA171D78FD00E02F35 /* libz.dylib in Frameworks */,
+				F8929C93171D5AC200E02F35 /* UIKit.framework in Frameworks */,
+				F8929C95171D5AC200E02F35 /* Foundation.framework in Frameworks */,
+				F8929C97171D5AC200E02F35 /* CoreGraphics.framework in Frameworks */,
+				F8929C99171D5AC200E02F35 /* CoreData.framework in Frameworks */,
+				F8929CE6171D78D400E02F35 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8929CB9171D5AC300E02F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8929CBF171D5AC300E02F35 /* SenTestingKit.framework in Frameworks */,
+				F8929CC0171D5AC300E02F35 /* UIKit.framework in Frameworks */,
+				F8929CC1171D5AC300E02F35 /* Foundation.framework in Frameworks */,
+				F8929CC2171D5AC300E02F35 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80198801733FC8E00642D1D /* UI Task Views */ = {
+			isa = PBXGroup;
+			children = (
+				F87B5B1717C2AAF7003EEF42 /* Table */,
+				F87B5AFE17C2A59F003EEF42 /* Abstract */,
+				F87B5AF417C2A54F003EEF42 /* SleepTask */,
+				F87B5AFC17C2A58F003EEF42 /* MealTask */,
+				F87B5AF517C2A557003EEF42 /* VisitTask */,
+				F87B5AF617C2A560003EEF42 /* MotionTask */,
+				F87B5AFA17C2A582003EEF42 /* MoodTask */,
+				F87B5AFD17C2A595003EEF42 /* OpenQuestionTask */,
+				F87B5AFB17C2A589003EEF42 /* ShootPhotoTask */,
+				F87B5AF917C2A57A003EEF42 /* SliderTask */,
+				F87B5AF817C2A574003EEF42 /* SwitchTask */,
+				F87B5AF717C2A567003EEF42 /* DescriptiveTask */,
+			);
+			name = "UI Task Views";
+			sourceTree = "<group>";
+		};
+		F80198871734064300642D1D /* Managed Object Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F8318F1817CBA3C800E5AFE3 /* CouchExtendedModel.h */,
+				F8318F1917CBA3C800E5AFE3 /* CouchExtendedModel.m */,
+				F87AB8871781849F00DBC99E /* GOModelClasses.h */,
+				F87C58B017BAD2E2001AEC6A /* GOGenericModelClasses.h */,
+				F80A8B551721C6B1007474B2 /* GOGoal.h */,
+				F80A8B561721C6B1007474B2 /* GOGoal.m */,
+				F8813981177AFB0000CF6F6A /* Sensor */,
+				F8813980177AFAE100CF6F6A /* Tasks */,
+				F8D77833178467A300929584 /* ActiveGoals */,
+				F8B696B517859EDC00CDDF8C /* GOActiveTrigger.h */,
+				F8B696B617859EDD00CDDF8C /* GOActiveTrigger.m */,
+			);
+			name = "Managed Object Entities";
+			sourceTree = "<group>";
+		};
+		F8115FE61754FFAA00143FD4 /* Moody */ = {
+			isa = PBXGroup;
+			children = (
+				F8A8BF711756047D0096D60E /* affectbutton */,
+			);
+			name = Moody;
+			sourceTree = "<group>";
+		};
+		F820951017B8CF2A00D1D0BC /* UI Brews */ = {
+			isa = PBXGroup;
+			children = (
+				F836EAAD17BA4D8100DF3827 /* GOEarnedPointsCell.h */,
+				F836EAAE17BA4D8100DF3827 /* GOEarnedPointsCell.m */,
+				F8A2A40B178B733A0020585B /* GOBrewsVC.h */,
+				F8A2A40C178B733B0020585B /* GOBrewsVC.m */,
+				F8A2A40E178B77080020585B /* GOBrewCell.h */,
+				F8A2A40F178B77090020585B /* GOBrewCell.m */,
+				F820950D17B834FC00D1D0BC /* GOBrewTableVC.h */,
+				F820950E17B834FC00D1D0BC /* GOBrewTableVC.m */,
+				F820951117B8CF6100D1D0BC /* GOBrewValueCell.h */,
+				F820951217B8CF6100D1D0BC /* GOBrewValueCell.m */,
+				F820951417B8D02000D1D0BC /* GOBrewValuesTableVC.h */,
+				F820951517B8D02000D1D0BC /* GOBrewValuesTableVC.m */,
+				F836EAB317BA686C00DF3827 /* GOTriggersTableVC.h */,
+				F836EAB417BA686C00DF3827 /* GOTriggersTableVC.m */,
+			);
+			name = "UI Brews";
+			sourceTree = "<group>";
+		};
+		F820951A17B8EAF900D1D0BC /* UI Settings Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8B7109617BCCB3A007A17DF /* GOSettingsTableVC.h */,
+				F8B7109717BCCB3A007A17DF /* GOSettingsTableVC.m */,
+				F8B7109917BCDBCB007A17DF /* GOSleepStateTableVC.h */,
+				F8B7109A17BCDBCB007A17DF /* GOSleepStateTableVC.m */,
+				F8E6B17F178CC210005FE7E9 /* GOAdjustTimeVC.h */,
+				F8E6B180178CC210005FE7E9 /* GOAdjustTimeVC.m */,
+				F878F61317B52D6000776E69 /* GOScheduledNotificationsTableVC.h */,
+				F878F61417B52D6000776E69 /* GOScheduledNotificationsTableVC.m */,
+				F885698517B5AD97002048D4 /* GOMonitoredRegionsTableVC.h */,
+				F885698617B5AD97002048D4 /* GOMonitoredRegionsTableVC.m */,
+				F8B4274F17BB88670076DF71 /* GOMonitoredRegionCell.h */,
+				F8B4275017BB88670076DF71 /* GOMonitoredRegionCell.m */,
+				F820951717B8EAE500D1D0BC /* GOActiveTimersTableVC.h */,
+				F820951817B8EAE500D1D0BC /* GOActiveTimersTableVC.m */,
+				F87B5AF017C26630003EEF42 /* GOAdvancedBrewsTableVC.h */,
+				F87B5AF117C26630003EEF42 /* GOAdvancedBrewsTableVC.m */,
+				F8FFD59017CF7A41004806F7 /* GOTasksTableVC.h */,
+				F8FFD59117CF7A41004806F7 /* GOTasksTableVC.m */,
+			);
+			name = "UI Settings Views";
+			sourceTree = "<group>";
+		};
+		F82CC38917BD777800247077 /* CustomBadge */ = {
+			isa = PBXGroup;
+			children = (
+				F82CC38D17BE760100247077 /* CustomBadge.h */,
+				F82CC38E17BE760100247077 /* CustomBadge.m */,
+			);
+			name = CustomBadge;
+			sourceTree = "<group>";
+		};
+		F8515F9817C6056000D0DA80 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F8515F9517C6055C00D0DA80 /* Reachability.h */,
+				F8515F9617C6055C00D0DA80 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F8515FA717C630C700D0DA80 /* old / unused */ = {
+			isa = PBXGroup;
+			children = (
+				F8AFD1C21784269500ED99DC /* GORestKit.h */,
+				F8AFD1C31784269500ED99DC /* GORestKit.m */,
+				F80B5333177304A500F62C84 /* PaigeConnection.h */,
+				F80B5334177304A500F62C84 /* PaigeConnection.m */,
+				F8515FA417C62F2000D0DA80 /* GOSleepManager.h */,
+				F8515FA517C62F2000D0DA80 /* GOSleepManager.m */,
+			);
+			name = "old / unused";
+			sourceTree = "<group>";
+		};
+		F878F5F817B262BF00776E69 /* Goal Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F878F5F617B262B500776E69 /* activity.png */,
+				F878F5EB17B262A700776E69 /* food.png */,
+				F878F5EC17B262A700776E69 /* group.png */,
+				F878F5ED17B262A700776E69 /* location.png */,
+				F878F5EE17B262A700776E69 /* mood.png */,
+				F878F5EF17B262A700776E69 /* sleep.png */,
+			);
+			name = "Goal Icons";
+			sourceTree = "<group>";
+		};
+		F878F5F917B262D200776E69 /* Old Goalies */ = {
+			isa = PBXGroup;
+			children = (
+				F85FC552178441920074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_57.png */,
+				F85FC550178441760074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_114.png */,
+				F85FC55C178443860074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_320x480.png */,
+				F85FC558178442FD0074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x960@2x.png */,
+				F85FC556178442F40074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x1136@2x.png */,
+			);
+			name = "Old Goalies";
+			sourceTree = "<group>";
+		};
+		F878F61617B531AA00776E69 /* Bootstrap data */ = {
+			isa = PBXGroup;
+			children = (
+				F8D24C831790F3F1002C770A /* AllTasks.json */,
+				F8D24C811790F3C5002C770A /* AllGoals.json */,
+			);
+			name = "Bootstrap data";
+			sourceTree = "<group>";
+		};
+		F878F61717B531BD00776E69 /* Javascript / JSON / XML */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0080917D8CAAA00D351D4 /* Language */,
+				F878F61617B531AA00776E69 /* Bootstrap data */,
+				F87AB87F177D90F000DBC99E /* Couch Views */,
+			);
+			name = "Javascript / JSON / XML";
+			sourceTree = "<group>";
+		};
+		F87AB87F177D90F000DBC99E /* Couch Views */ = {
+			isa = PBXGroup;
+			children = (
+				F87AB87A177D900700DBC99E /* AllTasks.js */,
+				F87AB882177DC72D00DBC99E /* TasksByGoal.js */,
+				F87AB87C177D90C000DBC99E /* AllGoals.js */,
+				F87AB88B1781C8DA00DBC99E /* CompletionRateByGoalMap.js */,
+				F87AB88D1781C8FB00DBC99E /* CompletionRateByGoalReduce.js */,
+				F8B15D1F1782160B00FC0317 /* MostRecentActivityByGoalMap.js */,
+				F8B15D211782162700FC0317 /* MostRecentActivityByGoalReduce.js */,
+				F8A2A411178C04320020585B /* EarnedPointsByActiveGoalTaskBeginDateMap.js */,
+				F8A2A413178C04490020585B /* EarnedPointsByActiveGoalTaskBeginDateReduce.js */,
+				F8D7782C1784657D00929584 /* ActiveGoalsByTypeMap.js */,
+				F8A2A409178B65830020585B /* ActiveGoalsByBeginDate.js */,
+				F8D778341784765D00929584 /* GoalsByGoalType.js */,
+				F8A2A4011788BD9C0020585B /* BrewsByActiveGoalTaskOccurrenceMap.js */,
+				F8A2A405178AEB0B0020585B /* BrewsByActiveGoalTaskBeginDate.js */,
+				F878F60517B4E3A500776E69 /* BrewsByTaskEndDateMap.js */,
+				F8E6B187178F94ED005FE7E9 /* BrewsByBeginDate.js */,
+				F8E6B1891790278A005FE7E9 /* BrewsByEndDate.js */,
+				F878F60B17B4FAB100776E69 /* TasksByType.js */,
+			);
+			name = "Couch Views";
+			sourceTree = "<group>";
+		};
+		F87B5AF417C2A54F003EEF42 /* SleepTask */ = {
+			isa = PBXGroup;
+			children = (
+				F87C58B117BB0C46001AEC6A /* GOSleepTaskVC.h */,
+				F87C58B217BB0C48001AEC6A /* GOSleepTaskVC.m */,
+				F87B5B0E17C2A873003EEF42 /* GOActiveSleepCell.h */,
+				F87B5B0F17C2A873003EEF42 /* GOActiveSleepCell.m */,
+			);
+			name = SleepTask;
+			sourceTree = "<group>";
+		};
+		F87B5AF517C2A557003EEF42 /* VisitTask */ = {
+			isa = PBXGroup;
+			children = (
+				F878F60D17B5229300776E69 /* GOVisitTaskVC.h */,
+				F878F60E17B5229300776E69 /* GOVisitTaskVC.m */,
+				F87B5B0B17C2A865003EEF42 /* GOActiveVisitCell.h */,
+				F87B5B0C17C2A865003EEF42 /* GOActiveVisitCell.m */,
+			);
+			name = VisitTask;
+			sourceTree = "<group>";
+		};
+		F87B5AF617C2A560003EEF42 /* MotionTask */ = {
+			isa = PBXGroup;
+			children = (
+				F878F60217B3C3B800776E69 /* GOMotionTaskVC.h */,
+				F878F60317B3C3B800776E69 /* GOMotionTaskVC.m */,
+				F87B5B0817C2A84C003EEF42 /* GOActiveMotionCell.h */,
+				F87B5B0917C2A84C003EEF42 /* GOActiveMotionCell.m */,
+			);
+			name = MotionTask;
+			sourceTree = "<group>";
+		};
+		F87B5AF717C2A567003EEF42 /* DescriptiveTask */ = {
+			isa = PBXGroup;
+			children = (
+				F89FE1861782EB7C004D4EA6 /* GODescriptiveTaskVC.h */,
+				F89FE1871782EB7C004D4EA6 /* GODescriptiveTaskVC.m */,
+			);
+			name = DescriptiveTask;
+			sourceTree = "<group>";
+		};
+		F87B5AF817C2A574003EEF42 /* SwitchTask */ = {
+			isa = PBXGroup;
+			children = (
+				F89FE18C1782F2D9004D4EA6 /* GOSwitchTaskVC.h */,
+				F89FE18D1782F2DA004D4EA6 /* GOSwitchTaskVC.m */,
+				F8D23A0417CF427200A26191 /* GOActiveSwitchCell.h */,
+				F8D23A0517CF427200A26191 /* GOActiveSwitchCell.m */,
+			);
+			name = SwitchTask;
+			sourceTree = "<group>";
+		};
+		F87B5AF917C2A57A003EEF42 /* SliderTask */ = {
+			isa = PBXGroup;
+			children = (
+				F89FE1891782EEBA004D4EA6 /* GOSliderTaskVC.h */,
+				F89FE18A1782EEBA004D4EA6 /* GOSliderTaskVC.m */,
+				F8D23A0717CF4DA900A26191 /* GOActiveSliderCell.h */,
+				F8D23A0817CF4DA900A26191 /* GOActiveSliderCell.m */,
+			);
+			name = SliderTask;
+			sourceTree = "<group>";
+		};
+		F87B5AFA17C2A582003EEF42 /* MoodTask */ = {
+			isa = PBXGroup;
+			children = (
+				F8115FE21754F40200143FD4 /* GOMoodTaskVC.h */,
+				F8115FE31754F40200143FD4 /* GOMoodTaskVC.m */,
+				F87B5B0517C2A83A003EEF42 /* GOActiveMoodCell.h */,
+				F87B5B0617C2A83A003EEF42 /* GOActiveMoodCell.m */,
+			);
+			name = MoodTask;
+			sourceTree = "<group>";
+		};
+		F87B5AFB17C2A589003EEF42 /* ShootPhotoTask */ = {
+			isa = PBXGroup;
+			children = (
+				F8115FD81754D82000143FD4 /* GOShootPhotoTaskVC.h */,
+				F8115FD91754D82000143FD4 /* GOShootPhotoTaskVC.m */,
+				F8D23A0A17CF4DB600A26191 /* GOActiveShootPhotoCell.h */,
+				F8D23A0B17CF4DB600A26191 /* GOActiveShootPhotoCell.m */,
+			);
+			name = ShootPhotoTask;
+			sourceTree = "<group>";
+		};
+		F87B5AFC17C2A58F003EEF42 /* MealTask */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6E808174E64A5002B1BAD /* GOMealTaskVC.h */,
+				F8E6E809174E64A5002B1BAD /* GOMealTaskVC.m */,
+				F87B5B0217C2A710003EEF42 /* GOActiveMealCell.h */,
+				F87B5B0317C2A710003EEF42 /* GOActiveMealCell.m */,
+			);
+			name = MealTask;
+			sourceTree = "<group>";
+		};
+		F87B5AFD17C2A595003EEF42 /* OpenQuestionTask */ = {
+			isa = PBXGroup;
+			children = (
+				F80198811733FCF100642D1D /* GOOpenQuestionTaskVC.h */,
+				F80198821733FCF100642D1D /* GOOpenQuestionTaskVC.m */,
+			);
+			name = OpenQuestionTask;
+			sourceTree = "<group>";
+		};
+		F87B5AFE17C2A59F003EEF42 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				F8A974AF174532E100C51D21 /* GOTaskVCProtocol.h */,
+				F8E6E80E174E6839002B1BAD /* GOAbstractTaskVC.h */,
+				F8E6E80F174E6839002B1BAD /* GOAbstractTaskVC.m */,
+				F87B5AFF17C2A603003EEF42 /* GOAbstractActiveTaskCell.h */,
+				F87B5B0017C2A603003EEF42 /* GOAbstractActiveTaskCell.m */,
+			);
+			name = Abstract;
+			sourceTree = "<group>";
+		};
+		F87B5B1717C2AAF7003EEF42 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F87B5B1117C2A992003EEF42 /* GOActiveGoalTableVC.h */,
+				F87B5B1217C2A993003EEF42 /* GOActiveGoalTableVC.m */,
+				F87B5B1417C2A9D6003EEF42 /* GOActiveGoalCell.h */,
+				F87B5B1517C2A9D6003EEF42 /* GOActiveGoalCell.m */,
+				F89F95E417CA4A0E000EEBA3 /* GOGoalExplanationVC.h */,
+				F89F95E517CA4A0E000EEBA3 /* GOGoalExplanationVC.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		F87B5B1B17C3620C003EEF42 /* SaveObserver */ = {
+			isa = PBXGroup;
+			children = (
+				F87B5B1817C36208003EEF42 /* SafeObserver.h */,
+				F87B5B1917C36208003EEF42 /* SafeObserver.m */,
+			);
+			name = SaveObserver;
+			sourceTree = "<group>";
+		};
+		F8813980177AFAE100CF6F6A /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B696BA1785A5D900CDDF8C /* GOTaskBrew.h */,
+				F8B696BB1785A5DA00CDDF8C /* GOTaskBrew.m */,
+				F8D24C7E1790D973002C770A /* GOActiveTask.h */,
+				F8D24C7F1790D974002C770A /* GOActiveTask.m */,
+				F8FACEE21737DBAC00081CA6 /* GOTask.h */,
+				F8FACEE31737DBAC00081CA6 /* GOTask.m */,
+				F87AB8881781A31F00DBC99E /* GOSwitchTask.h */,
+				F87AB8891781A31F00DBC99E /* GOSwitchTask.m */,
+				F87AB884177DCFF300DBC99E /* GOSliderTask.h */,
+				F87AB885177DCFF300DBC99E /* GOSliderTask.m */,
+				F8115FDD1754E58600143FD4 /* GOShootPhotoTask.h */,
+				F8115FDE1754E58600143FD4 /* GOShootPhotoTask.m */,
+				F8A8BF6E175601D70096D60E /* GOMoodTask.h */,
+				F8A8BF6F175601D70096D60E /* GOMoodTask.m */,
+				F8E6E80B174E65D9002B1BAD /* GOMealTask.h */,
+				F8E6E80C174E65D9002B1BAD /* GOMealTask.m */,
+				F80198841734063800642D1D /* GOOpenQuestionTask.h */,
+				F80198851734063800642D1D /* GOOpenQuestionTask.m */,
+				F878F5FF17B3C17700776E69 /* GOMotionTask.h */,
+				F878F60017B3C17700776E69 /* GOMotionTask.m */,
+				F878F61017B525C300776E69 /* GOVisitTask.h */,
+				F878F61117B525C400776E69 /* GOVisitTask.m */,
+				F8B15D231782175E00FC0317 /* GODescriptiveTask.h */,
+				F8B15D241782175E00FC0317 /* GODescriptiveTask.m */,
+				F836EAB017BA5F9500DF3827 /* GOSleepTask.h */,
+				F836EAB117BA5F9500DF3827 /* GOSleepTask.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		F8813981177AFB0000CF6F6A /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				F8813974177AF90B00CF6F6A /* GOSensor.h */,
+				F8813975177AF90B00CF6F6A /* GOSensor.m */,
+				F8813982177AFB7800CF6F6A /* GOAgoraphobiaSensor.h */,
+				F8813983177AFB7800CF6F6A /* GOAgoraphobiaSensor.m */,
+				F8813977177AFA1600CF6F6A /* GOExerciseStateSensor.h */,
+				F8813978177AFA1700CF6F6A /* GOExerciseStateSensor.m */,
+				F881397A177AFA4C00CF6F6A /* GOExerciseSummarySensor.h */,
+				F881397B177AFA4C00CF6F6A /* GOExerciseSummarySensor.m */,
+				F881397D177AFAA400CF6F6A /* GOAnxietyLogSensor.h */,
+				F881397E177AFAA500CF6F6A /* GOAnxietyLogSensor.m */,
+			);
+			name = Sensor;
+			sourceTree = "<group>";
+		};
+		F8929C86171D5AC200E02F35 = {
+			isa = PBXGroup;
+			children = (
+				F844C25417D9D99500D5F8E6 /* Localizable.strings */,
+				F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */,
+				F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */,
+				F8929C9A171D5AC200E02F35 /* Goalie */,
+				F8929CE1171D78D400E02F35 /* TestFlightSDK1.2.4 */,
+				F8929CC5171D5AC300E02F35 /* GoalieTests */,
+				F8929C91171D5AC200E02F35 /* Frameworks */,
+				F8929C90171D5AC200E02F35 /* Products */,
+				3E4B781117B244D30001FCC7 /* CommonSense.plist */,
+				3E4B781317B244D90001FCC7 /* Settings.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F8929C90171D5AC200E02F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8929C8F171D5AC200E02F35 /* Goalie.app */,
+				F8929CBD171D5AC300E02F35 /* GoalieTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8929C91171D5AC200E02F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD547F17EB2EA600377766 /* TouchDB.framework */,
+				F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */,
+				F87A5F5A17D7322900ABED38 /* AssetsLibrary.framework */,
+				F85B7FBA17CCF536000CA0D4 /* Cortex.framework */,
+				F878F61817B5361800776E69 /* MapKit.framework */,
+				F8929CE9171D78FD00E02F35 /* libz.dylib */,
+				F88BA05B1773364300F956A9 /* libsqlite3.dylib */,
+				F8515F9A17C6186B00D0DA80 /* QuartzCore.framework */,
+				F8929C96171D5AC200E02F35 /* CoreGraphics.framework */,
+				F8929C98171D5AC200E02F35 /* CoreData.framework */,
+				F8AFD1AE17841DF500ED99DC /* CoreAudio.framework */,
+				F8AFD1AC17841DEF00ED99DC /* CoreMotion.framework */,
+				F8AFD1AA17841DE900ED99DC /* CoreLocation.framework */,
+				F8AFD1B417841E0900ED99DC /* CoreTelephony.framework */,
+				F8AFD1B217841E0300ED99DC /* AudioToolbox.framework */,
+				F8575854175F8099006E6B84 /* SystemConfiguration.framework */,
+				F8AFD1B017841DFC00ED99DC /* AVFoundation.framework */,
+				F8EFC992175F7DBB0011F5D1 /* Security.framework */,
+				F8EFC990175F7DB00011F5D1 /* CFNetwork.framework */,
+				F8115FDB1754DF7400143FD4 /* MobileCoreServices.framework */,
+				F8929C92171D5AC200E02F35 /* UIKit.framework */,
+				F8929C94171D5AC200E02F35 /* Foundation.framework */,
+				F8929CBE171D5AC300E02F35 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8929C9A171D5AC200E02F35 /* Goalie */ = {
+			isa = PBXGroup;
+			children = (
+				F8FFD59317CF9F6B004806F7 /* CastFunctions.h */,
+				F8FFD59417CF9F6D004806F7 /* CastFunctions.m */,
+				F8929CA3171D5AC200E02F35 /* GOAppDelegate.h */,
+				F8929CA4171D5AC300E02F35 /* GOAppDelegate.m */,
+				F867D5701743CE900085C6D8 /* GOMainApp.h */,
+				F867D5711743CE910085C6D8 /* GOMainApp.m */,
+				F8929CAC171D5AC300E02F35 /* MainStoryboard.storyboard */,
+				F8929CAF171D5AC300E02F35 /* Goalie.xcdatamodeld */,
+				F8AFD1BE1784236000ED99DC /* Services */,
+				F878F61717B531BD00776E69 /* Javascript / JSON / XML */,
+				F8946A31172167F700123D1B /* UI Login */,
+				F8FACEE81737E34A00081CA6 /* UI Home View */,
+				F8946A30172167D100123D1B /* UI Goal View */,
+				F820951017B8CF2A00D1D0BC /* UI Brews */,
+				F80198801733FC8E00642D1D /* UI Task Views */,
+				F80198871734064300642D1D /* Managed Object Entities */,
+				F8515F9817C6056000D0DA80 /* Reachability */,
+				F82CC38917BD777800247077 /* CustomBadge */,
+				F8115FE61754FFAA00143FD4 /* Moody */,
+				F8DC2B161786CF59003663E1 /* TimeWindow */,
+				F87B5B1B17C3620C003EEF42 /* SaveObserver */,
+				F8AFD1CB17842B4800ED99DC /* KeychainItemWrapper */,
+				F8AEC2661745196A00D375DA /* Images */,
+				F8929C9B171D5AC200E02F35 /* Supporting Files */,
+				F5DD99AD19AB94A000543962 /* Assets.xcassets */,
+			);
+			path = Goalie;
+			sourceTree = "<group>";
+		};
+		F8929C9B171D5AC200E02F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84BAB7E17D9BD07003C0D1F /* update_storyboard_strings.sh */,
+				F8929C9C171D5AC200E02F35 /* Goalie-Info.plist */,
+				F8929C9D171D5AC200E02F35 /* InfoPlist.strings */,
+				F8929CA0171D5AC200E02F35 /* main.m */,
+				F8929CA2171D5AC200E02F35 /* Goalie-Prefix.pch */,
+				F8929CA6171D5AC300E02F35 /* Default.png */,
+				F8929CA8171D5AC300E02F35 /* Default@2x.png */,
+				F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8929CC5171D5AC300E02F35 /* GoalieTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8929CCB171D5AC300E02F35 /* GoalieTests.h */,
+				F8929CCC171D5AC300E02F35 /* GoalieTests.m */,
+				F8929CC6171D5AC300E02F35 /* Supporting Files */,
+			);
+			path = GoalieTests;
+			sourceTree = "<group>";
+		};
+		F8929CC6171D5AC300E02F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8929CC7171D5AC300E02F35 /* GoalieTests-Info.plist */,
+				F8929CC8171D5AC300E02F35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8929CE1171D78D400E02F35 /* TestFlightSDK1.2.4 */ = {
+			isa = PBXGroup;
+			children = (
+				F8929CE2171D78D400E02F35 /* libTestFlight.a */,
+				F8929CE3171D78D400E02F35 /* README.md */,
+				F8929CE4171D78D400E02F35 /* release_notes.md */,
+				F8D23A0217CE2C4100A26191 /* TestFlight+AsyncLogging.h */,
+				F8D23A0317CE2C4100A26191 /* TestFlight+ManualSessions.h */,
+				F8929CE5171D78D400E02F35 /* TestFlight.h */,
+			);
+			name = TestFlightSDK1.2.4;
+			path = Goalie/TestFlightSDK1.2.4;
+			sourceTree = "<group>";
+		};
+		F8946A30172167D100123D1B /* UI Goal View */ = {
+			isa = PBXGroup;
+			children = (
+				F80A8B521721BD98007474B2 /* GONewTaskTypeViewController.h */,
+				F80A8B531721BD98007474B2 /* GONewTaskTypeViewController.m */,
+				F8A974AC17452E9D00C51D21 /* GOChooseTaskTVC.h */,
+				F8A974AD17452E9D00C51D21 /* GOChooseTaskTVC.m */,
+				F8946A411721AA2100123D1B /* GONewGoalTasksViewController.h */,
+				F8946A421721AA2100123D1B /* GONewGoalTasksViewController.m */,
+				F8946A3E172177A100123D1B /* GONewGoalExplanationViewController.h */,
+				F8946A3F172177A100123D1B /* GONewGoalExplanationViewController.m */,
+				F8946A3B1721775500123D1B /* GONewGoalTableViewController.h */,
+				F8946A3C1721775500123D1B /* GONewGoalTableViewController.m */,
+				F8946A38172176EE00123D1B /* GONewGoalVC.h */,
+				F8946A39172176EE00123D1B /* GONewGoalVC.m */,
+				F801988817340EF500642D1D /* GONewGoalTasksTableViewController.h */,
+				F801988917340EF500642D1D /* GONewGoalTasksTableViewController.m */,
+				F8E6E805174E460B002B1BAD /* GONewTaskSelectionTVC.h */,
+				F8E6E806174E460B002B1BAD /* GONewTaskSelectionTVC.m */,
+				F8AEC26B17451A0700D375DA /* GOTaskCell.h */,
+				F8AEC26C17451A0700D375DA /* GOTaskCell.m */,
+			);
+			name = "UI Goal View";
+			sourceTree = "<group>";
+		};
+		F8946A31172167F700123D1B /* UI Login */ = {
+			isa = PBXGroup;
+			children = (
+				F8929CD8171D660400E02F35 /* GOLoginViewController.h */,
+				F8929CD9171D660400E02F35 /* GOLoginViewController.m */,
+				F8D77826178444C800929584 /* GOLaunchVC.h */,
+				F8D77827178444C800929584 /* GOLaunchVC.m */,
+				F878F5FC17B3ACF200776E69 /* GORegisterNewUserVC.h */,
+				F878F5FD17B3ACF200776E69 /* GORegisterNewUserVC.m */,
+			);
+			name = "UI Login";
+			sourceTree = "<group>";
+		};
+		F8AEC2661745196A00D375DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */,
+				F878F5F817B262BF00776E69 /* Goal Icons */,
+				F878F5E817B258A500776E69 /* card_bg_shadow.9.cut.png */,
+				F818230A17B1247600182A7E /* Default.png */,
+				F818230817B1247400182A7E /* Default-568h@2x.png */,
+				F818230417B1247000182A7E /* Default@2x.png */,
+				F81822FF17B121B700182A7E /* goal-keeper-dive-square_114x114.png */,
+				F81822FD17B121B000182A7E /* goal-keeper-dive-square_57x57.png */,
+				F878F5FA17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png */,
+				F818230D17B14DCE00182A7E /* IMG_1711.PNG */,
+				F818230F17B14E5F00182A7E /* IMG_1711@2x.PNG */,
+				F818231117B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG */,
+				F81822F617B11BC100182A7E /* goal-keeper-dive-green_57x57.png */,
+				F81822F417B11B7F00182A7E /* goal-keeper-dive-green.png */,
+				F81822FB17B11F5B00182A7E /* goal-keeper-basic.png */,
+				F8515FA017C6298B00D0DA80 /* goal-keeper-basic-33.png */,
+				F8515FA117C6298B00D0DA80 /* goal-keeper-basic-33@2x.png */,
+				F8515F9C17C6231000D0DA80 /* goal-keeper-basic-20.png */,
+				F8515F9D17C6231000D0DA80 /* goal-keeper-basic-20@2x.png */,
+				F85FC55E178443910074F692 /* Default.png */,
+				F8A2A407178AEF8E0020585B /* EmptyCheckbox.png */,
+				F85FC55A178443580074F692 /* Default-568h@2x.png */,
+				F85FC554178442750074F692 /* Default@2x.png */,
+				F878F5F917B262D200776E69 /* Old Goalies */,
+				F8E6E801174E297F002B1BAD /* GreenCheckmark.png */,
+				F8E6E802174E297F002B1BAD /* RedCross.png */,
+				F8AEC2671745197E00D375DA /* GreenCheckmark.tiff */,
+				F818231317B1514900182A7E /* IMG_1712_without_statusbar.PNG */,
+				F8AEC2681745197E00D375DA /* RedCross.tiff */,
+				F8115FE01754EC9F00143FD4 /* image_placeholder.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F8AFD1BE1784236000ED99DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F80B533A17730D5600F62C84 /* GOGoalieServices.h */,
+				F80B533B17730D5600F62C84 /* GOGoalieServices.m */,
+				F8AFD1BB17841F9B00ED99DC /* GOSensePlatform.h */,
+				F8AFD1BC17841F9B00ED99DC /* GOSensePlatform.m */,
+				F820951B17B9236000D1D0BC /* GOLocationManager.h */,
+				F820951C17B9236000D1D0BC /* GOLocationManager.m */,
+				F8AFD1BF1784241A00ED99DC /* GOCouchCocoa.h */,
+				F8AFD1C01784241A00ED99DC /* GOCouchCocoa.m */,
+				F8AFD1C5178426E100ED99DC /* GOCoreData.h */,
+				F8AFD1C6178426E100ED99DC /* GOCoreData.m */,
+				F8AFD1C81784283500ED99DC /* GOTestFlight.h */,
+				F8AFD1C91784283500ED99DC /* GOTestFlight.m */,
+				F85FC5491784319A0074F692 /* GOKeychain.h */,
+				F85FC54A1784319A0074F692 /* GOKeychain.m */,
+				F8515FA817C632D700D0DA80 /* GOReachabilityManager.h */,
+				F8515FA917C632D700D0DA80 /* GOReachabilityManager.m */,
+				F8EC7F8C17C75D920006DD71 /* GOSleepState.h */,
+				F8EC7F8D17C75D920006DD71 /* GOSleepState.m */,
+				F8F0080A17D8CC3600D351D4 /* GOTranslation.h */,
+				F8F0080B17D8CC3700D351D4 /* GOTranslation.m */,
+				F8515FA717C630C700D0DA80 /* old / unused */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		F8AFD1CB17842B4800ED99DC /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F867805317730F3F006D1C71 /* KeychainItemWrapper.h */,
+				F867805417730F3F006D1C71 /* KeychainItemWrapper.m */,
+			);
+			name = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		F8D77833178467A300929584 /* ActiveGoals */ = {
+			isa = PBXGroup;
+			children = (
+				F8D778301784679C00929584 /* GOActiveGoal.h */,
+				F8D778311784679C00929584 /* GOActiveGoal.m */,
+				F8D778291784603300929584 /* GORegularMealsGoal.h */,
+				F8D7782A1784603300929584 /* GORegularMealsGoal.m */,
+				F8D778361784870200929584 /* GOAgoraphobiaGoal.h */,
+				F8D778371784870200929584 /* GOAgoraphobiaGoal.m */,
+				F8D778391784878D00929584 /* GOEmotionAwarenessGoal.h */,
+				F8D7783A1784878D00929584 /* GOEmotionAwarenessGoal.m */,
+				F8D7783C178487CE00929584 /* GOPhysicalActivityGoal.h */,
+				F8D7783D178487CE00929584 /* GOPhysicalActivityGoal.m */,
+				F8D7783F17848AD100929584 /* GORegularSleepGoal.h */,
+				F8D7784017848AD100929584 /* GORegularSleepGoal.m */,
+			);
+			name = ActiveGoals;
+			sourceTree = "<group>";
+		};
+		F8DC2B161786CF59003663E1 /* TimeWindow */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC2B111786CF52003663E1 /* TimeWindow.h */,
+				F8DC2B121786CF52003663E1 /* TimeWindow.m */,
+			);
+			name = TimeWindow;
+			sourceTree = "<group>";
+		};
+		F8F0080917D8CAAA00D351D4 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				F844C24A17D9C7EA00D5F8E6 /* values-en */,
+				F844C24B17D9C7EA00D5F8E6 /* values-nl */,
+			);
+			name = Language;
+			sourceTree = "<group>";
+		};
+		F8FACEE81737E34A00081CA6 /* UI Home View */ = {
+			isa = PBXGroup;
+			children = (
+				F8929CB2171D5AC300E02F35 /* GOMasterViewController.h */,
+				F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */,
+				F5DD99B219ABA83500543962 /* GODashboardViewController.h */,
+				F5DD99B319ABA83500543962 /* GODashboardViewController.m */,
+				F8FACEE51737E33800081CA6 /* GOGoalCell.h */,
+				F8FACEE61737E33900081CA6 /* GOGoalCell.m */,
+				F5DD99AF19AB970B00543962 /* GOGoalCollenctionCell.h */,
+				F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */,
+				F820951A17B8EAF900D1D0BC /* UI Settings Views */,
+			);
+			name = "UI Home View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8929C8E171D5AC200E02F35 /* Goalie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8929CD0171D5AC300E02F35 /* Build configuration list for PBXNativeTarget "Goalie" */;
+			buildPhases = (
+				F8929C8B171D5AC200E02F35 /* Sources */,
+				F8929C8C171D5AC200E02F35 /* Frameworks */,
+				F8929C8D171D5AC200E02F35 /* Resources */,
+				F8929CD6171D5B1200E02F35 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goalie;
+			productName = Goalie;
+			productReference = F8929C8F171D5AC200E02F35 /* Goalie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8929CBC171D5AC300E02F35 /* GoalieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8929CD3171D5AC300E02F35 /* Build configuration list for PBXNativeTarget "GoalieTests" */;
+			buildPhases = (
+				F8929CB8171D5AC300E02F35 /* Sources */,
+				F8929CB9171D5AC300E02F35 /* Frameworks */,
+				F8929CBA171D5AC300E02F35 /* Resources */,
+				F8929CBB171D5AC300E02F35 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8929CC4171D5AC300E02F35 /* PBXTargetDependency */,
+			);
+			name = GoalieTests;
+			productName = GoalieTests;
+			productReference = F8929CBD171D5AC300E02F35 /* GoalieTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8929C87171D5AC200E02F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stefan Kroon";
+				TargetAttributes = {
+					F8929C8E171D5AC200E02F35 = {
+						DevelopmentTeam = MT2K5TW3U7;
+					};
+				};
+			};
+			buildConfigurationList = F8929C8A171D5AC200E02F35 /* Build configuration list for PBXProject "Goalie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				nl,
+			);
+			mainGroup = F8929C86171D5AC200E02F35;
+			productRefGroup = F8929C90171D5AC200E02F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8929C8E171D5AC200E02F35 /* Goalie */,
+				F8929CBC171D5AC300E02F35 /* GoalieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8929C8D171D5AC200E02F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59622E519AE79E8000BB553 /* ProximaNova-Bold.otf in Resources */,
+				F59622E619AE79E8000BB553 /* ProximaNova-Regular.otf in Resources */,
+				F878F60C17B4FAB200776E69 /* TasksByType.js in Resources */,
+				F87AB880177D9C8700DBC99E /* AllTasks.js in Resources */,
+				F878F60617B4E3A500776E69 /* BrewsByTaskEndDateMap.js in Resources */,
+				F8A2A412178C04320020585B /* EarnedPointsByActiveGoalTaskBeginDateMap.js in Resources */,
+				F8E6B188178F94ED005FE7E9 /* BrewsByBeginDate.js in Resources */,
+				F8A2A414178C04490020585B /* EarnedPointsByActiveGoalTaskBeginDateReduce.js in Resources */,
+				F5DD99AE19AB94A000543962 /* Assets.xcassets in Resources */,
+				F8E6B18A1790278A005FE7E9 /* BrewsByEndDate.js in Resources */,
+				F8A2A40A178B65830020585B /* ActiveGoalsByBeginDate.js in Resources */,
+				F8A2A406178AEB0B0020585B /* BrewsByActiveGoalTaskBeginDate.js in Resources */,
+				F8A2A4021788BD9C0020585B /* BrewsByActiveGoalTaskOccurrenceMap.js in Resources */,
+				F8D778351784765D00929584 /* GoalsByGoalType.js in Resources */,
+				F8D7782D1784657D00929584 /* ActiveGoalsByTypeMap.js in Resources */,
+				F87AB88E1781C8FB00DBC99E /* CompletionRateByGoalReduce.js in Resources */,
+				F8B15D201782160B00FC0317 /* MostRecentActivityByGoalMap.js in Resources */,
+				F8B15D221782162700FC0317 /* MostRecentActivityByGoalReduce.js in Resources */,
+				F87AB881177D9C8700DBC99E /* AllGoals.js in Resources */,
+				F8929C9F171D5AC200E02F35 /* InfoPlist.strings in Resources */,
+				F8929CAB171D5AC300E02F35 /* Default-568h@2x.png in Resources */,
+				F8929CAE171D5AC300E02F35 /* MainStoryboard.storyboard in Resources */,
+				F8929CE7171D78D400E02F35 /* README.md in Resources */,
+				F8929CE8171D78D400E02F35 /* release_notes.md in Resources */,
+				F8AEC2691745197E00D375DA /* GreenCheckmark.tiff in Resources */,
+				F8AEC26A1745197E00D375DA /* RedCross.tiff in Resources */,
+				F8E6E803174E297F002B1BAD /* GreenCheckmark.png in Resources */,
+				F8E6E804174E297F002B1BAD /* RedCross.png in Resources */,
+				F8115FE11754EC9F00143FD4 /* image_placeholder.png in Resources */,
+				F8A8BF721756047D0096D60E /* affectbutton in Resources */,
+				F87AB883177DC72D00DBC99E /* TasksByGoal.js in Resources */,
+				F87AB88C1781C8DA00DBC99E /* CompletionRateByGoalMap.js in Resources */,
+				F85FC551178441760074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_114.png in Resources */,
+				F85FC553178441920074F692 /* GIRL_35_HOCKEY_GOALIE_App_Icon_57.png in Resources */,
+				F85FC557178442F40074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x1136@2x.png in Resources */,
+				F85FC559178442FD0074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_640x960@2x.png in Resources */,
+				F85FC55D178443860074F692 /* GIRL_35_HOCKEY_GOALIE_Launch_Image_320x480.png in Resources */,
+				F85FC55F178443910074F692 /* Default.png in Resources */,
+				F8A2A408178AEF8E0020585B /* EmptyCheckbox.png in Resources */,
+				F8D24C821790F3C5002C770A /* AllGoals.json in Resources */,
+				F8D24C841790F3F1002C770A /* AllTasks.json in Resources */,
+				F81822F517B11B7F00182A7E /* goal-keeper-dive-green.png in Resources */,
+				F81822F717B11BC100182A7E /* goal-keeper-dive-green_57x57.png in Resources */,
+				F81822FC17B11F5B00182A7E /* goal-keeper-basic.png in Resources */,
+				F818230117B123DB00182A7E /* goal-keeper-dive-square_114x114.png in Resources */,
+				F818230217B123E200182A7E /* goal-keeper-dive-square_57x57.png in Resources */,
+				F818230517B1247000182A7E /* Default@2x.png in Resources */,
+				F818230E17B14DCE00182A7E /* IMG_1711.PNG in Resources */,
+				F818231017B14E5F00182A7E /* IMG_1711@2x.PNG in Resources */,
+				F818231217B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG in Resources */,
+				F818231417B1514900182A7E /* IMG_1712_without_statusbar.PNG in Resources */,
+				F878F5E917B258A500776E69 /* card_bg_shadow.9.cut.png in Resources */,
+				F878F5F117B262A700776E69 /* food.png in Resources */,
+				F878F5F217B262A700776E69 /* group.png in Resources */,
+				F878F5F317B262A700776E69 /* location.png in Resources */,
+				F878F5F417B262A700776E69 /* mood.png in Resources */,
+				F878F5F517B262A700776E69 /* sleep.png in Resources */,
+				F878F5F717B262B500776E69 /* activity.png in Resources */,
+				F878F5FB17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png in Resources */,
+				3E4B781417B244D90001FCC7 /* Settings.plist in Resources */,
+				3E4B781217B244D30001FCC7 /* CommonSense.plist in Resources */,
+				F8515F9E17C6231000D0DA80 /* goal-keeper-basic-20.png in Resources */,
+				F8515F9F17C6231000D0DA80 /* goal-keeper-basic-20@2x.png in Resources */,
+				F8515FA217C6298B00D0DA80 /* goal-keeper-basic-33.png in Resources */,
+				F8515FA317C6298B00D0DA80 /* goal-keeper-basic-33@2x.png in Resources */,
+				F84BAB7F17D9BD08003C0D1F /* update_storyboard_strings.sh in Resources */,
+				3EC9791D180C1AA600EA042A /* goal-keeper-dive-square_120x120.png in Resources */,
+				F844C24C17D9C7EA00D5F8E6 /* values-en in Resources */,
+				F844C24D17D9C7EA00D5F8E6 /* values-nl in Resources */,
+				F844C25217D9D99500D5F8E6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8929CBA171D5AC300E02F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8929CCA171D5AC300E02F35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8929CBB171D5AC300E02F35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F8929CD6171D5B1200E02F35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION == Release ]; then\necho \"Bumping build number...\"\nplist=${PROJECT_DIR}/${INFOPLIST_FILE}\n\n# increment the build number (ie 115 to 116)\nbuildnum=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${plist}\")\nif [[ \"${buildnum}\" == \"\" ]]; then\necho \"No build number in $plist\"\nexit 2\nfi\n\nbuildnum=$(expr $buildnum + 1)\n/usr/libexec/Plistbuddy -c \"Set CFBundleVersion $buildnum\" \"${plist}\"\necho \"Bumped build number to $buildnum\"\n\nelse\necho $CONFIGURATION \" build - Not bumping build number.\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8929C8B171D5AC200E02F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD99AC19AB927100543962 /* GOMasterViewController.m in Sources */,
+				F8929CA1171D5AC200E02F35 /* main.m in Sources */,
+				F8929CA5171D5AC300E02F35 /* GOAppDelegate.m in Sources */,
+				F5DD99B119AB970B00543962 /* GOGoalCollenctionCell.m in Sources */,
+				F8929CB1171D5AC300E02F35 /* Goalie.xcdatamodeld in Sources */,
+				F8946A3D1721775500123D1B /* GONewGoalTableViewController.m in Sources */,
+				F8946A40172177A100123D1B /* GONewGoalExplanationViewController.m in Sources */,
+				F8946A431721AA2200123D1B /* GONewGoalTasksViewController.m in Sources */,
+				F80A8B541721BD98007474B2 /* GONewTaskTypeViewController.m in Sources */,
+				F80A8B571721C6B2007474B2 /* GOGoal.m in Sources */,
+				F80198831733FCF100642D1D /* GOOpenQuestionTaskVC.m in Sources */,
+				F80198861734063800642D1D /* GOOpenQuestionTask.m in Sources */,
+				F801988A17340EF500642D1D /* GONewGoalTasksTableViewController.m in Sources */,
+				F8FACEE41737DBAC00081CA6 /* GOTask.m in Sources */,
+				F8FACEE71737E33900081CA6 /* GOGoalCell.m in Sources */,
+				F867D5721743CE910085C6D8 /* GOMainApp.m in Sources */,
+				F8AEC26D17451A0700D375DA /* GOTaskCell.m in Sources */,
+				F8A974AE17452E9D00C51D21 /* GOChooseTaskTVC.m in Sources */,
+				F8E6E807174E460B002B1BAD /* GONewTaskSelectionTVC.m in Sources */,
+				F8E6E80A174E64A5002B1BAD /* GOMealTaskVC.m in Sources */,
+				F8E6E80D174E65D9002B1BAD /* GOMealTask.m in Sources */,
+				F8E6E810174E6839002B1BAD /* GOAbstractTaskVC.m in Sources */,
+				F8115FDA1754D82000143FD4 /* GOShootPhotoTaskVC.m in Sources */,
+				F8115FDF1754E58600143FD4 /* GOShootPhotoTask.m in Sources */,
+				F8115FE41754F40200143FD4 /* GOMoodTaskVC.m in Sources */,
+				F8A8BF70175601D70096D60E /* GOMoodTask.m in Sources */,
+				F80B5335177304A500F62C84 /* PaigeConnection.m in Sources */,
+				F80B533C17730D5600F62C84 /* GOGoalieServices.m in Sources */,
+				F867805517730F3F006D1C71 /* KeychainItemWrapper.m in Sources */,
+				F8813976177AF90B00CF6F6A /* GOSensor.m in Sources */,
+				F8813979177AFA1700CF6F6A /* GOExerciseStateSensor.m in Sources */,
+				F881397C177AFA4C00CF6F6A /* GOExerciseSummarySensor.m in Sources */,
+				F881397F177AFAA500CF6F6A /* GOAnxietyLogSensor.m in Sources */,
+				F8813984177AFB7800CF6F6A /* GOAgoraphobiaSensor.m in Sources */,
+				F87AB886177DCFF300DBC99E /* GOSliderTask.m in Sources */,
+				F5DD99B419ABA83500543962 /* GODashboardViewController.m in Sources */,
+				F87AB88A1781A32000DBC99E /* GOSwitchTask.m in Sources */,
+				F8B15D251782175E00FC0317 /* GODescriptiveTask.m in Sources */,
+				F89FE1881782EB7C004D4EA6 /* GODescriptiveTaskVC.m in Sources */,
+				F89FE18B1782EEBA004D4EA6 /* GOSliderTaskVC.m in Sources */,
+				F89FE18E1782F2DA004D4EA6 /* GOSwitchTaskVC.m in Sources */,
+				F8AFD1BD17841F9B00ED99DC /* GOSensePlatform.m in Sources */,
+				F8AFD1C11784241A00ED99DC /* GOCouchCocoa.m in Sources */,
+				F8AFD1C41784269500ED99DC /* GORestKit.m in Sources */,
+				F8AFD1C7178426E100ED99DC /* GOCoreData.m in Sources */,
+				F8AFD1CA1784283600ED99DC /* GOTestFlight.m in Sources */,
+				F85FC54B1784319A0074F692 /* GOKeychain.m in Sources */,
+				F8D77828178444C800929584 /* GOLaunchVC.m in Sources */,
+				F8D7782B1784603300929584 /* GORegularMealsGoal.m in Sources */,
+				F8D778321784679C00929584 /* GOActiveGoal.m in Sources */,
+				F8D778381784870200929584 /* GOAgoraphobiaGoal.m in Sources */,
+				F8D7783B1784878D00929584 /* GOEmotionAwarenessGoal.m in Sources */,
+				F8D7783E178487CE00929584 /* GOPhysicalActivityGoal.m in Sources */,
+				F8D7784117848AD100929584 /* GORegularSleepGoal.m in Sources */,
+				F8B696B717859EDD00CDDF8C /* GOActiveTrigger.m in Sources */,
+				F8B696BC1785A5DA00CDDF8C /* GOTaskBrew.m in Sources */,
+				F8DC2B131786CF52003663E1 /* TimeWindow.m in Sources */,
+				F8A2A40D178B733C0020585B /* GOBrewsVC.m in Sources */,
+				F8A2A410178B770A0020585B /* GOBrewCell.m in Sources */,
+				F8E6B181178CC210005FE7E9 /* GOAdjustTimeVC.m in Sources */,
+				F8D24C801790D974002C770A /* GOActiveTask.m in Sources */,
+				F878F5FE17B3ACF200776E69 /* GORegisterNewUserVC.m in Sources */,
+				F878F60117B3C17800776E69 /* GOMotionTask.m in Sources */,
+				F878F60417B3C3B800776E69 /* GOMotionTaskVC.m in Sources */,
+				F878F60F17B5229400776E69 /* GOVisitTaskVC.m in Sources */,
+				F878F61217B525C500776E69 /* GOVisitTask.m in Sources */,
+				F878F61517B52D6100776E69 /* GOScheduledNotificationsTableVC.m in Sources */,
+				F885698717B5AD98002048D4 /* GOMonitoredRegionsTableVC.m in Sources */,
+				F820950F17B834FC00D1D0BC /* GOBrewTableVC.m in Sources */,
+				F820951317B8CF6100D1D0BC /* GOBrewValueCell.m in Sources */,
+				F820951617B8D02000D1D0BC /* GOBrewValuesTableVC.m in Sources */,
+				F820951917B8EAE500D1D0BC /* GOActiveTimersTableVC.m in Sources */,
+				F820951D17B9236000D1D0BC /* GOLocationManager.m in Sources */,
+				F836EAAF17BA4D8100DF3827 /* GOEarnedPointsCell.m in Sources */,
+				F836EAB217BA5F9600DF3827 /* GOSleepTask.m in Sources */,
+				F836EAB517BA686C00DF3827 /* GOTriggersTableVC.m in Sources */,
+				F87C58B317BB0C49001AEC6A /* GOSleepTaskVC.m in Sources */,
+				F8B4275117BB88670076DF71 /* GOMonitoredRegionCell.m in Sources */,
+				F8B7109817BCCB3A007A17DF /* GOSettingsTableVC.m in Sources */,
+				F8B7109B17BCDBCB007A17DF /* GOSleepStateTableVC.m in Sources */,
+				F82CC38F17BE760100247077 /* CustomBadge.m in Sources */,
+				F87B5AF217C26630003EEF42 /* GOAdvancedBrewsTableVC.m in Sources */,
+				F87B5B0117C2A603003EEF42 /* GOAbstractActiveTaskCell.m in Sources */,
+				F87B5B0417C2A710003EEF42 /* GOActiveMealCell.m in Sources */,
+				F87B5B0717C2A83A003EEF42 /* GOActiveMoodCell.m in Sources */,
+				F87B5B0A17C2A84C003EEF42 /* GOActiveMotionCell.m in Sources */,
+				F87B5B0D17C2A865003EEF42 /* GOActiveVisitCell.m in Sources */,
+				F87B5B1017C2A873003EEF42 /* GOActiveSleepCell.m in Sources */,
+				F87B5B1317C2A993003EEF42 /* GOActiveGoalTableVC.m in Sources */,
+				F87B5B1617C2A9D6003EEF42 /* GOActiveGoalCell.m in Sources */,
+				F87B5B1A17C36208003EEF42 /* SafeObserver.m in Sources */,
+				F8515F9717C6055C00D0DA80 /* Reachability.m in Sources */,
+				F8515FA617C62F2000D0DA80 /* GOSleepManager.m in Sources */,
+				F8515FAA17C632D700D0DA80 /* GOReachabilityManager.m in Sources */,
+				F8EC7F8E17C75D920006DD71 /* GOSleepState.m in Sources */,
+				F89F95E617CA4A0E000EEBA3 /* GOGoalExplanationVC.m in Sources */,
+				F8318F1A17CBA3C800E5AFE3 /* CouchExtendedModel.m in Sources */,
+				F8D23A0617CF427200A26191 /* GOActiveSwitchCell.m in Sources */,
+				F8D23A0917CF4DA900A26191 /* GOActiveSliderCell.m in Sources */,
+				F8D23A0C17CF4DB600A26191 /* GOActiveShootPhotoCell.m in Sources */,
+				F8FFD59217CF7A41004806F7 /* GOTasksTableVC.m in Sources */,
+				F8FFD59517CF9F70004806F7 /* CastFunctions.m in Sources */,
+				F8F0080C17D8CC3700D351D4 /* GOTranslation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8929CB8171D5AC300E02F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8929CCD171D5AC300E02F35 /* GoalieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8929CC4171D5AC300E02F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8929C8E171D5AC200E02F35 /* Goalie */;
+			targetProxy = F8929CC3171D5AC300E02F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F844C25417D9D99500D5F8E6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F844C25317D9D99500D5F8E6 /* en */,
+				F844C25517D9ED6A00D5F8E6 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F8929C9D171D5AC200E02F35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8929C9E171D5AC200E02F35 /* en */,
+				F80719CF17BA2F3E00E48C66 /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8929CAC171D5AC300E02F35 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80719C917BA2EA900E48C66 /* Base */,
+				F80719CE17BA2F3E00E48C66 /* nl */,
+				F80719D317BA352100E48C66 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F8929CC8171D5AC300E02F35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8929CC9171D5AC300E02F35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8929CCE171D5AC300E02F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Kroon (GZTQAD85U9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stefan Kroon (GZTQAD85U9)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B8F1CE4-2893-4D0D-9873-5A92E11E13B4";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8929CCF171D5AC300E02F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sense Observation Systems B.V. (MT2K5TW3U7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sense Observation Systems B.V. (MT2K5TW3U7)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8929CD1171D5AC300E02F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					/Users/stefan/projects/Goalie/Goalie,
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					/Users/stefan/projects/Goalie/Goalie,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
+				INFOPLIST_FILE = "Goalie/Goalie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05234785-46A9-4EF4-8977-89C3940AD215";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05234785-46A9-4EF4-8977-89C3940AD215";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8929CD2171D5AC300E02F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					/Users/stefan/projects/Goalie/Goalie,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
+				INFOPLIST_FILE = "Goalie/Goalie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F332EB17-E0D2-4B8D-B9C5-AA687E6EB76F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8929CD4171D5AC300E02F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Goalie.app/Goalie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
+				INFOPLIST_FILE = "GoalieTests/GoalieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F8929CD5171D5AC300E02F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Goalie.app/Goalie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
+				INFOPLIST_FILE = "GoalieTests/GoalieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8929C8A171D5AC200E02F35 /* Build configuration list for PBXProject "Goalie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8929CCE171D5AC300E02F35 /* Debug */,
+				F8929CCF171D5AC300E02F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8929CD0171D5AC300E02F35 /* Build configuration list for PBXNativeTarget "Goalie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8929CD1171D5AC300E02F35 /* Debug */,
+				F8929CD2171D5AC300E02F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8929CD3171D5AC300E02F35 /* Build configuration list for PBXNativeTarget "GoalieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8929CD4171D5AC300E02F35 /* Debug */,
+				F8929CD5171D5AC300E02F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8929CAF171D5AC300E02F35 /* Goalie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8B24CC3176F38B200E14B5C /* Goalie 2.xcdatamodel */,
+				F8929CB0171D5AC300E02F35 /* Goalie.xcdatamodel */,
+			);
+			currentVersion = F8B24CC3176F38B200E14B5C /* Goalie 2.xcdatamodel */;
+			path = Goalie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8929C87171D5AC200E02F35 /* Project object */;
+}

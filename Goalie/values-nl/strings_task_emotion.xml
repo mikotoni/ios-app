@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_emotion_explanation">Beweeg je vinger over het gezicht totdat deze het beste weergeeft hoe je je voelt.</string>
+    <string name="task_emotion_label">Emotie aangeven</string>
+    <string name="task_emotion_button_label">Geef nu je emotie aan</string>
+    <string name="task_emotion_question">Hoe voel je je?</string>
+    <string name="task_emotion_fieldlabel">Emotie:</string>
+    <string name="task_emotion_score">Je hebt %1$d punten verdiend!</string>
+    <string name="task_emotion_no_score">Goed bezig! Je invoer is opgeslagen, maar je krijgt maar één keer punten per dagdeel.</string>
+
+</resources>

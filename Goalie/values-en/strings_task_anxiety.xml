@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_expl_anxiety">Please enter your anxiety level.</string>
+    <string name="task_expl_picture">Take a picture of something in your environment, as you discussed during therapy.</string>
+    <string name="task_expl_start_anxiety">Start the exercise.</string>
+    <string name="task_label_anxiety">Enter anxiety level</string>
+    <string name="task_fieldlabel_anxiety">Anxiety:</string>
+    <string name="task_label_start_anxiety">Start the exercise</string>
+    <string name="task_label_stop_anxiety">Stop the exercise</string>
+    <string name="task_label_picture">Take a picture</string>
+    <string name="task_exercise_started">The exercise is started, good luck!</string>
+    <string name="task_exercise_stopped_unsuccesfully">Too bad, The exercise is stopped but you did not earn any points.</string>
+    <string name="task_agonizing_place_label">Visit exercise location</string>
+    <string name="task_agonizing_place_explanation">Visit the location you have discussed with your therapist.</string>
+
+</resources>

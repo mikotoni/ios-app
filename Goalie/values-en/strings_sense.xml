@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- NOTIFICATION RESOURCES -->
+    <string name="stat_notify_title">Goalie</string>
+    <string name="stat_notify_content_off_loggedin">Monitoring stopped, logged in as \'%s\'</string>
+    <string name="stat_notify_content_off_loggedout">Monitoring stopped, no connection to server</string>
+    <string name="stat_notify_content_on_loggedin">"Monitoring active, logged in as \'%s\'"</string>
+    <string name="stat_notify_content_on_loggedout">Monitoring active, no connection to server</string>
+
+</resources>

@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Goalie
+
+  Created by Stefan Kroon on 06-09-13.
+  Copyright (c) 2013 Stefan Kroon. All rights reserved.
+*/
+
+"Voldoende bewegen" = "Voldoende bewegen";
+"Bezoek %@" = "Bezoek %@";
+"Geen locatie ingesteld" = "Geen locatie ingesteld";
+"Locatie verlaten" = "Locatie verlaten";
+"Locatie bereikt" = "Locatie bereikt";
+"Deze week:" = "Deze week:";
+"%d keer" = "%d keer";
+"min. %d keer" = "min. %d keer";
+"Nu op locatie:" = "Nu op locatie:";
+"Ja" = "Ja";
+"Nee" = "Nee";
+"Je stemming %@" = "Je stemming %@";
+"vandaag" = "vandaag";
+"deze" = "deze";
+"%@ avond" = "%@ avond";
+"%@ middag" = "%@ middag";
+"%@ ochtend" = "%@ ochtend";
+"%@ nacht" = "%@ nacht";
+"Ontbijten" = "Ontbijten";
+"Lunchen" = "Lunchen";
+"Avondeten" = "Avondeten";
+"Vergeet niet om je ontbijt in te vullen." = "Vergeet niet om je ontbijt in te vullen.";
+"Vergeet niet om je lunch in te vullen." = "Vergeet niet om je lunch in te vullen.";
+"Vergeet niet om je avondeten in te vullen." = "Vergeet niet om je avondeten in te vullen.";
+"Heb je vandaag ontbeten?" = "Heb je vandaag ontbeten?";
+"Heb je vandaag gedineerd?" = "Heb je vandaag gedineerd?";
+"Heb je vandaag geluncht?" = "Heb je vandaag geluncht?";
+"Start oefening" = "Start oefening";
+"Spanning invullen" = "Spanning invullen";
+"Foto maken" = "Foto maken";
+"Geef" = "Geef aan hoe je je voelt";
+"Wil opstaan" = "Ik wil opstaan rond";
+"Ben opgestaan" = "Ik ben opgestaan rond";
+"Wil naar" = "Ik wil naar bed rond";
+"Ben naar" = "Ik ben naar bed gegaan rond";

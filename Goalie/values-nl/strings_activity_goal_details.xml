@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lbl_latest_activity">Laatste activiteit: %1$s</string>
+    <string name="lbl_deadline">Deadline: %1$s</string>
+    <string name="lbl_progress" translatable="false">%1$d/100</string>
+    <string name="unknown">Onbekend</string>
+    <string name="cannot_start_task">Taak kan niet gestart worden</string>
+    <string name="expand">uitklappen</string>
+    <string name="collapse">inklappen</string>
+    <string name="goal_task_today">vandaag</string>
+    <string name="goal_task_this_week">Deze week</string>
+    <string name="goal_task_desired">gewenst</string>
+    <string name="goal_task_tonight">vannacht</string>
+    <string name="goal_task_unknown" translatable="false">--</string>
+    <string name="goal_task_points">pt</string>
+    <string name="goal_task_times_recorded">%1$d keer</string>
+    <string name="goal_task_minutes">%1$d min</string>
+    <string name="goal_task_morning">vanochtend</string>
+    <string name="goal_task_afternoon">vanmiddag</string>
+    <string name="goal_task_evening">vanavond</string>
+    
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="pref_account_title">Account wijzigen</string>
+    <string name="pref_account_default_summary">Inloggen of registreren</string>
+    <string name="pref_logout_title">Uitloggen</string>
+    <string name="pref_logout_summary"></string>
+    <string name="pref_logout_dialog_message">Weet je zeker dat je wil uitloggen? Hierdoor wordt Goalie gestopt.</string>
+    <string name="pref_logout_negative_button">Annuleren</string>
+    <string name="pref_logout_positive_button">Uitloggen</string>
+    <string name="pref_pause_title">Pauzeren</string>
+    <string name="pref_pause_summary">Goalie tijdelijk uitzetten</string>
+    <string name="pref_pause_dialog_message">Weet je zeker dat je Goalie wilt pauzeren?</string>
+    <string name="pref_pause_negative_button">Annuleren</string>
+    <string name="pref_pause_positive_button">Pauzeren</string>
+    <string name="pref_resume_title">Hervatten</string>
+    <string name="pref_resume_summary">Activeer Goalie</string>
+    <string name="pref_resume_dialog_message">Weet je zeker dat je Goalie wilt hervatten?</string>
+    <string name="pref_resume_negative_button">Annuleren</string>
+    <string name="pref_resume_positive_button">Hervatten</string>
+    <string name="pref_version_title">Versie %1$s</string>
+
+</resources>

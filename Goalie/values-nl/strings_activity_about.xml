@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_about">Over Goalie</string>
+    <string name="version">Versie %1$s</string>
+    <string name="q_what_does_goalie_do">Wat doet Goalie?</string>
+    <string name="a_what_does_goalie_do">Goalie is een app die je helpt om een regelmatige levensstijl aan te nemen. Een regelmatige levensstijl is belangrijk om je mentale en fysieke gezondheid te verbeteren. Goalie probeert je te motiveren om wekelijkse doelen te halen. Welke doelen jij hebt bepaal je samen met je behandelaar.</string>
+    <string name="q_for_whom">Voor wie is Goalie?</string>
+    <string name="a_for_whom">Goalie is bedoeld voor patiënten in de geestelijke gezondheidszorg.</string>
+    <string name="q_get_account">Hoe kom ik aan een account?</string>
+    <string name="a_get_account">Samen met je behandelaar maak je een account aan bij Goalie. Jij kiest een gebruikersnaam en wachtwoord, en deze moet je goed onthouden.</string>
+    <string name="q_more_info">Meer info</string>
+    <string name="a_more_info">Voor meer informatie kan je altijd contact opnemen met je behandelaar, maar je kunt ook online kijken op <a href="goalie.sense-os.nl">goalie.sense-os.nl</a>.</string>
+
+</resources>

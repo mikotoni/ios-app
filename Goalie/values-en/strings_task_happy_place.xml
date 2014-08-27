@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_happy_place_label">Do something fun</string>
+    <string name="task_happy_place_explanation">Try to visit a location to have fun and relax once or twice a week, as you discussed with your therapist.</string>
+    <string name="task_happy_place_notification">Good job! You visited someplace fun!</string>
+    <string name="i_am_there">I am already there!</string>
+
+</resources>

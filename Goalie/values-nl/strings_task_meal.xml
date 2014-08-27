@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_meal_breakfast_explanation">Vul hier in hoe laat je vandaag ontbeten hebt.</string>
+    <string name="task_meal_lunch_explanation">Vul hier in hoe laat je vandaag je geluncht hebt.</string>
+    <string name="task_meal_dinner_explanation">Vul hier in hoe laat je vandaag je avondeten hebt gegeten.</string>
+    <string name="task_meal_breakfast_label">Tijdstip van ontbijt invullen</string>
+    <string name="task_meal_lunch_label">Tijdstip van lunch invullen</string>
+    <string name="task_meal_dinner_label">Tijdstip van avondeten invullen</string>
+    <string name="task_meal_fieldlabel">Tijdstip:</string>
+    <string name="task_meal_breakfast">ontbijt</string>
+    <string name="task_meal_lunch">lunch</string>
+    <string name="task_meal_dinner">avondeten</string>
+    <string name="task_meal_score">Je hebt %1$d punten verdiend!</string>
+    <string name="invalid_meal_time">Ongeldige invoer: deze tijd is in de toekomst.</string>
+    <string name="task_meal_no_score">Je krijgt voor elke maaltijd maar een keer punten.</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_example_fieldlabel_time">Time:</string>
+    <string name="task_example_question_time">How long?</string>
+    <string name="task_example_fieldlabel_list">Example:</string>
+    <string name="task_example_fieldlabel_text">Text:</string>
+    <string name="task_example_question_text">What?</string>
+    <string name="task_example_fieldlabel_slider">Slider:</string>
+    <string name="task_example_question_slider">How much?</string>
+    <string name="task_example_fieldlabel_spinner">Spinner:</string>
+    <string name="task_example_question_spinner">What?</string>
+    <string name="task_example_complex_label">Questionnaire (example)</string>
+    <string name="task_example_complex_explanation">This is an example questionnaire that you have to fill in order to complete the task.</string>
+    <string name="task_example_list_label">Enter choice (example)</string>
+    <string name="task_example_list_explanation">This is an example of a list choices that you have to fill in order to complete the task.</string>
+
+</resources>

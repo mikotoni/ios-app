@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="title_activity_login">Log in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="button_sign_in">Log in</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="menu_forgot_password">Forgot password</string>
+    <string name="login_progress_signing_in">Logging in…</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="toast_login_forbidden">Login failed: invalid email or password</string>
+    <string name="toast_login_fail">Login failed due to connection problems</string>
+    <string name="toast_login_ok">Logged in</string>
+    <string name="login_intro">Please enter your account details.</string>
+
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+ 
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="bikehike.co.uk" version="1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <time>2013-08-12T13:46:28Z</time>
+    <bounds minlat="51.903470" minlon="4.459840" maxlat="51.912280" maxlon="4.475100" /> 
+  </metadata>
+
+
+  
+  <rte>
+    <name>bikehike course</name>
+    <number>1</number>
+    <rtept lat="51.903470" lon="4.460180">
+      <ele>252</ele>
+      <time>2013-08-12T13:46:28Z</time>
+      <name>pt0</name>
+    </rtept>
+    <rtept lat="51.904400" lon="4.459840">
+      <ele>251</ele>
+      <time>2013-08-12T13:46:53Z</time>
+      <name>pt1</name>
+    </rtept>
+    <rtept lat="51.904440" lon="4.460170">
+      <ele>250</ele>
+      <time>2013-08-12T13:46:58Z</time>
+      <name>pt2</name>
+    </rtept>
+    <rtept lat="51.904600" lon="4.460800">
+      <ele>250</ele>
+      <time>2013-08-12T13:47:10Z</time>
+      <name>pt3</name>
+    </rtept>
+    <rtept lat="51.904740" lon="4.461060">
+      <ele>250</ele>
+      <time>2013-08-12T13:47:15Z</time>
+      <name>pt4</name>
+    </rtept>
+    <rtept lat="51.905740" lon="4.462890">
+      <ele>253</ele>
+      <time>2013-08-12T13:47:56Z</time>
+      <name>pt5</name>
+    </rtept>
+    <rtept lat="51.905860" lon="4.462950">
+      <ele>253</ele>
+      <time>2013-08-12T13:47:59Z</time>
+      <name>pt6</name>
+    </rtept>
+    <rtept lat="51.905980" lon="4.462930">
+      <ele>253</ele>
+      <time>2013-08-12T13:48:02Z</time>
+      <name>pt7</name>
+    </rtept>
+    <rtept lat="51.906200" lon="4.462700">
+      <ele>254</ele>
+      <time>2013-08-12T13:48:09Z</time>
+      <name>pt8</name>
+    </rtept>
+    <rtept lat="51.906570" lon="4.463620">
+      <ele>251</ele>
+      <time>2013-08-12T13:48:27Z</time>
+      <name>pt9</name>
+    </rtept>
+    <rtept lat="51.906880" lon="4.464880">
+      <ele>249</ele>
+      <time>2013-08-12T13:48:50Z</time>
+      <name>pt10</name>
+    </rtept>
+    <rtept lat="51.906940" lon="4.465020">
+      <ele>249</ele>
+      <time>2013-08-12T13:48:52Z</time>
+      <name>pt11</name>
+    </rtept>
+    <rtept lat="51.907020" lon="4.465120">
+      <ele>249</ele>
+      <time>2013-08-12T13:48:55Z</time>
+      <name>pt12</name>
+    </rtept>
+    <rtept lat="51.907410" lon="4.465390">
+      <ele>249</ele>
+      <time>2013-08-12T13:49:06Z</time>
+      <name>pt13</name>
+    </rtept>
+    <rtept lat="51.907530" lon="4.465570">
+      <ele>250</ele>
+      <time>2013-08-12T13:49:11Z</time>
+      <name>pt14</name>
+    </rtept>
+    <rtept lat="51.907590" lon="4.465510">
+      <ele>250</ele>
+      <time>2013-08-12T13:49:13Z</time>
+      <name>pt15</name>
+    </rtept>
+    <rtept lat="51.907680" lon="4.466210">
+      <ele>248</ele>
+      <time>2013-08-12T13:49:24Z</time>
+      <name>pt16</name>
+    </rtept>
+    <rtept lat="51.907770" lon="4.466490">
+      <ele>249</ele>
+      <time>2013-08-12T13:49:30Z</time>
+      <name>pt17</name>
+    </rtept>
+    <rtept lat="51.907900" lon="4.466670">
+      <ele>250</ele>
+      <time>2013-08-12T13:49:34Z</time>
+      <name>pt18</name>
+    </rtept>
+    <rtept lat="51.908050" lon="4.466770">
+      <ele>251</ele>
+      <time>2013-08-12T13:49:39Z</time>
+      <name>pt19</name>
+    </rtept>
+    <rtept lat="51.908160" lon="4.466760">
+      <ele>251</ele>
+      <time>2013-08-12T13:49:42Z</time>
+      <name>pt20</name>
+    </rtept>
+    <rtept lat="51.908380" lon="4.466630">
+      <ele>253</ele>
+      <time>2013-08-12T13:49:48Z</time>
+      <name>pt21</name>
+    </rtept>
+    <rtept lat="51.908470" lon="4.466500">
+      <ele>252</ele>
+      <time>2013-08-12T13:49:51Z</time>
+      <name>pt22</name>
+    </rtept>
+    <rtept lat="51.908470" lon="4.466960">
+      <ele>255</ele>
+      <time>2013-08-12T13:49:59Z</time>
+      <name>pt23</name>
+    </rtept>
+    <rtept lat="51.908570" lon="4.467560">
+      <ele>4</ele>
+      <time>2013-08-12T13:50:09Z</time>
+      <name>pt24</name>
+    </rtept>
+    <rtept lat="51.910860" lon="4.475100">
+      <ele>4</ele>
+      <time>2013-08-12T13:52:27Z</time>
+      <name>pt25</name>
+    </rtept>
+    <rtept lat="51.910930" lon="4.475100">
+      <ele>4</ele>
+      <time>2013-08-12T13:52:29Z</time>
+      <name>pt26</name>
+    </rtept>
+    <rtept lat="51.911010" lon="4.474980">
+      <ele>3</ele>
+      <time>2013-08-12T13:52:32Z</time>
+      <name>pt27</name>
+    </rtept>
+    <rtept lat="51.910790" lon="4.474030">
+      <ele>2</ele>
+      <time>2013-08-12T13:52:49Z</time>
+      <name>pt28</name>
+    </rtept>
+    <rtept lat="51.912280" lon="4.473110">
+      <ele>248</ele>
+      <time>2013-08-12T13:53:31Z</time>
+      <name>pt29</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_daily_activity_label">My activity for today</string>
+    <string name="task_daily_activity_explanation">You have been active for %1$d minutes and %2$d seconds today. The daily target is %3$d minutes.</string>
+    <string name="task_daily_activity_encouragement">You have been active for %1$d minutes today. Only %2$d more and you have reached your target!</string>
+    <string name="task_daily_activity_notification">You reached your target! You just earned 10 points.</string>
+
+</resources>

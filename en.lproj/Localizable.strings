@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Goalie
+
+  Created by Stefan Kroon on 06-09-13.
+  Copyright (c) 2013 Stefan Kroon. All rights reserved.
+*/
+
+"Voldoende bewegen" = "Physical activity";
+"Bezoek %@" = "Visit %@";
+"Geen locatie ingesteld" = "No location defined";
+"Locatie verlaten" = "Left location";
+"Locatie bereikt" = "Location reached";
+"Deze week:" = "This week:";
+"%d keer" = "%d times";
+"min. %d keer" = "min. %d times";
+"Nu op locatie:" = "At location now:";
+"Ja" = "Yes";
+"Nee" = "No";
+"Je stemming %@" = "Your mood %@";
+"vandaag" = "today";
+"deze" = "this";
+"%@ avond" = "%@ evening";
+"%@ middag" = "%@ afternoon";
+"%@ ochtend" = "%@ morning";
+"%@ nacht" = "%@ night";
+"Ontbijten" = "Having breakfast";
+"Lunchen" = "Having lunch";
+"Avondeten" = "Having dinner";
+"Vergeet niet om je ontbijt in te vullen." = "Don't forget to enter your breakfast.";
+"Vergeet niet om je lunch in te vullen." = "Don't forget to enter your lunch.";
+"Vergeet niet om je avondeten in te vullen." = "Don't forget to enter your dinner.";
+"Heb je vandaag ontbeten?" = "Did you have breakfast today?";
+"Heb je vandaag gedineerd?" = "Did you have dinner today?";
+"Heb je vandaag geluncht?" = "Did you have lunch today?";
+"Start oefening" = "Start the exercise";
+"Spanning invullen" = "Enter anxiety level";
+"Foto maken" = "Take a picture";
+"Geef" = "Choose how you feel";
+"Wil opstaan" = "I want to get up around";
+"Ben opgestaan" = "I got up around";
+"Wil naar" = "I want to go to bed around";
+"Ben naar" = "I went to bed around";
