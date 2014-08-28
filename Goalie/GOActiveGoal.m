@@ -21,7 +21,7 @@
     NSDictionary *goalIconImages = nil;
     if(!goalIconImages) {
         goalIconImages =  @{@"regular_meals":@"voeding",
-                            @"physical_activity":@"beweging",
+                            @"physical_activity":@"bewegingGoal",
                             @"regular_sleep":@"slaapritme",
                             @"emotion_awareness":@"emotie",
                             @"agoraphobia":@"locatie"};
@@ -35,7 +35,7 @@
     NSDictionary *goalIconImages = nil;
     if(!goalIconImages) {
         goalIconImages =  @{@"regular_meals":@"voeding-bg",
-                            @"physical_activity":@"beweging-bg",
+                            @"physical_activity":@"bewegingGoal-bg",
                             @"regular_sleep":@"slaapritme-bg",
                             @"emotion_awareness":@"emotie-bg",
                             @"agoraphobia":@"locatie-bg"};
