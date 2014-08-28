@@ -1315,7 +1315,7 @@
 			name = GoalieTests;
 			productName = GoalieTests;
 			productReference = F8929CBD171D5AC300E02F35 /* GoalieTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1736,7 +1736,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05234785-46A9-4EF4-8977-89C3940AD215";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05234785-46A9-4EF4-8977-89C3940AD215";
 				WRAPPER_EXTENSION = app;
 			};
