@@ -12,14 +12,14 @@
 		3EC9791D180C1AA600EA042A /* goal-keeper-dive-square_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */; };
 		F57DF4B419AEF5450037BA40 /* GOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CD9171D660400E02F35 /* GOLoginViewController.m */; };
 		F57DF4B519AEF5640037BA40 /* GONewGoalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A39172176EE00123D1B /* GONewGoalVC.m */; };
-		F57DF4B619AEF5640037BA40 /* GoalieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CCC171D5AC300E02F35 /* GoalieTests.m */; };
+		F57DF4BC19AEF8960037BA40 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
+		F57DF4BD19AEF8960037BA40 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
 		F59622E519AE79E8000BB553 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */; };
 		F59622E619AE79E8000BB553 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */; };
 		F5DD99AC19AB927100543962 /* GOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */; };
 		F5DD99AE19AB94A000543962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD99AD19AB94A000543962 /* Assets.xcassets */; };
 		F5DD99B119AB970B00543962 /* GOGoalCollenctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */; };
 		F5DD99B419ABA83500543962 /* GODashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DD99B319ABA83500543962 /* GODashboardViewController.m */; };
-		F5EFD72819A646ED00BD01C4 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
 		F80198831733FCF100642D1D /* GOOpenQuestionTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F80198821733FCF100642D1D /* GOOpenQuestionTaskVC.m */; };
 		F80198861734063800642D1D /* GOOpenQuestionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F80198851734063800642D1D /* GOOpenQuestionTask.m */; };
 		F801988A17340EF500642D1D /* GONewGoalTasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F801988917340EF500642D1D /* GONewGoalTasksTableViewController.m */; };
@@ -127,7 +127,6 @@
 		F8929CAB171D5AC300E02F35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */; };
 		F8929CAE171D5AC300E02F35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8929CAC171D5AC300E02F35 /* MainStoryboard.storyboard */; };
 		F8929CB1171D5AC300E02F35 /* Goalie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8929CAF171D5AC300E02F35 /* Goalie.xcdatamodeld */; };
-		F8929CBF171D5AC300E02F35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929CBE171D5AC300E02F35 /* SenTestingKit.framework */; };
 		F8929CC0171D5AC300E02F35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C92171D5AC200E02F35 /* UIKit.framework */; };
 		F8929CC1171D5AC300E02F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C94171D5AC200E02F35 /* Foundation.framework */; };
 		F8929CC2171D5AC300E02F35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C98171D5AC200E02F35 /* CoreData.framework */; };
@@ -177,7 +176,6 @@
 		F8B696BC1785A5DA00CDDF8C /* GOTaskBrew.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B696BB1785A5DA00CDDF8C /* GOTaskBrew.m */; };
 		F8B7109817BCCB3A007A17DF /* GOSettingsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7109717BCCB3A007A17DF /* GOSettingsTableVC.m */; };
 		F8B7109B17BCDBCB007A17DF /* GOSleepStateTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7109A17BCDBCB007A17DF /* GOSleepStateTableVC.m */; };
-		F8CD547E17EB2C6F00377766 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
 		F8CD548017EB2EA600377766 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547F17EB2EA600377766 /* TouchDB.framework */; };
 		F8D23A0617CF427200A26191 /* GOActiveSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D23A0517CF427200A26191 /* GOActiveSwitchCell.m */; };
 		F8D23A0917CF4DA900A26191 /* GOActiveSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D23A0817CF4DA900A26191 /* GOActiveSliderCell.m */; };
@@ -228,6 +226,7 @@
 		3E4B781117B244D30001FCC7 /* CommonSense.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSense.plist; sourceTree = "<group>"; };
 		3E4B781317B244D90001FCC7 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goal-keeper-dive-square_120x120.png"; sourceTree = SOURCE_ROOT; };
+		F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 		F5DD99AD19AB94A000543962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -413,7 +412,6 @@
 		F8929CB2171D5AC300E02F35 /* GOMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOMasterViewController.h; sourceTree = "<group>"; };
 		F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOMasterViewController.m; sourceTree = "<group>"; };
 		F8929CBD171D5AC300E02F35 /* GoalieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoalieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8929CBE171D5AC300E02F35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F8929CC7171D5AC300E02F35 /* GoalieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoalieTests-Info.plist"; sourceTree = "<group>"; };
 		F8929CC9171D5AC300E02F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8929CCB171D5AC300E02F35 /* GoalieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoalieTests.h; sourceTree = "<group>"; };
@@ -559,10 +557,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EFD72819A646ED00BD01C4 /* Cortex.framework in Frameworks */,
+				F57DF4BC19AEF8960037BA40 /* Cortex.framework in Frameworks */,
+				F57DF4BD19AEF8960037BA40 /* CouchCocoa.framework in Frameworks */,
 				F87A5F5B17D7322900ABED38 /* AssetsLibrary.framework in Frameworks */,
 				F8515F9B17C6186B00D0DA80 /* QuartzCore.framework in Frameworks */,
-				F8CD547E17EB2C6F00377766 /* CouchCocoa.framework in Frameworks */,
 				F878F61917B5361A00776E69 /* MapKit.framework in Frameworks */,
 				F8575855175F8099006E6B84 /* SystemConfiguration.framework in Frameworks */,
 				F8AFD1B517841E0900ED99DC /* CoreTelephony.framework in Frameworks */,
@@ -589,7 +587,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8929CBF171D5AC300E02F35 /* SenTestingKit.framework in Frameworks */,
 				F8929CC0171D5AC300E02F35 /* UIKit.framework in Frameworks */,
 				F8929CC1171D5AC300E02F35 /* Foundation.framework in Frameworks */,
 				F8929CC2171D5AC300E02F35 /* CoreData.framework in Frameworks */,
@@ -1008,6 +1005,7 @@
 		F8929C91171D5AC200E02F35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */,
 				F8CD547F17EB2EA600377766 /* TouchDB.framework */,
 				F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */,
 				F87A5F5A17D7322900ABED38 /* AssetsLibrary.framework */,
@@ -1030,7 +1028,6 @@
 				F8115FDB1754DF7400143FD4 /* MobileCoreServices.framework */,
 				F8929C92171D5AC200E02F35 /* UIKit.framework */,
 				F8929C94171D5AC200E02F35 /* Foundation.framework */,
-				F8929CBE171D5AC300E02F35 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1478,7 +1475,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F57DF4B519AEF5640037BA40 /* GONewGoalVC.m in Sources */,
-				F57DF4B619AEF5640037BA40 /* GoalieTests.m in Sources */,
 				F57DF4B419AEF5450037BA40 /* GOLoginViewController.m in Sources */,
 				F5DD99AC19AB927100543962 /* GOMasterViewController.m in Sources */,
 				F8929CA1171D5AC200E02F35 /* main.m in Sources */,
@@ -1718,19 +1714,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)",
-					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(SRCROOT)",
-					"$(inherited)",
-					/Users/stefan/projects/Goalie/Goalie,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = "Goalie/Goalie-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
@@ -1753,14 +1748,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = "Goalie/Goalie-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",

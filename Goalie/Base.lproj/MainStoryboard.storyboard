@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ave-WP-J8D">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ave-WP-J8D">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--LaunchVC-->
@@ -51,7 +52,7 @@
             </objects>
             <point key="canvasLocation" x="-265" y="-3418"/>
         </scene>
-        <!--Welcome-->
+        <!--View Controller - Welcome-->
         <scene sceneID="drc-kh-kTZ">
             <objects>
                 <viewController id="TfE-3N-avK" sceneMemberID="viewController">
@@ -121,7 +122,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="186" y="-3418"/>
         </scene>
-        <!--Login-->
+        <!--Login View Controller - Login-->
         <scene sceneID="4uB-Uj-Cwv">
             <objects>
                 <viewController storyboardIdentifier="LoginVC" id="a9a-gg-hVU" customClass="GOLoginViewController" sceneMemberID="viewController">
@@ -192,7 +193,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="701" y="-4099"/>
         </scene>
-        <!--Registreren-->
+        <!--Register New UserVC - Registreren-->
         <scene sceneID="CDh-iJ-kcc">
             <objects>
                 <viewController id="w74-V3-0zR" customClass="GORegisterNewUserVC" sceneMemberID="viewController">
@@ -274,7 +275,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="731" y="-1964"/>
         </scene>
-        <!--Master-->
+        <!--Master View Controller - Master-->
         <scene sceneID="18">
             <objects>
                 <tableViewController title="Master" id="12" customClass="GOMasterViewController" sceneMemberID="viewController">
@@ -526,7 +527,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="1191" y="-1295"/>
         </scene>
-        <!--Goal details-->
+        <!--Active Goal TableVC - Goal details-->
         <scene sceneID="htW-Sm-GyM">
             <objects>
                 <tableViewController storyboardIdentifier="ActiveGoalTable" hidesBottomBarWhenPushed="YES" id="6vj-Yo-zID" customClass="GOActiveGoalTableVC" sceneMemberID="viewController">
@@ -1106,7 +1107,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="3239" y="2015"/>
         </scene>
-        <!--Explanation-->
+        <!--Goal ExplanationVC - Explanation-->
         <scene sceneID="qiE-bL-J6j">
             <objects>
                 <viewController id="R8V-aP-9dy" customClass="GOGoalExplanationVC" sceneMemberID="viewController">
@@ -1433,7 +1434,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="1808" y="-2470"/>
         </scene>
-        <!--Adjust time-->
+        <!--Adjust TimeVC - Adjust time-->
         <scene sceneID="k8o-ao-qzI">
             <objects>
                 <viewController id="xHT-Bc-aMs" customClass="GOAdjustTimeVC" sceneMemberID="viewController">
@@ -1492,7 +1493,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="2443" y="-2412"/>
         </scene>
-        <!--Sleep state-->
+        <!--Sleep State TableVC - Sleep state-->
         <scene sceneID="920-Ri-Qhm">
             <objects>
                 <tableViewController id="DfV-uc-ElH" customClass="GOSleepStateTableVC" sceneMemberID="viewController">
@@ -1588,7 +1589,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="2874" y="-2412"/>
         </scene>
-        <!--Active Timers-->
+        <!--Active Timers TableVC - Active Timers-->
         <scene sceneID="tKS-Fl-fTH">
             <objects>
                 <tableViewController id="3Y6-VL-4Nu" customClass="GOActiveTimersTableVC" sceneMemberID="viewController">
@@ -1631,7 +1632,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="2443" y="-4172"/>
         </scene>
-        <!--Tasks-->
+        <!--Tasks TableVC - Tasks-->
         <scene sceneID="vhO-wz-REU">
             <objects>
                 <tableViewController id="oJa-ps-zpD" customClass="GOTasksTableVC" sceneMemberID="viewController">
@@ -1674,7 +1675,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="2443" y="-4748"/>
         </scene>
-        <!--Monitored Regions-->
+        <!--Monitored Regions TableVC - Monitored Regions-->
         <scene sceneID="tWu-9E-0AA">
             <objects>
                 <tableViewController id="a9F-UK-m7Y" customClass="GOMonitoredRegionsTableVC" sceneMemberID="viewController">
@@ -1774,7 +1775,7 @@ visit</string>
             </objects>
             <point key="canvasLocation" x="2443" y="-3572"/>
         </scene>
-        <!--Scheduled notifications-->
+        <!--Scheduled Notifications TableVC - Scheduled notifications-->
         <scene sceneID="ayg-F0-8BN">
             <objects>
                 <tableViewController id="zx2-3G-JSF" customClass="GOScheduledNotificationsTableVC" sceneMemberID="viewController">
@@ -1817,7 +1818,7 @@ visit</string>
             </objects>
             <point key="canvasLocation" x="2443" y="-2986"/>
         </scene>
-        <!--New goal-->
+        <!--New Goal Tasks View Controller - New goal-->
         <scene sceneID="1hj-FK-1dS">
             <objects>
                 <viewController id="a9g-FO-XSa" customClass="GONewGoalTasksViewController" sceneMemberID="viewController">
@@ -1942,7 +1943,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3254" y="-655"/>
         </scene>
-        <!--Doel details-->
+        <!--New Goal Tasks Table View Controller - Doel details-->
         <scene sceneID="J15-Wa-hT3">
             <objects>
                 <tableViewController id="Car-eU-ucn" customClass="GONewGoalTasksTableViewController" sceneMemberID="viewController">
@@ -1988,7 +1989,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3756" y="-640"/>
         </scene>
-        <!--Pick a task-->
+        <!--New Task SelectionTVC - Pick a task-->
         <scene sceneID="O2S-Mf-eNt">
             <objects>
                 <tableViewController id="jF8-NC-bmx" customClass="GONewTaskSelectionTVC" sceneMemberID="viewController">
@@ -2203,7 +2204,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3756" y="-106"/>
         </scene>
-        <!--Description-->
+        <!--Descriptive TaskVC - Description-->
         <scene sceneID="2N7-7p-LuG">
             <objects>
                 <viewController storyboardIdentifier="DescriptiveTask" id="MfP-Gy-exF" customClass="GODescriptiveTaskVC" sceneMemberID="viewController">
@@ -2231,7 +2232,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4862" y="3629"/>
         </scene>
-        <!--Having breakfast-->
+        <!--Meal TaskVC - Having breakfast-->
         <scene sceneID="xv8-EZ-4nL">
             <objects>
                 <viewController storyboardIdentifier="MealTask" id="hd6-al-cdf" customClass="GOMealTaskVC" sceneMemberID="viewController">
@@ -2294,7 +2295,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4870" y="636"/>
         </scene>
-        <!--Switch on off-->
+        <!--Switch TaskVC - Switch on off-->
         <scene sceneID="U6z-8y-pau">
             <objects>
                 <viewController storyboardIdentifier="SwitchTask" id="xYX-7K-H9q" customClass="GOSwitchTaskVC" sceneMemberID="viewController">
@@ -2340,7 +2341,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4878" y="3027"/>
         </scene>
-        <!--Enter a value-->
+        <!--Slider TaskVC - Enter a value-->
         <scene sceneID="cWx-Bz-xBf">
             <objects>
                 <viewController storyboardIdentifier="SliderTask" id="YsF-ew-s02" customClass="GOSliderTaskVC" sceneMemberID="viewController">
@@ -2421,7 +2422,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4870" y="2222"/>
         </scene>
-        <!--Take a picture-->
+        <!--Shoot Photo TaskVC - Take a picture-->
         <scene sceneID="NLJ-Nr-r28">
             <objects>
                 <viewController storyboardIdentifier="ShootPhotoTask" id="PIE-iX-DM3" customClass="GOShootPhotoTaskVC" sceneMemberID="viewController">
@@ -2486,7 +2487,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4870" y="1460"/>
         </scene>
-        <!--Enter your emotion-->
+        <!--Mood Task View Controller - Enter your emotion-->
         <scene sceneID="ean-5H-45Q">
             <objects>
                 <viewController storyboardIdentifier="MoodTask" id="kZR-CD-aZq" customClass="GOMoodTaskViewController" sceneMemberID="viewController">
@@ -2652,7 +2653,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3358" y="-2017"/>
         </scene>
-        <!--Points overview-->
+        <!--BrewsVC - Points overview-->
         <scene sceneID="XN4-nL-gl7">
             <objects>
                 <tableViewController storyboardIdentifier="TaskBrews" id="oVP-65-hn5" customClass="GOBrewsVC" sceneMemberID="viewController">
@@ -2717,7 +2718,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4266" y="-1352"/>
         </scene>
-        <!--Points-->
+        <!--Brew TableVC - Points-->
         <scene sceneID="7Qe-Ek-Qan">
             <objects>
                 <tableViewController id="lRx-J0-dtM" customClass="GOBrewTableVC" sceneMemberID="viewController">
@@ -2981,7 +2982,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="4857" y="-1352"/>
         </scene>
-        <!--Specific values-->
+        <!--Brew Values TableVC - Specific values-->
         <scene sceneID="lMy-QW-n6r">
             <objects>
                 <tableViewController id="VzS-y4-NvF" customClass="GOBrewValuesTableVC" sceneMemberID="viewController">
@@ -3028,7 +3029,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="5413" y="-1352"/>
         </scene>
-        <!--Triggers-->
+        <!--Triggers TableVC - Triggers-->
         <scene sceneID="gq0-J1-6Fg">
             <objects>
                 <tableViewController id="JPp-Lv-oEH" customClass="GOTriggersTableVC" sceneMemberID="viewController">
@@ -3071,7 +3072,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="5413" y="-686"/>
         </scene>
-        <!--Open question-->
+        <!--Open Question TaskVC - Open question-->
         <scene sceneID="rui-vw-ndA">
             <objects>
                 <viewController storyboardIdentifier="OpenQuestionTask" id="Pdd-OO-c6h" customClass="GOOpenQuestionTaskVC" sceneMemberID="viewController">
@@ -3159,7 +3160,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="6132" y="59"/>
         </scene>
-        <!--New goal-->
+        <!--New GoalVC - New goal-->
         <scene sceneID="1Xr-K0-bYW">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="dY7-cx-cWx" customClass="GONewGoalVC" sceneMemberID="viewController">
@@ -3210,7 +3211,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="2634" y="-1669"/>
         </scene>
-        <!--Doel details-->
+        <!--New Goal Table View Controller - Doel details-->
         <scene sceneID="2Y8-vG-9a0">
             <objects>
                 <tableViewController id="sy8-CX-rOn" customClass="GONewGoalTableViewController" sceneMemberID="viewController">
@@ -3314,7 +3315,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="3291" y="-1263"/>
         </scene>
-        <!--Beschrijving-->
+        <!--New Goal Explanation View Controller - Beschrijving-->
         <scene sceneID="PJE-RZ-DAi">
             <objects>
                 <viewController title="Beschrijving" id="Cea-K8-cIL" customClass="GONewGoalExplanationViewController" sceneMemberID="viewController">
@@ -3352,7 +3353,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="3815" y="-1268"/>
         </scene>
-        <!--Motion-->
+        <!--Motion TaskVC - Motion-->
         <scene sceneID="yfR-ld-w3H">
             <objects>
                 <viewController storyboardIdentifier="MotionTask" id="LxQ-87-Kez" customClass="GOMotionTaskVC" sceneMemberID="viewController">
@@ -3398,7 +3399,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="4862" y="4209"/>
         </scene>
-        <!--Sleep-->
+        <!--Sleep TaskVC - Sleep-->
         <scene sceneID="CnG-a7-Rux">
             <objects>
                 <viewController storyboardIdentifier="SleepTask" id="tdb-wi-ciq" customClass="GOSleepTaskVC" sceneMemberID="viewController">
@@ -3426,7 +3427,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="4862" y="5738"/>
         </scene>
-        <!--Visit a location-->
+        <!--Visit TaskVC - Visit a location-->
         <scene sceneID="rJb-j7-DlB">
             <objects>
                 <viewController storyboardIdentifier="VisitTask" id="wMf-gX-eJG" customClass="GOVisitTaskVC" sceneMemberID="viewController">
@@ -3502,10 +3503,7 @@ points</string>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4">
-            <size key="portraitSize" width="320" height="568"/>
-            <size key="landscapeSize" width="568" height="320"/>
-        </simulatedScreenMetrics>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="E1O-50-asz"/>
