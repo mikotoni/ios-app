@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ave-WP-J8D">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ave-WP-J8D">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <scenes>
         <!--LaunchVC-->
@@ -52,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="-265" y="-3418"/>
         </scene>
-        <!--View Controller - Welcome-->
+        <!--Welcome-->
         <scene sceneID="drc-kh-kTZ">
             <objects>
                 <viewController id="TfE-3N-avK" sceneMemberID="viewController">
@@ -122,7 +121,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="186" y="-3418"/>
         </scene>
-        <!--Login View Controller - Login-->
+        <!--Login-->
         <scene sceneID="4uB-Uj-Cwv">
             <objects>
                 <viewController storyboardIdentifier="LoginVC" id="a9a-gg-hVU" customClass="GOLoginViewController" sceneMemberID="viewController">
@@ -193,7 +192,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="701" y="-4099"/>
         </scene>
-        <!--Register New UserVC - Registreren-->
+        <!--Registreren-->
         <scene sceneID="CDh-iJ-kcc">
             <objects>
                 <viewController id="w74-V3-0zR" customClass="GORegisterNewUserVC" sceneMemberID="viewController">
@@ -275,7 +274,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="731" y="-1964"/>
         </scene>
-        <!--Master View Controller - Master-->
+        <!--Master-->
         <scene sceneID="18">
             <objects>
                 <tableViewController title="Master" id="12" customClass="GOMasterViewController" sceneMemberID="viewController">
@@ -452,7 +451,6 @@ Cgo
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" id="zQA-kX-hht">
-                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="0.0"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </view>
@@ -528,7 +526,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="1191" y="-1295"/>
         </scene>
-        <!--Active Goal TableVC - Goal details-->
+        <!--Goal details-->
         <scene sceneID="htW-Sm-GyM">
             <objects>
                 <tableViewController storyboardIdentifier="ActiveGoalTable" hidesBottomBarWhenPushed="YES" id="6vj-Yo-zID" customClass="GOActiveGoalTableVC" sceneMemberID="viewController">
@@ -1108,7 +1106,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="3239" y="2015"/>
         </scene>
-        <!--Goal ExplanationVC - Explanation-->
+        <!--Explanation-->
         <scene sceneID="qiE-bL-J6j">
             <objects>
                 <viewController id="R8V-aP-9dy" customClass="GOGoalExplanationVC" sceneMemberID="viewController">
@@ -1435,7 +1433,7 @@ Cgo
             </objects>
             <point key="canvasLocation" x="1808" y="-2470"/>
         </scene>
-        <!--Adjust TimeVC - Adjust time-->
+        <!--Adjust time-->
         <scene sceneID="k8o-ao-qzI">
             <objects>
                 <viewController id="xHT-Bc-aMs" customClass="GOAdjustTimeVC" sceneMemberID="viewController">
@@ -1448,27 +1446,6 @@ Cgo
                                 <date key="date" timeIntervalSinceReferenceDate="395100555.27861899">
                                     <!--2013-07-09 22:09:15 +0000-->
                                 </date>
-                                <timeZone key="timeZone" name="America/Los_Angeles">
-                                    <data key="data">
-VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
-y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
-5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
-8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
-AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
-DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
-HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
-KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
-OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
-Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
-VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
-Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
-cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
-f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
-</data>
-                                </timeZone>
                                 <connections>
                                     <action selector="datePickerChanged:" destination="xHT-Bc-aMs" eventType="valueChanged" id="plC-4j-tJJ"/>
                                 </connections>
@@ -1515,7 +1492,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2443" y="-2412"/>
         </scene>
-        <!--Sleep State TableVC - Sleep state-->
+        <!--Sleep state-->
         <scene sceneID="920-Ri-Qhm">
             <objects>
                 <tableViewController id="DfV-uc-ElH" customClass="GOSleepStateTableVC" sceneMemberID="viewController">
@@ -1611,7 +1588,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2874" y="-2412"/>
         </scene>
-        <!--Active Timers TableVC - Active Timers-->
+        <!--Active Timers-->
         <scene sceneID="tKS-Fl-fTH">
             <objects>
                 <tableViewController id="3Y6-VL-4Nu" customClass="GOActiveTimersTableVC" sceneMemberID="viewController">
@@ -1654,7 +1631,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2443" y="-4172"/>
         </scene>
-        <!--Tasks TableVC - Tasks-->
+        <!--Tasks-->
         <scene sceneID="vhO-wz-REU">
             <objects>
                 <tableViewController id="oJa-ps-zpD" customClass="GOTasksTableVC" sceneMemberID="viewController">
@@ -1697,7 +1674,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2443" y="-4748"/>
         </scene>
-        <!--Monitored Regions TableVC - Monitored Regions-->
+        <!--Monitored Regions-->
         <scene sceneID="tWu-9E-0AA">
             <objects>
                 <tableViewController id="a9F-UK-m7Y" customClass="GOMonitoredRegionsTableVC" sceneMemberID="viewController">
@@ -1797,7 +1774,7 @@ visit</string>
             </objects>
             <point key="canvasLocation" x="2443" y="-3572"/>
         </scene>
-        <!--Scheduled Notifications TableVC - Scheduled notifications-->
+        <!--Scheduled notifications-->
         <scene sceneID="ayg-F0-8BN">
             <objects>
                 <tableViewController id="zx2-3G-JSF" customClass="GOScheduledNotificationsTableVC" sceneMemberID="viewController">
@@ -1840,7 +1817,7 @@ visit</string>
             </objects>
             <point key="canvasLocation" x="2443" y="-2986"/>
         </scene>
-        <!--New Goal Tasks View Controller - New goal-->
+        <!--New goal-->
         <scene sceneID="1hj-FK-1dS">
             <objects>
                 <viewController id="a9g-FO-XSa" customClass="GONewGoalTasksViewController" sceneMemberID="viewController">
@@ -1965,7 +1942,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3254" y="-655"/>
         </scene>
-        <!--New Goal Tasks Table View Controller - Doel details-->
+        <!--Doel details-->
         <scene sceneID="J15-Wa-hT3">
             <objects>
                 <tableViewController id="Car-eU-ucn" customClass="GONewGoalTasksTableViewController" sceneMemberID="viewController">
@@ -2011,7 +1988,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3756" y="-640"/>
         </scene>
-        <!--New Task SelectionTVC - Pick a task-->
+        <!--Pick a task-->
         <scene sceneID="O2S-Mf-eNt">
             <objects>
                 <tableViewController id="jF8-NC-bmx" customClass="GONewTaskSelectionTVC" sceneMemberID="viewController">
@@ -2226,7 +2203,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="3756" y="-106"/>
         </scene>
-        <!--Descriptive TaskVC - Description-->
+        <!--Description-->
         <scene sceneID="2N7-7p-LuG">
             <objects>
                 <viewController storyboardIdentifier="DescriptiveTask" id="MfP-Gy-exF" customClass="GODescriptiveTaskVC" sceneMemberID="viewController">
@@ -2254,7 +2231,7 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
             </objects>
             <point key="canvasLocation" x="4862" y="3629"/>
         </scene>
-        <!--Meal TaskVC - Having breakfast-->
+        <!--Having breakfast-->
         <scene sceneID="xv8-EZ-4nL">
             <objects>
                 <viewController storyboardIdentifier="MealTask" id="hd6-al-cdf" customClass="GOMealTaskVC" sceneMemberID="viewController">
@@ -2273,27 +2250,6 @@ Probeer minimaal een keer 's ochtends, een keer 's middags en een keer 's avonds
                                 <date key="date" timeIntervalSinceReferenceDate="391013223.72053099">
                                     <!--2013-05-23 14:47:03 +0000-->
                                 </date>
-                                <timeZone key="timeZone" name="America/Los_Angeles">
-                                    <data key="data">
-VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
-y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
-5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
-8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
-AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
-DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
-HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
-KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
-OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
-Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
-VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
-Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
-cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
-f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
-</data>
-                                </timeZone>
                             </datePicker>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="At what time?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nv2-FN-Wdf">
                                 <rect key="frame" x="20" y="85" width="280" height="21"/>
@@ -2338,7 +2294,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4870" y="636"/>
         </scene>
-        <!--Switch TaskVC - Switch on off-->
+        <!--Switch on off-->
         <scene sceneID="U6z-8y-pau">
             <objects>
                 <viewController storyboardIdentifier="SwitchTask" id="xYX-7K-H9q" customClass="GOSwitchTaskVC" sceneMemberID="viewController">
@@ -2384,7 +2340,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4878" y="3027"/>
         </scene>
-        <!--Slider TaskVC - Enter a value-->
+        <!--Enter a value-->
         <scene sceneID="cWx-Bz-xBf">
             <objects>
                 <viewController storyboardIdentifier="SliderTask" id="YsF-ew-s02" customClass="GOSliderTaskVC" sceneMemberID="viewController">
@@ -2465,7 +2421,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4870" y="2222"/>
         </scene>
-        <!--Shoot Photo TaskVC - Take a picture-->
+        <!--Take a picture-->
         <scene sceneID="NLJ-Nr-r28">
             <objects>
                 <viewController storyboardIdentifier="ShootPhotoTask" id="PIE-iX-DM3" customClass="GOShootPhotoTaskVC" sceneMemberID="viewController">
@@ -2530,7 +2486,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4870" y="1460"/>
         </scene>
-        <!--Mood Task View Controller - Enter your emotion-->
+        <!--Enter your emotion-->
         <scene sceneID="ean-5H-45Q">
             <objects>
                 <viewController storyboardIdentifier="MoodTask" id="kZR-CD-aZq" customClass="GOMoodTaskViewController" sceneMemberID="viewController">
@@ -2696,7 +2652,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="3358" y="-2017"/>
         </scene>
-        <!--BrewsVC - Points overview-->
+        <!--Points overview-->
         <scene sceneID="XN4-nL-gl7">
             <objects>
                 <tableViewController storyboardIdentifier="TaskBrews" id="oVP-65-hn5" customClass="GOBrewsVC" sceneMemberID="viewController">
@@ -2761,7 +2717,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4266" y="-1352"/>
         </scene>
-        <!--Brew TableVC - Points-->
+        <!--Points-->
         <scene sceneID="7Qe-Ek-Qan">
             <objects>
                 <tableViewController id="lRx-J0-dtM" customClass="GOBrewTableVC" sceneMemberID="viewController">
@@ -3025,7 +2981,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="4857" y="-1352"/>
         </scene>
-        <!--Brew Values TableVC - Specific values-->
+        <!--Specific values-->
         <scene sceneID="lMy-QW-n6r">
             <objects>
                 <tableViewController id="VzS-y4-NvF" customClass="GOBrewValuesTableVC" sceneMemberID="viewController">
@@ -3072,7 +3028,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="5413" y="-1352"/>
         </scene>
-        <!--Triggers TableVC - Triggers-->
+        <!--Triggers-->
         <scene sceneID="gq0-J1-6Fg">
             <objects>
                 <tableViewController id="JPp-Lv-oEH" customClass="GOTriggersTableVC" sceneMemberID="viewController">
@@ -3115,7 +3071,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="5413" y="-686"/>
         </scene>
-        <!--Open Question TaskVC - Open question-->
+        <!--Open question-->
         <scene sceneID="rui-vw-ndA">
             <objects>
                 <viewController storyboardIdentifier="OpenQuestionTask" id="Pdd-OO-c6h" customClass="GOOpenQuestionTaskVC" sceneMemberID="viewController">
@@ -3203,7 +3159,7 @@ points</string>
             </objects>
             <point key="canvasLocation" x="6132" y="59"/>
         </scene>
-        <!--New GoalVC - New goal-->
+        <!--New goal-->
         <scene sceneID="1Xr-K0-bYW">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="dY7-cx-cWx" customClass="GONewGoalVC" sceneMemberID="viewController">
@@ -3223,27 +3179,6 @@ points</string>
                                 <date key="date" timeIntervalSinceReferenceDate="388059524.58604801">
                                     <!--2013-04-19 10:18:44 +0000-->
                                 </date>
-                                <timeZone key="timeZone" name="America/Los_Angeles">
-                                    <data key="data">
-VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
-y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
-5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
-8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
-AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
-DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
-HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
-KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
-OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
-Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
-VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
-Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
-cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
-f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
-</data>
-                                </timeZone>
                                 <connections>
                                     <action selector="datePickerChanged:" destination="dY7-cx-cWx" eventType="valueChanged" id="4rn-Zl-ABc"/>
                                 </connections>
@@ -3275,7 +3210,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2634" y="-1669"/>
         </scene>
-        <!--New Goal Table View Controller - Doel details-->
+        <!--Doel details-->
         <scene sceneID="2Y8-vG-9a0">
             <objects>
                 <tableViewController id="sy8-CX-rOn" customClass="GONewGoalTableViewController" sceneMemberID="viewController">
@@ -3379,7 +3314,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="3291" y="-1263"/>
         </scene>
-        <!--New Goal Explanation View Controller - Beschrijving-->
+        <!--Beschrijving-->
         <scene sceneID="PJE-RZ-DAi">
             <objects>
                 <viewController title="Beschrijving" id="Cea-K8-cIL" customClass="GONewGoalExplanationViewController" sceneMemberID="viewController">
@@ -3417,7 +3352,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="3815" y="-1268"/>
         </scene>
-        <!--Motion TaskVC - Motion-->
+        <!--Motion-->
         <scene sceneID="yfR-ld-w3H">
             <objects>
                 <viewController storyboardIdentifier="MotionTask" id="LxQ-87-Kez" customClass="GOMotionTaskVC" sceneMemberID="viewController">
@@ -3463,7 +3398,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4862" y="4209"/>
         </scene>
-        <!--Sleep TaskVC - Sleep-->
+        <!--Sleep-->
         <scene sceneID="CnG-a7-Rux">
             <objects>
                 <viewController storyboardIdentifier="SleepTask" id="tdb-wi-ciq" customClass="GOSleepTaskVC" sceneMemberID="viewController">
@@ -3491,7 +3426,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="4862" y="5738"/>
         </scene>
-        <!--Visit TaskVC - Visit a location-->
+        <!--Visit a location-->
         <scene sceneID="rJb-j7-DlB">
             <objects>
                 <viewController storyboardIdentifier="VisitTask" id="wMf-gX-eJG" customClass="GOVisitTaskVC" sceneMemberID="viewController">
@@ -3567,7 +3502,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="E1O-50-asz"/>
