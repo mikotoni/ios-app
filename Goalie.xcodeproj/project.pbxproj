@@ -10,6 +10,7 @@
 		3E4B781217B244D30001FCC7 /* CommonSense.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E4B781117B244D30001FCC7 /* CommonSense.plist */; };
 		3E4B781417B244D90001FCC7 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E4B781317B244D90001FCC7 /* Settings.plist */; };
 		3EC9791D180C1AA600EA042A /* goal-keeper-dive-square_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */; };
+		F5796B7719B0C7D80087525A /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = F5796B7619B0C7D80087525A /* KGModal.m */; };
 		F57DF4B419AEF5450037BA40 /* GOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CD9171D660400E02F35 /* GOLoginViewController.m */; };
 		F57DF4B519AEF5640037BA40 /* GONewGoalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A39172176EE00123D1B /* GONewGoalVC.m */; };
 		F57DF4BC19AEF8960037BA40 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
@@ -226,6 +227,8 @@
 		3E4B781117B244D30001FCC7 /* CommonSense.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSense.plist; sourceTree = "<group>"; };
 		3E4B781317B244D90001FCC7 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goal-keeper-dive-square_120x120.png"; sourceTree = SOURCE_ROOT; };
+		F5796B7519B0C7D70087525A /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
+		F5796B7619B0C7D80087525A /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
 		F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
@@ -596,6 +599,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5796B7419B0C7D70087525A /* KGModal */ = {
+			isa = PBXGroup;
+			children = (
+				F5796B7519B0C7D70087525A /* KGModal.h */,
+				F5796B7619B0C7D80087525A /* KGModal.m */,
+			);
+			path = KGModal;
+			sourceTree = "<group>";
+		};
 		F80198801733FC8E00642D1D /* UI Task Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -1035,6 +1047,7 @@
 		F8929C9A171D5AC200E02F35 /* Goalie */ = {
 			isa = PBXGroup;
 			children = (
+				F5796B7419B0C7D70087525A /* KGModal */,
 				F8FFD59317CF9F6B004806F7 /* CastFunctions.h */,
 				F8FFD59417CF9F6D004806F7 /* CastFunctions.m */,
 				F8929CA3171D5AC200E02F35 /* GOAppDelegate.h */,
@@ -1483,6 +1496,7 @@
 				F8929CB1171D5AC300E02F35 /* Goalie.xcdatamodeld in Sources */,
 				F8946A3D1721775500123D1B /* GONewGoalTableViewController.m in Sources */,
 				F8946A40172177A100123D1B /* GONewGoalExplanationViewController.m in Sources */,
+				F5796B7719B0C7D80087525A /* KGModal.m in Sources */,
 				F8946A431721AA2200123D1B /* GONewGoalTasksViewController.m in Sources */,
 				F80A8B541721BD98007474B2 /* GONewTaskTypeViewController.m in Sources */,
 				F80A8B571721C6B2007474B2 /* GOGoal.m in Sources */,

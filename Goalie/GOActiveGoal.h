@@ -39,6 +39,8 @@
 @property (nonatomic, retain) NSNumber *completionRateDaily;
 @property (nonatomic, retain) NSNumber *completionRateWeekly;
 @property (readonly) NSString *progressSensorName;
+@property (readonly) int loadingHeight;
+@property (readonly) UIColor *colorProgress;
 //@property (nonatomic, retain) NSNumber *patient_id;
 
 //@property (nonatomic, retain) NSDate * deadline;

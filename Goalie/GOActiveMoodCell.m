@@ -30,6 +30,10 @@
     self.descriptionLabel.text = NSLocalizedString(@"Geef", nil);
     self.titleLabel.font = [UIFont fontWithName:@"ProximaNova-Bold" size:14];
     self.descriptionLabel.font = [UIFont fontWithName:@"ProximaNova-Regular" size:14];
+    if([_brew hasPastCompletionDate])
+        [self.emotionImageView setImage:[UIImage imageNamed:@"emot"]];
+    else
+        [self.emotionImageView setImage:[UIImage imageNamed:@"emot-trans"]];
 }
 
 

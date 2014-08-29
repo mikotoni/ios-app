@@ -15,6 +15,10 @@
     //IBOutlet UISegmentedControl *_mealKindControl;
     IBOutlet UILabel *_questionLabel;
     IBOutlet UILabel *_atWhatTimeLabel;
+    IBOutlet UILabel *hourLabel;
+    IBOutlet UILabel *separateLabel;
+    IBOutlet UILabel *minuteLabel;
+    IBOutlet UIButton *doneButton;
 }
 
 //- (IBAction)kindChanged:(id)sender;

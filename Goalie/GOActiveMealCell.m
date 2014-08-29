@@ -34,6 +34,9 @@
     if (pointInTime) {
         [self.handImageView setImage:[UIImage imageNamed:@"eten"]];
     }
+    else{
+        [self.handImageView setImage:[UIImage imageNamed:@"eten-trans"]];
+    }
 }
 
 @end

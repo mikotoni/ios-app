@@ -13,5 +13,6 @@
 }
 
 @property IBOutlet UILabel *descriptionLabel;
+@property IBOutlet UIImageView *emotionImageView;
 
 @end

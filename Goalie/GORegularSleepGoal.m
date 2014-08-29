@@ -22,6 +22,12 @@
 
 @dynamic sleep, wakeup;
 
+- (UIColor*)colorProgress{
+    return UIColorFromRGB(0xfca503);
+}
+- (int)loadingHeight{
+    return 90;
+}
 - (NSString *)progressSensorName {
     return @"regular_sleep_progress";
 }

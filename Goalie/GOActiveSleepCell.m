@@ -31,7 +31,9 @@
     if(detectedDate){
         text = [hourFormatter stringFromDate:detectedDate];
         [self.handImageView setImage:[UIImage imageNamed:@"slaap"]];
-        
+    }
+    else{
+        [self.handImageView setImage:[UIImage imageNamed:@"slaap-trans"]];
     }
     
     self.lastNightLabel.text = [NSString stringWithFormat:@"%@ %@",[sleepTask descriptionWentTo],text];

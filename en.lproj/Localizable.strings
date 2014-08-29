@@ -41,3 +41,5 @@
 "Ben opgestaan" = "I got up around";
 "Wil naar" = "I want to go to bed around";
 "Ben naar" = "I went to bed around";
+"Vandaag actief" = "You are today %d minutes active";
+"Dagelijkse doel" = "Your daily goal is %d minutes";

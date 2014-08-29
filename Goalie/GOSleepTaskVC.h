@@ -8,7 +8,12 @@
 
 #import "GOAbstractTaskVC.h"
 
-@interface GOSleepTaskVC : GOAbstractTaskVC <GOTaskVCProtocol>
+@interface GOSleepTaskVC : GOAbstractTaskVC <GOTaskVCProtocol>{
+    IBOutlet UILabel *hourLabel;
+    IBOutlet UILabel *separateLabel;
+    IBOutlet UILabel *minuteLabel;
+    IBOutlet UIButton *doneButton;
+}
 
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 

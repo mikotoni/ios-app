@@ -14,5 +14,5 @@
     //#import <CoreData/CoreData.h>
     #import <SystemConfiguration/SystemConfiguration.h>
     #import <MobileCoreServices/MobileCoreServices.h>
-
+    #import "KGModal.h"
 #endif

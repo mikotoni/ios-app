@@ -27,8 +27,15 @@
     
     //GOTranslation *translation = [[GOMainApp sharedMainApp] translation];
     self.titleLabel.text = NSLocalizedString(@"Voldoende bewegen", nil);
-    self.activityGoalLabel.text = [NSString stringWithFormat:@"%@ min", [activeMotionTask dailyTargetInMinutes]];
-    self.actualActivityLabel.text = [NSString stringWithFormat:@"%u min %u sec", timeActiveMinutes, timeActiveSeconds];
+
+    self.actualActivityLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Vandaag actief", nil),[[activeMotionTask dailyTargetInMinutes]intValue]];
+    self.activityGoalLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Vandaag actief", nil),timeActiveMinutes];
+    if(timeActiveMinutes > [[activeMotionTask dailyTargetInMinutes]intValue]){
+        [self.handImageView setImage:[UIImage imageNamed:@"beweging"]];
+    }
+    else{
+        [self.handImageView setImage:[UIImage imageNamed:@"beweging-trans"]];
+    }
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

@@ -23,6 +23,13 @@
 
 @dynamic daily_target, location_label, location_lat, location_lon;
 
+- (UIColor*)colorProgress{
+    return UIColorFromRGB(0xe62100);
+}
+
+- (int)loadingHeight{
+    return 108;
+}
 - (NSString *)progressSensorName {
     return @"physical_activity_progress";
 }
@@ -51,27 +58,27 @@
             [activeMotionTask setDailyTargetInSeconds:[self dailyTargetInSeconds]];
     }
     
-    if([activeTask isKindOfClass:[GOActiveVisitTask class]]) {
-        GOActiveVisitTask *activeVisitTask = $castIf(GOActiveVisitTask, activeTask);
-        if(activeVisitTask) {
-            // Set location label
-            [activeVisitTask setLocationName:[self location_label]];
-        
-            // Set location coordinates
-            CLLocationDegrees latitudeDegrees = [[self location_lat] doubleValue];
-            CLLocationDegrees longitudeDegrees = [[self location_lon] doubleValue];
-            CLLocationCoordinate2D visitLocationCoordinate = CLLocationCoordinate2DMake(latitudeDegrees, longitudeDegrees);
-            [activeVisitTask setVisitLocationCoordinate:visitLocationCoordinate];
-            
-            // Set enter message
-            [activeVisitTask setLocationEnteredMessage:@"Je bent op de opgegeven locatie aangekomen"];
-            
-            // Set points
-            [activeVisitTask setNofVisitsGoal:@2];
-            [activeVisitTask setPointsPerVisit:@15];
-        }
-        
-    }
+//    if([activeTask isKindOfClass:[GOActiveVisitTask class]]) {
+//        GOActiveVisitTask *activeVisitTask = $castIf(GOActiveVisitTask, activeTask);
+//        if(activeVisitTask) {
+//            // Set location label
+//            [activeVisitTask setLocationName:[self location_label]];
+//        
+//            // Set location coordinates
+//            CLLocationDegrees latitudeDegrees = [[self location_lat] doubleValue];
+//            CLLocationDegrees longitudeDegrees = [[self location_lon] doubleValue];
+//            CLLocationCoordinate2D visitLocationCoordinate = CLLocationCoordinate2DMake(latitudeDegrees, longitudeDegrees);
+//            [activeVisitTask setVisitLocationCoordinate:visitLocationCoordinate];
+//            
+//            // Set enter message
+//            [activeVisitTask setLocationEnteredMessage:@"Je bent op de opgegeven locatie aangekomen"];
+//            
+//            // Set points
+//            [activeVisitTask setNofVisitsGoal:@2];
+//            [activeVisitTask setPointsPerVisit:@15];
+//        }
+//        
+//    }
 }
 
 - (NSString *)explanation {

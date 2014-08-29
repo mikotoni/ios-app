@@ -14,7 +14,6 @@
 @property (nonatomic, retain) NSString *location_label;
 @property (nonatomic, retain) NSNumber *location_lon;
 @property (nonatomic, retain) NSNumber *location_lat;
-
 - (NSNumber *)dailyTargetInSeconds;
 - (NSNumber *)dailyTargetInMinutes;
     

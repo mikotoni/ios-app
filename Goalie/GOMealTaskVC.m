@@ -32,7 +32,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
-
+- (void)setupCustomFont{
+    [_questionLabel setFont:[_questionLabel.font fontWithSize:19]];
+    [_atWhatTimeLabel setFont:[UIFont fontWithName:@"ProximaNova-Bold" size:21]];
+    [hourLabel setFont:[hourLabel.font fontWithSize:90]];
+    [separateLabel setFont:[separateLabel.font fontWithSize:90]];
+    [minuteLabel setFont:[minuteLabel.font fontWithSize:90]];
+    [doneButton.titleLabel setFont:[UIFont fontWithName:@"ProximaNova-Bold" size:17]];
+}
 - (NSString *)questionForKind:(NSString *)taskKind {
     NSString *question = NSLocalizedString(@"Heb je vandaag ontbeten?", nil);
     if([taskKind isEqualToString:GOMealTaskDinner]) {
@@ -61,6 +68,7 @@
     [newTask setKind:[self kindForIndex:[_mealKindControl selectedSegmentIndex]]];
     [newTask setName:questionText];
     [self addNewTask:newTask];
+    [[KGModal sharedInstance] hideAnimated:YES];
 }
 #endif
 
@@ -69,7 +77,8 @@
 }
 
 - (IBAction)cancel:(id)sender {
-    [[self navigationController] popViewControllerAnimated:YES];
+//    [[self navigationController] popViewControllerAnimated:YES];
+    [[KGModal sharedInstance] hideAnimated:YES];
 }
 
 
@@ -101,7 +110,7 @@
 
 - (void)updateQuestionForKind:(NSString *)taskKind {
     NSString *question = [self questionForKind:taskKind];
-    [_questionLabel setText:question];
+//    [_questionLabel setText:question];
 }
 
 /*
@@ -151,9 +160,36 @@
         NSDate *pointInTime = [mealTask pointInTimeForBrew:brew];
         if(pointInTime && ![pointInTime isKindOfClass:[NSNull class]])
             [_timePicker setDate:pointInTime];
+        NSCalendar *calendar            = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+
+        NSDateComponents *components    = [calendar components:(NSHourCalendarUnit |NSMinuteCalendarUnit) fromDate:pointInTime];
+        [hourLabel setText:[NSString stringWithFormat:@"%02d",components.hour]];
+        [minuteLabel setText:[NSString stringWithFormat:@"%02d",components.minute]];
         
-        [self updatePart2];
+//        [self updatePart2];
     }
+    [self setupCustomFont];
+}
+- (IBAction)didTapSave:(id)sender{
+    [self donePressed:@{@"popup": [NSNumber numberWithBool:YES]}];
+}
+- (IBAction)didTapUpHour:(id)sender{
+    int hour = [hourLabel.text intValue]+1;
+    [hourLabel setText:[NSString stringWithFormat:@"%02d",hour > 23?0:hour]];
+}
+- (IBAction)didTapDownHour:(id)sender{
+    int hour = [hourLabel.text intValue]-1;
+    [hourLabel setText:[NSString stringWithFormat:@"%02d",hour < 0?23:hour]];
+}
+
+- (IBAction)didTapUpMinutes:(id)sender{
+    int minute = [minuteLabel.text intValue]+1;
+    [minuteLabel setText:[NSString stringWithFormat:@"%02d",minute > 59?0:minute]];
+}
+
+- (IBAction)didTapDownMinutes:(id)sender{
+    int minute = [minuteLabel.text intValue]-1;
+    [minuteLabel setText:[NSString stringWithFormat:@"%02d",minute < 0?59:minute]];
 }
 
 - (void)didReceiveMemoryWarning

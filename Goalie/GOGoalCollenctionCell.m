@@ -93,7 +93,6 @@
     [self cancelNofUncompletedTaskObserving];
     [self startNofUncompletedTaskOberving];
     
-    
 }
 
 // Observing
@@ -149,8 +148,14 @@
         float completionRate = [[self.activeGoal completionRate] floatValue];
 //        [self.progress setProgress:completionRate animated:YES];
         CGRect frame = self.goalIconImageView.frame;
-        frame.size.height = completionRate*frame.size.height;
+        frame.size.width = 160;
+        frame.origin.x = 0;
+        int posX = self.activeGoal.loadingHeight + ((frame.size.height-self.activeGoal.loadingHeight)/2);
+        frame.size.height = completionRate*self.activeGoal.loadingHeight;
+        frame.origin.y = posX - frame.size.height;
+        
         self.progressView.frame = frame;
+        self.progressView.backgroundColor = self.activeGoal.colorProgress;
         [self.progressLabel setText:[NSString stringWithFormat:@"%.0f",completionRate*100]];
     }
 }

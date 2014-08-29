@@ -28,6 +28,12 @@
 
 @dynamic exercise_lat, exercise_lon, location_label;
 
+- (UIColor*)colorProgress{
+    return UIColorFromRGB(0x2abaff);
+}
+- (int)loadingHeight{
+    return 104;
+}
 - (NSString *)progressSensorName {
     return @"agoraphobia_progress";
 }

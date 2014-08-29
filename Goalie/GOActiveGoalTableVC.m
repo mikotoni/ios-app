@@ -11,6 +11,8 @@
 // Model
 #import "GOGenericModelClasses.h"
 #import "GOShootPhotoTask.h"
+#import "GOMealTask.h"
+#import "GOSleepTask.h"
 
 // Services
 #import "GOMainApp.h"
@@ -21,6 +23,9 @@
 #import "GOAbstractActiveTaskCell.h"
 #import "GOAbstractTaskVC.h"
 #import "GOGoalExplanationVC.h"
+
+#import "GOMealTaskVC.h"
+#import "GOSleepTaskVC.h"
 
 #define informationFont [UIFont fontWithName:@"HelveticaNeue" size:16.0]
 
@@ -182,6 +187,22 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //selectedBrew = [brews objectAtIndex:[indexPath row] -1];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    
+    if (indexPath.row != 0 && indexPath.row != 1 + [brews count]) {
+        GOTaskBrew *brew = [self brewForIndexPath:indexPath];
+        GOActiveTask *activeTask = [brew activeTask];
+        if ([activeTask isKindOfClass:[GOActiveMealTask class]]) {
+            GOMealTaskVC *modal = (GOMealTaskVC *)[storyBoard instantiateViewControllerWithIdentifier:@"MealTask"];
+            [[KGModal sharedInstance] setCloseButtonType:KGModalCloseButtonTypeNone];
+            [[KGModal sharedInstance] showWithContentViewController:modal andAnimated:YES];
+        }
+//        else if ([activeTask isKindOfClass:[GOActiveSleepTask class]]){
+//            GOSleepTaskVC *modal = (GOSleepTaskVC *)[storyBoard instantiateViewControllerWithIdentifier:@"MealTask"];
+//            [[KGModal sharedInstance] setCloseButtonType:KGModalCloseButtonTypeNone];
+//            [[KGModal sharedInstance] showWithContentViewController:modal andAnimated:YES];
+//        }
+    }
  }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

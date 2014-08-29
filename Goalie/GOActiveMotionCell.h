@@ -14,5 +14,6 @@
 
 @property IBOutlet UILabel *activityGoalLabel;
 @property IBOutlet UILabel *actualActivityLabel;
+@property IBOutlet UIImageView *handImageView;
 
 @end

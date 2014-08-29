@@ -94,6 +94,12 @@
         //[goal calculateCompletionRate];
         //[goal calculateLastActivityDate];
     }
+    if ([sender isKindOfClass:[NSDictionary class]]) {
+        if ([sender[@"popup"] boolValue]) {
+            [[KGModal sharedInstance] hideAnimated:YES];
+            return;
+        }
+    }
     [self navigateBack];
 }
 

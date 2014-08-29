@@ -20,6 +20,12 @@
 
 @implementation GOEmotionAwarenessGoal
 
+- (UIColor*)colorProgress{
+    return UIColorFromRGB(0xb16eff);
+}
+- (int)loadingHeight{
+    return 82;
+}
 - (NSString *)progressSensorName {
     return @"emotion_awareness_progress";
 }

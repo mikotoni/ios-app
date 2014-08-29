@@ -54,16 +54,16 @@
 
 - (NSString *)descriptionDesired{
     if(!self.isWakeup)
-        return NSLocalizedString(@"Wil opstaan", nil);
+        return NSLocalizedString(@"Wil naar", nil);
     else
-        return NSLocalizedString(@"Ben opgestaan", nil);
+        return NSLocalizedString(@"Wil opstaan", nil);
 }
 
 - (NSString *)descriptionWentTo{
     if(!self.isWakeup)
-        return NSLocalizedString(@"Wil naar", nil);
-    else
         return NSLocalizedString(@"Ben naar", nil);
+    else
+        return NSLocalizedString(@"Ben opgestaan", nil);
 }
 
 @end

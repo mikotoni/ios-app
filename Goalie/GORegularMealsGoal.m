@@ -21,6 +21,12 @@
 
 @dynamic breakfast, lunch, dinner;
 
+- (UIColor*)colorProgress{
+    return UIColorFromRGB(0x42db00);
+}
+- (int)loadingHeight{
+    return 92;
+}
 - (NSString *)progressSensorName {
     return @"regular_meals_progress";
 }

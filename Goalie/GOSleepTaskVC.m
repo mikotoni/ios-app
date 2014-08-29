@@ -53,6 +53,28 @@
     }
 }
 
+- (IBAction)didTapSave:(id)sender{
+    [self donePressed:@{@"popup": [NSNumber numberWithBool:YES]}];
+}
+- (IBAction)didTapUpHour:(id)sender{
+    int hour = [hourLabel.text intValue]+1;
+    [hourLabel setText:[NSString stringWithFormat:@"%02d",hour > 23?0:hour]];
+}
+- (IBAction)didTapDownHour:(id)sender{
+    int hour = [hourLabel.text intValue]-1;
+    [hourLabel setText:[NSString stringWithFormat:@"%02d",hour < 0?23:hour]];
+}
+
+- (IBAction)didTapUpMinutes:(id)sender{
+    int minute = [minuteLabel.text intValue]+1;
+    [minuteLabel setText:[NSString stringWithFormat:@"%02d",minute > 59?0:minute]];
+}
+
+- (IBAction)didTapDownMinutes:(id)sender{
+    int minute = [minuteLabel.text intValue]-1;
+    [minuteLabel setText:[NSString stringWithFormat:@"%02d",minute < 0?59:minute]];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
