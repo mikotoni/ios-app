@@ -39,10 +39,6 @@
 		F818230117B123DB00182A7E /* goal-keeper-dive-square_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822FF17B121B700182A7E /* goal-keeper-dive-square_114x114.png */; };
 		F818230217B123E200182A7E /* goal-keeper-dive-square_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F81822FD17B121B000182A7E /* goal-keeper-dive-square_57x57.png */; };
 		F818230517B1247000182A7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F818230417B1247000182A7E /* Default@2x.png */; };
-		F818230E17B14DCE00182A7E /* IMG_1711.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818230D17B14DCE00182A7E /* IMG_1711.PNG */; };
-		F818231017B14E5F00182A7E /* IMG_1711@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818230F17B14E5F00182A7E /* IMG_1711@2x.PNG */; };
-		F818231217B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818231117B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG */; };
-		F818231417B1514900182A7E /* IMG_1712_without_statusbar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F818231317B1514900182A7E /* IMG_1712_without_statusbar.PNG */; };
 		F820950F17B834FC00D1D0BC /* GOBrewTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F820950E17B834FC00D1D0BC /* GOBrewTableVC.m */; };
 		F820951317B8CF6100D1D0BC /* GOBrewValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F820951217B8CF6100D1D0BC /* GOBrewValueCell.m */; };
 		F820951617B8D02000D1D0BC /* GOBrewValuesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F820951517B8D02000D1D0BC /* GOBrewValuesTableVC.m */; };
@@ -125,7 +121,6 @@
 		F8929C9F171D5AC200E02F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8929C9D171D5AC200E02F35 /* InfoPlist.strings */; };
 		F8929CA1171D5AC200E02F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CA0171D5AC200E02F35 /* main.m */; };
 		F8929CA5171D5AC300E02F35 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CA4171D5AC300E02F35 /* GOAppDelegate.m */; };
-		F8929CAB171D5AC300E02F35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */; };
 		F8929CAE171D5AC300E02F35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8929CAC171D5AC300E02F35 /* MainStoryboard.storyboard */; };
 		F8929CB1171D5AC300E02F35 /* Goalie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8929CAF171D5AC300E02F35 /* Goalie.xcdatamodeld */; };
 		F8929CC0171D5AC300E02F35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C92171D5AC200E02F35 /* UIKit.framework */; };
@@ -271,10 +266,6 @@
 		F818230417B1247000182A7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		F818230817B1247400182A7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		F818230A17B1247600182A7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		F818230D17B14DCE00182A7E /* IMG_1711.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1711.PNG; sourceTree = "<group>"; };
-		F818230F17B14E5F00182A7E /* IMG_1711@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1711@2x.PNG"; sourceTree = "<group>"; };
-		F818231117B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1711_withoutstatus@2x.PNG"; sourceTree = "<group>"; };
-		F818231317B1514900182A7E /* IMG_1712_without_statusbar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1712_without_statusbar.PNG; sourceTree = "<group>"; };
 		F820950D17B834FC00D1D0BC /* GOBrewTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewTableVC.h; sourceTree = "<group>"; };
 		F820950E17B834FC00D1D0BC /* GOBrewTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOBrewTableVC.m; sourceTree = "<group>"; };
 		F820951117B8CF6100D1D0BC /* GOBrewValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOBrewValueCell.h; sourceTree = "<group>"; };
@@ -408,9 +399,6 @@
 		F8929CA2171D5AC200E02F35 /* Goalie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Goalie-Prefix.pch"; sourceTree = "<group>"; };
 		F8929CA3171D5AC200E02F35 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
 		F8929CA4171D5AC300E02F35 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
-		F8929CA6171D5AC300E02F35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F8929CA8171D5AC300E02F35 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F8929CB0171D5AC300E02F35 /* Goalie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Goalie.xcdatamodel; sourceTree = "<group>"; };
 		F8929CB2171D5AC300E02F35 /* GOMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOMasterViewController.h; sourceTree = "<group>"; };
 		F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOMasterViewController.m; sourceTree = "<group>"; };
@@ -1085,9 +1073,6 @@
 				F8929C9D171D5AC200E02F35 /* InfoPlist.strings */,
 				F8929CA0171D5AC200E02F35 /* main.m */,
 				F8929CA2171D5AC200E02F35 /* Goalie-Prefix.pch */,
-				F8929CA6171D5AC300E02F35 /* Default.png */,
-				F8929CA8171D5AC300E02F35 /* Default@2x.png */,
-				F8929CAA171D5AC300E02F35 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1175,9 +1160,6 @@
 				F81822FF17B121B700182A7E /* goal-keeper-dive-square_114x114.png */,
 				F81822FD17B121B000182A7E /* goal-keeper-dive-square_57x57.png */,
 				F878F5FA17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png */,
-				F818230D17B14DCE00182A7E /* IMG_1711.PNG */,
-				F818230F17B14E5F00182A7E /* IMG_1711@2x.PNG */,
-				F818231117B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG */,
 				F81822F617B11BC100182A7E /* goal-keeper-dive-green_57x57.png */,
 				F81822F417B11B7F00182A7E /* goal-keeper-dive-green.png */,
 				F81822FB17B11F5B00182A7E /* goal-keeper-basic.png */,
@@ -1193,7 +1175,6 @@
 				F8E6E801174E297F002B1BAD /* GreenCheckmark.png */,
 				F8E6E802174E297F002B1BAD /* RedCross.png */,
 				F8AEC2671745197E00D375DA /* GreenCheckmark.tiff */,
-				F818231317B1514900182A7E /* IMG_1712_without_statusbar.PNG */,
 				F8AEC2681745197E00D375DA /* RedCross.tiff */,
 				F8115FE01754EC9F00143FD4 /* image_placeholder.png */,
 			);
@@ -1390,7 +1371,6 @@
 				F8B15D221782162700FC0317 /* MostRecentActivityByGoalReduce.js in Resources */,
 				F87AB881177D9C8700DBC99E /* AllGoals.js in Resources */,
 				F8929C9F171D5AC200E02F35 /* InfoPlist.strings in Resources */,
-				F8929CAB171D5AC300E02F35 /* Default-568h@2x.png in Resources */,
 				F8929CAE171D5AC300E02F35 /* MainStoryboard.storyboard in Resources */,
 				F8929CE7171D78D400E02F35 /* README.md in Resources */,
 				F8929CE8171D78D400E02F35 /* release_notes.md in Resources */,
@@ -1417,10 +1397,6 @@
 				F818230117B123DB00182A7E /* goal-keeper-dive-square_114x114.png in Resources */,
 				F818230217B123E200182A7E /* goal-keeper-dive-square_57x57.png in Resources */,
 				F818230517B1247000182A7E /* Default@2x.png in Resources */,
-				F818230E17B14DCE00182A7E /* IMG_1711.PNG in Resources */,
-				F818231017B14E5F00182A7E /* IMG_1711@2x.PNG in Resources */,
-				F818231217B14FE900182A7E /* IMG_1711_withoutstatus@2x.PNG in Resources */,
-				F818231417B1514900182A7E /* IMG_1712_without_statusbar.PNG in Resources */,
 				F878F5E917B258A500776E69 /* card_bg_shadow.9.cut.png in Resources */,
 				F878F5F117B262A700776E69 /* food.png in Resources */,
 				F878F5F217B262A700776E69 /* group.png in Resources */,
@@ -1725,6 +1701,8 @@
 		F8929CD1171D5AC300E02F35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1759,6 +1737,8 @@
 		F8929CD2171D5AC300E02F35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
