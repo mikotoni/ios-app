@@ -17,6 +17,9 @@
 		F57DF4BD19AEF8960037BA40 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
 		F59622E519AE79E8000BB553 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */; };
 		F59622E619AE79E8000BB553 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */; };
+		F5A7022119B8C037007FD23C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A7021B19B8C037007FD23C /* libTestFlight.a */; };
+		F5A7022219B8C037007FD23C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F5A7021C19B8C037007FD23C /* README.md */; };
+		F5A7022319B8C037007FD23C /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F5A7021D19B8C037007FD23C /* release_notes.md */; };
 		F5DD99AC19AB927100543962 /* GOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */; };
 		F5DD99AE19AB94A000543962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD99AD19AB94A000543962 /* Assets.xcassets */; };
 		F5DD99B119AB970B00543962 /* GOGoalCollenctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */; };
@@ -128,9 +131,6 @@
 		F8929CC2171D5AC300E02F35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929C98171D5AC200E02F35 /* CoreData.framework */; };
 		F8929CCA171D5AC300E02F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8929CC8171D5AC300E02F35 /* InfoPlist.strings */; };
 		F8929CCD171D5AC300E02F35 /* GoalieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CCC171D5AC300E02F35 /* GoalieTests.m */; };
-		F8929CE6171D78D400E02F35 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929CE2171D78D400E02F35 /* libTestFlight.a */; };
-		F8929CE7171D78D400E02F35 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8929CE3171D78D400E02F35 /* README.md */; };
-		F8929CE8171D78D400E02F35 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F8929CE4171D78D400E02F35 /* release_notes.md */; };
 		F8929CEA171D78FD00E02F35 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8929CE9171D78FD00E02F35 /* libz.dylib */; };
 		F8946A3D1721775500123D1B /* GONewGoalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A3C1721775500123D1B /* GONewGoalTableViewController.m */; };
 		F8946A40172177A100123D1B /* GONewGoalExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A3F172177A100123D1B /* GONewGoalExplanationViewController.m */; };
@@ -227,6 +227,12 @@
 		F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		F5A7021B19B8C037007FD23C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		F5A7021C19B8C037007FD23C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F5A7021D19B8C037007FD23C /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		F5A7021E19B8C037007FD23C /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		F5A7021F19B8C037007FD23C /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		F5A7022019B8C037007FD23C /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		F5DD99AD19AB94A000543962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DD99AF19AB970B00543962 /* GOGoalCollenctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoalCollenctionCell.h; sourceTree = "<group>"; };
 		F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoalCollenctionCell.m; sourceTree = "<group>"; };
@@ -409,10 +415,6 @@
 		F8929CCC171D5AC300E02F35 /* GoalieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoalieTests.m; sourceTree = "<group>"; };
 		F8929CD8171D660400E02F35 /* GOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLoginViewController.h; sourceTree = "<group>"; };
 		F8929CD9171D660400E02F35 /* GOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLoginViewController.m; sourceTree = "<group>"; };
-		F8929CE2171D78D400E02F35 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		F8929CE3171D78D400E02F35 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		F8929CE4171D78D400E02F35 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		F8929CE5171D78D400E02F35 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		F8929CE9171D78FD00E02F35 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		F8946A38172176EE00123D1B /* GONewGoalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewGoalVC.h; sourceTree = "<group>"; };
 		F8946A39172176EE00123D1B /* GONewGoalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewGoalVC.m; sourceTree = "<group>"; };
@@ -483,8 +485,6 @@
 		F8B7109A17BCDBCB007A17DF /* GOSleepStateTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSleepStateTableVC.m; sourceTree = "<group>"; };
 		F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchCocoa.framework; sourceTree = "<group>"; };
 		F8CD547F17EB2EA600377766 /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TouchDB.framework; sourceTree = "<group>"; };
-		F8D23A0217CE2C4100A26191 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		F8D23A0317CE2C4100A26191 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		F8D23A0417CF427200A26191 /* GOActiveSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveSwitchCell.h; sourceTree = "<group>"; };
 		F8D23A0517CF427200A26191 /* GOActiveSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOActiveSwitchCell.m; sourceTree = "<group>"; };
 		F8D23A0717CF4DA900A26191 /* GOActiveSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOActiveSliderCell.h; sourceTree = "<group>"; };
@@ -553,6 +553,7 @@
 				F87A5F5B17D7322900ABED38 /* AssetsLibrary.framework in Frameworks */,
 				F8515F9B17C6186B00D0DA80 /* QuartzCore.framework in Frameworks */,
 				F878F61917B5361A00776E69 /* MapKit.framework in Frameworks */,
+				F5A7022119B8C037007FD23C /* libTestFlight.a in Frameworks */,
 				F8575855175F8099006E6B84 /* SystemConfiguration.framework in Frameworks */,
 				F8AFD1B517841E0900ED99DC /* CoreTelephony.framework in Frameworks */,
 				F8AFD1B317841E0300ED99DC /* AudioToolbox.framework in Frameworks */,
@@ -570,7 +571,6 @@
 				F8929C95171D5AC200E02F35 /* Foundation.framework in Frameworks */,
 				F8929C97171D5AC200E02F35 /* CoreGraphics.framework in Frameworks */,
 				F8929C99171D5AC200E02F35 /* CoreData.framework in Frameworks */,
-				F8929CE6171D78D400E02F35 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +594,20 @@
 				F5796B7619B0C7D80087525A /* KGModal.m */,
 			);
 			path = KGModal;
+			sourceTree = "<group>";
+		};
+		F5A7021A19B8C037007FD23C /* TestFlightSDK3.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				F5A7021B19B8C037007FD23C /* libTestFlight.a */,
+				F5A7021C19B8C037007FD23C /* README.md */,
+				F5A7021D19B8C037007FD23C /* release_notes.md */,
+				F5A7021E19B8C037007FD23C /* TestFlight+AsyncLogging.h */,
+				F5A7021F19B8C037007FD23C /* TestFlight+ManualSessions.h */,
+				F5A7022019B8C037007FD23C /* TestFlight.h */,
+			);
+			name = TestFlightSDK3.0.2;
+			path = ../../../../Downloads/TestFlightSDK3.0.2;
 			sourceTree = "<group>";
 		};
 		F80198801733FC8E00642D1D /* UI Task Views */ = {
@@ -980,11 +994,11 @@
 		F8929C86171D5AC200E02F35 = {
 			isa = PBXGroup;
 			children = (
+				F5A7021A19B8C037007FD23C /* TestFlightSDK3.0.2 */,
 				F844C25417D9D99500D5F8E6 /* Localizable.strings */,
 				F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */,
 				F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */,
 				F8929C9A171D5AC200E02F35 /* Goalie */,
-				F8929CE1171D78D400E02F35 /* TestFlightSDK1.2.4 */,
 				F8929CC5171D5AC300E02F35 /* GoalieTests */,
 				F8929C91171D5AC200E02F35 /* Frameworks */,
 				F8929C90171D5AC200E02F35 /* Products */,
@@ -1094,20 +1108,6 @@
 				F8929CC8171D5AC300E02F35 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8929CE1171D78D400E02F35 /* TestFlightSDK1.2.4 */ = {
-			isa = PBXGroup;
-			children = (
-				F8929CE2171D78D400E02F35 /* libTestFlight.a */,
-				F8929CE3171D78D400E02F35 /* README.md */,
-				F8929CE4171D78D400E02F35 /* release_notes.md */,
-				F8D23A0217CE2C4100A26191 /* TestFlight+AsyncLogging.h */,
-				F8D23A0317CE2C4100A26191 /* TestFlight+ManualSessions.h */,
-				F8929CE5171D78D400E02F35 /* TestFlight.h */,
-			);
-			name = TestFlightSDK1.2.4;
-			path = Goalie/TestFlightSDK1.2.4;
 			sourceTree = "<group>";
 		};
 		F8946A30172167D100123D1B /* UI Goal View */ = {
@@ -1372,11 +1372,10 @@
 				F87AB881177D9C8700DBC99E /* AllGoals.js in Resources */,
 				F8929C9F171D5AC200E02F35 /* InfoPlist.strings in Resources */,
 				F8929CAE171D5AC300E02F35 /* MainStoryboard.storyboard in Resources */,
-				F8929CE7171D78D400E02F35 /* README.md in Resources */,
-				F8929CE8171D78D400E02F35 /* release_notes.md in Resources */,
 				F8AEC2691745197E00D375DA /* GreenCheckmark.tiff in Resources */,
 				F8AEC26A1745197E00D375DA /* RedCross.tiff in Resources */,
 				F8E6E803174E297F002B1BAD /* GreenCheckmark.png in Resources */,
+				F5A7022319B8C037007FD23C /* release_notes.md in Resources */,
 				F8E6E804174E297F002B1BAD /* RedCross.png in Resources */,
 				F8115FE11754EC9F00143FD4 /* image_placeholder.png in Resources */,
 				F8A8BF721756047D0096D60E /* affectbutton in Resources */,
@@ -1407,6 +1406,7 @@
 				F878F5FB17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png in Resources */,
 				3E4B781417B244D90001FCC7 /* Settings.plist in Resources */,
 				3E4B781217B244D30001FCC7 /* CommonSense.plist in Resources */,
+				F5A7022219B8C037007FD23C /* README.md in Resources */,
 				F8515F9E17C6231000D0DA80 /* goal-keeper-basic-20.png in Resources */,
 				F8515F9F17C6231000D0DA80 /* goal-keeper-basic-20@2x.png in Resources */,
 				F8515FA217C6298B00D0DA80 /* goal-keeper-basic-33.png in Resources */,
@@ -1701,6 +1701,7 @@
 		F8929CD1171D5AC300E02F35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1717,11 +1718,13 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = "Goalie/Goalie-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
+					/Users/reza/Downloads/TestFlightSDK3.0.2,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1729,7 +1732,8 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05234785-46A9-4EF4-8977-89C3940AD215";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "49e25475-4d78-49f2-9a24-ea94f3c4bbd7";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1737,10 +1741,11 @@
 		F8929CD2171D5AC300E02F35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sense Observation Systems B.V. (MT2K5TW3U7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sense Observation Systems B.V. (MT2K5TW3U7)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
@@ -1753,10 +1758,11 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = "Goalie/Goalie-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
+					/Users/reza/Downloads/TestFlightSDK3.0.2,
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1764,8 +1770,9 @@
 					"-lstdc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F332EB17-E0D2-4B8D-B9C5-AA687E6EB76F";
+				PROVISIONING_PROFILE = "d4fcef50-f6e3-4529-84f3-a36f568102b1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d4fcef50-f6e3-4529-84f3-a36f568102b1";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1782,6 +1789,8 @@
 				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
 				INFOPLIST_FILE = "GoalieTests/GoalieTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07d886d0-6015-49b1-84c7-dca619db6883";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07d886d0-6015-49b1-84c7-dca619db6883";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1791,6 +1800,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Goalie.app/Goalie";
+				CODE_SIGN_IDENTITY = "iPhone Developer: BASYTYAN KARDINAL PRATAMA (4JW2255266)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: BASYTYAN KARDINAL PRATAMA (4JW2255266)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -1799,6 +1810,8 @@
 				GCC_PREFIX_HEADER = "Goalie/Goalie-Prefix.pch";
 				INFOPLIST_FILE = "GoalieTests/GoalieTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "826e8693-0e2f-4ae2-8fcc-bc0d211b0531";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "826e8693-0e2f-4ae2-8fcc-bc0d211b0531";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
