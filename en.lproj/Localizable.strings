@@ -43,3 +43,5 @@
 "Ben naar" = "I went to bed around";
 "Vandaag actief" = "You are today %d minutes active";
 "Dagelijkse doel" = "Your daily goal is %d minutes";
+"it is important meal" = "It is important to have your meals at regular times. Try to have %@ around %@.";
+"at what time meal" = "At what time did you have %@ this %@?";

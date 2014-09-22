@@ -13,7 +13,7 @@
 #import "GOShootPhotoTask.h"
 #import "GOMealTask.h"
 #import "GOSleepTask.h"
-
+#import "GORegularMealsGoal.h"
 // Services
 #import "GOMainApp.h"
 
@@ -69,7 +69,9 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
+    [self loadBrews];
+}
+- (void)loadBrews{
     GOMainApp *mainApp = [GOMainApp sharedMainApp];
     NSDate *nowDate = [mainApp nowDate];
     brews = [self.activeGoal getBrewsForDate:nowDate];
@@ -79,7 +81,6 @@
         return [indexNumber1 compare:indexNumber2];
     }];
 }
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -93,6 +94,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//    if ([self.activeGoal isKindOfClass:[GORegularMealsGoal class]]) {
+//        return 5;
+//    }
     return 2 + [brews count];
 }
 
@@ -116,7 +120,8 @@
         [activeGoalCell setActiveGoal:self.activeGoal];
         cell = activeGoalCell;
     }
-    else if(rowIndex == 1 + [brews count]){
+    else if((rowIndex == 1 + [brews count])){// && ![self.activeGoal isKindOfClass:[GORegularMealsGoal class]])||
+        //    (rowIndex == 4 && [self.activeGoal isKindOfClass:[GORegularMealsGoal class]])){
         cellIdentifier = @"ActiveInformationCell";
         cell =
         [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
@@ -131,13 +136,25 @@
         [label setText:strText];
     }
     else{
-        GOTaskBrew *brew = [self brewForIndexPath:indexPath];
-        GOActiveTask *activeTask = [brew activeTask];
-        cellIdentifier = [activeTask activeCellIdentifier];
-        GOAbstractActiveTaskCell *activeTaskCell =
+        if (indexPath.row <= [brews count]) {
+            GOTaskBrew *brew = [self brewForIndexPath:indexPath];
+            GOActiveTask *activeTask = [brew activeTask];
+            cellIdentifier = [activeTask activeCellIdentifier];
+            GOAbstractActiveTaskCell *activeTaskCell =
             [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-        [activeTaskCell setBrew:brew];
-        cell = activeTaskCell;
+            [activeTaskCell setBrew:brew];
+            if ([self.activeGoal isKindOfClass:[GORegularMealsGoal class]]) {
+            
+            }
+            cell = activeTaskCell;
+        }
+        else{
+            GOAbstractActiveTaskCell *activeTaskCell = [tableView dequeueReusableCellWithIdentifier:@"ActiveMealCell" forIndexPath:indexPath];
+            cell = activeTaskCell;
+            cell.contentView.alpha = 0.5;
+            cell.userInteractionEnabled = NO;
+        }
+        
     }
     
     return cell;
@@ -194,6 +211,11 @@
         GOActiveTask *activeTask = [brew activeTask];
         if ([activeTask isKindOfClass:[GOActiveMealTask class]]) {
             GOMealTaskVC *modal = (GOMealTaskVC *)[storyBoard instantiateViewControllerWithIdentifier:@"MealTask"];
+            modal.delegate = self;
+            selectedBrew = [brews objectAtIndex:[indexPath row] -1];
+            
+            [modal setEditMode:NO];
+            [modal setBrew:selectedBrew];
             [[KGModal sharedInstance] setCloseButtonType:KGModalCloseButtonTypeNone];
             [[KGModal sharedInstance] showWithContentViewController:modal andAnimated:YES];
         }
@@ -223,7 +245,8 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger row = [indexPath row];
     
-    if(row == 1 + [brews count]){
+    if((row == 1 + [brews count] && ![self.activeGoal isKindOfClass:[GORegularMealsGoal class]])||
+       (row == 4 && [self.activeGoal isKindOfClass:[GORegularMealsGoal class]])){
         NSString *strText = [NSString stringWithFormat:@"%@",self.activeGoal.explanation];
         CGRect paragraphRect =
         [strText boundingRectWithSize:CGSizeMake(300, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:informationFont} context:nil];
@@ -241,5 +264,8 @@
     return 70;
 }
 
-
+- (void)doneAction{
+    [self loadBrews];
+    [self.tableView reloadData];
+}
 @end

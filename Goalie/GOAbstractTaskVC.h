@@ -10,7 +10,10 @@
 #import "GOTaskVCProtocol.h"
 
 @class GOTask, GOActiveTask;
-
+@protocol GOAbstractTaskVCProtocol <NSObject>
+@optional
+- (void)doneAction;
+@end
 @interface GOAbstractTaskVC : UIViewController {
     GOTaskBrew *_brew;
 }
@@ -18,6 +21,7 @@
 @property BOOL editMode;
 @property GOTaskBrew *brew;
 @property GOActiveTask *activeTask;
+@property (nonatomic, strong) id<GOAbstractTaskVCProtocol> delegate;
 
 - (IBAction)donePressed:(id)sender;
 - (void)addNewTask:(GOTask *)newTask;

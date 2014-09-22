@@ -9,8 +9,8 @@
 #import "GOAbstractTaskVC.h"
 
 
-@interface GOMealTaskVC : GOAbstractTaskVC  <GOTaskVCProtocol> {
-    IBOutlet UIDatePicker *_timePicker;
+@interface GOMealTaskVC : GOAbstractTaskVC  <GOTaskVCProtocol,UIPickerViewDataSource,UIPickerViewDelegate> {
+    IBOutlet UIPickerView *_timePicker;
     IBOutlet UISegmentedControl *_didHaveMealControl;
     //IBOutlet UISegmentedControl *_mealKindControl;
     IBOutlet UILabel *_questionLabel;

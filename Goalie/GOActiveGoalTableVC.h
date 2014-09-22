@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GOAbstractTaskVC.h"
 
 @class GOActiveGoal, GOTaskBrew;
 
-@interface GOActiveGoalTableVC : UITableViewController {
+@interface GOActiveGoalTableVC : UITableViewController<GOAbstractTaskVCProtocol> {
     NSArray *brews;
     GOTaskBrew *selectedBrew;
     IBOutlet UIView*informationView;

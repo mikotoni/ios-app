@@ -10,7 +10,9 @@
 #import "GOMealTask.h"
 #import "GOGenericModelClasses.h"
 
-@interface GOMealTaskVC ()
+@interface GOMealTaskVC (){
+    NSDateFormatter *formatter;
+}
 
 @end
 
@@ -30,11 +32,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateStyle:NSDateFormatterNoStyle];
+    [formatter setTimeStyle:NSDateFormatterShortStyle];
 	// Do any additional setup after loading the view.
 }
 - (void)setupCustomFont{
-    [_questionLabel setFont:[_questionLabel.font fontWithSize:19]];
-    [_atWhatTimeLabel setFont:[UIFont fontWithName:@"ProximaNova-Bold" size:21]];
+//    [_questionLabel setFont:[UIFont fontWithName:@"ProximaNova-Regular" size:14]];
+    [_atWhatTimeLabel setFont:[UIFont fontWithName:@"ProximaNova-Regular" size:14]];
     [hourLabel setFont:[hourLabel.font fontWithSize:90]];
     [separateLabel setFont:[separateLabel.font fontWithSize:90]];
     [minuteLabel setFont:[minuteLabel.font fontWithSize:90]];
@@ -48,7 +53,7 @@
     else if([taskKind isEqualToString:GOMealTaskLunch]) {
         question = NSLocalizedString(@"Heb je vandaag geluncht?", nil);
     }
-    return question;
+    return NSLocalizedString(@"it is important meal", nil);
 }
 
 #ifdef USE_COREDATA
@@ -98,21 +103,49 @@
     GOTaskBrew *brew = self.brew;
     GOActiveMealTask *activeMealTask = (id)[brew activeTask];
     
-    bool done = ([_didHaveMealControl selectedSegmentIndex] == 0);
-    NSDate *pointInTime = nil;
+//    bool done = ([_didHaveMealControl selectedSegmentIndex] == 0);
+    bool done = YES;
+    GOMealTask *mealTask = [brew getTaskWithClass:[GOMealTask class]];
+    NSDateFormatter *formatterComplete = [[NSDateFormatter alloc] init];
+    [formatterComplete setDateFormat:@"dd-MM-yyyy"];
+    NSDate *pointInTime = [mealTask pointInTimeForBrew:brew];
+    if (!pointInTime) {
+        pointInTime = [NSDate date];
+    }
+    NSString *stringDate = [formatterComplete stringFromDate:pointInTime];
+    int selectedHour = [_timePicker selectedRowInComponent:0]+1;
+    int selectedMinute = [_timePicker selectedRowInComponent:1]+1;
+    NSString *selectedAmPm = [_timePicker selectedRowInComponent:2]==0?@"AM":@"PM";
+    stringDate = [NSString stringWithFormat:@"%@ %d:%02d %@",stringDate,selectedHour,selectedMinute,selectedAmPm];
+    [formatterComplete setDateFormat:@"dd-MM-yyyy h:mm a"];
+    
     if(done)
-        pointInTime = [_timePicker date];
+        pointInTime = [formatterComplete dateFromString:stringDate];
     
     [activeMealTask updateBrew:brew done:done pointInTime:pointInTime];
     
     [brew save];
 }
 
-- (void)updateQuestionForKind:(NSString *)taskKind {
+- (void)updateQuestionForKind:(NSString *)taskKind time:(NSString*)time{
     NSString *question = [self questionForKind:taskKind];
-//    [_questionLabel setText:question];
+    question = [NSString stringWithFormat:question,taskKind,time];
+    NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithString:question attributes:@{NSFontAttributeName: [UIFont fontWithName:@"ProximaNova-Regular" size:14]}];
+    [attrString addAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"ProximaNova-Bold" size:14]} range:[question rangeOfString:time]];
+    [_questionLabel setAttributedText:attrString];
 }
 
+- (void)updateWhatTime:(NSString *)taskKind{
+    NSString *question = NSLocalizedString(@"at what time meal", nil);
+    NSString *timeTask = @"morning";
+    if([taskKind isEqualToString:GOMealTaskDinner]) {
+        timeTask = @"afternoon";
+    }
+    else if([taskKind isEqualToString:GOMealTaskLunch]) {
+        timeTask = @"night";
+    }
+    [_atWhatTimeLabel setText:[NSString stringWithFormat:question,taskKind,timeTask]];
+}
 /*
 - (IBAction)kindChanged:(id)sender {
     NSString *newKind = [self kindForIndex:[_mealKindControl selectedSegmentIndex]];
@@ -124,8 +157,8 @@
     
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     if(self.editMode) {
         /*
         [_mealKindControl setEnabled:YES];
@@ -140,32 +173,37 @@
     else {
         //[_mealKindControl setEnabled:NO];
         //[_mealKindControl setHidden:YES];
-        [_timePicker setEnabled:YES];
+//        [_timePicker setEnabled:YES];
         [_didHaveMealControl setMomentary:NO];
         [_didHaveMealControl setEnabled:YES];
-        [_timePicker setEnabled:YES];
+//        [_timePicker setEnabled:YES];
         
         GOTaskBrew *brew = self.brew;
         GOMealTask *mealTask = [brew getTaskWithClass:[GOMealTask class]];
         GOActiveMealTask *activeMealTask = (id)[brew activeTask];
-        NSString *title = [activeMealTask titleForBrew:brew];
-        [[self navigationController] setTitle:title];
-        [self.navigationItem setTitle:title];
-        [self updateQuestionForKind:[mealTask kind]];
+//        NSString *title = [activeMealTask titleForBrew:brew];
+//        [[self navigationController] setTitle:title];
+//        [self.navigationItem setTitle:title];
+        NSDate *mealMoment = [activeMealTask mealMomentForBrew:_brew];
+        
+
+        [self updateQuestionForKind:[mealTask kind] time:[formatter stringFromDate:mealMoment]];
+        NSLog(@"%@",_questionLabel.text);
+        NSLog(@"%@",_questionLabel.attributedText);
+        [self updateWhatTime:[mealTask kind]];
         NSInteger selectedSegmentIndex = 1;
         if([mealTask isDoneForBrew:brew] == YES)
             selectedSegmentIndex = 0;
         
         [_didHaveMealControl setSelectedSegmentIndex:selectedSegmentIndex];
         NSDate *pointInTime = [mealTask pointInTimeForBrew:brew];
-        if(pointInTime && ![pointInTime isKindOfClass:[NSNull class]])
-            [_timePicker setDate:pointInTime];
+//        if(pointInTime && ![pointInTime isKindOfClass:[NSNull class]])
+//            [_timePicker setDate:pointInTime];
         NSCalendar *calendar            = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
 
         NSDateComponents *components    = [calendar components:(NSHourCalendarUnit |NSMinuteCalendarUnit) fromDate:pointInTime];
         [hourLabel setText:[NSString stringWithFormat:@"%02d",components.hour]];
         [minuteLabel setText:[NSString stringWithFormat:@"%02d",components.minute]];
-        
 //        [self updatePart2];
     }
     [self setupCustomFont];
@@ -198,4 +236,37 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 3;
+}
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component{
+    return 50;
+}
+// returns the # of rows in each component..
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    if (component == 0) {
+        return 12;
+    }
+    else if (component == 1) {
+        return 60;
+    }
+    return 2;
+}
+//- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:  (NSInteger)component {
+//    return [NSString stringWithFormat:@"%d",row];
+//}
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view {
+    
+    UILabel *label= [[UILabel alloc] initWithFrame:CGRectMake(30.0, 0.0, 50.0, 50.0)];
+    [label setBackgroundColor:[UIColor clearColor]];
+    [label setTextColor:[UIColor whiteColor]];
+    [label setFont:[UIFont boldSystemFontOfSize:30.0]];
+    [label setText:[NSString stringWithFormat:@"%d",row+1]];
+    if (component == 2) {
+        [label setFont:[UIFont boldSystemFontOfSize:24.0]];
+        [label setText:[NSString stringWithFormat:@"%@",row==0?@"AM":@"PM"]];
+    }
+    
+    return label;
+}
 @end

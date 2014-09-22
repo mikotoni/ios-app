@@ -100,6 +100,7 @@
             return;
         }
     }
+    [self.delegate doneAction];
     [self navigateBack];
 }
 

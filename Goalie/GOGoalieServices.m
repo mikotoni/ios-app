@@ -546,6 +546,7 @@
 
 - (NSArray *)brewsByActiveGoal:(GOActiveGoal *)activeGoal forDate:(NSDate *)forDate {
     CouchQuery *query = [self queryForBrewsByActiveGoal:activeGoal forDate:forDate];
+    [query setPrefetch:NO];
     return [self brewsFromQuery:query filterBlock:^bool(GOTaskBrew *brew) {
         return [[brew timeWindow] isDateInWindow:forDate];
     }];

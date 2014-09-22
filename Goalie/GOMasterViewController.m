@@ -387,7 +387,6 @@
         [tvc setActiveGoal:activeGoal];
     }
     else if([segueIdentifier isEqualToString:@"SelectCollectionCellGoalSegue"]) {
-        NSIndexPath *indexPath = [self.collectionView indexPathForCell:sender];
         GOGoalCollenctionCell *cell = (GOGoalCollenctionCell*)sender;
         GOActiveGoalTableVC *tvc = [segue destinationViewController];
         [tvc setActiveGoal:cell.activeGoal];
