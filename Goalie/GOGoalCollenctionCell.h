@@ -2,7 +2,7 @@
 //  GOGoalCollenctionCell.h
 //  Goalie
 //
-//  Created by Reza on 8/25/14.
+//  Created by Basytyan on 8/25/14.
 //  Copyright (c) 2014 Stefan Kroon. All rights reserved.
 //
 
@@ -18,7 +18,7 @@
     bool badgeIsVisible;
 }
 
-@property IBOutlet UIView *badgeView;
+@property IBOutlet UILabel *badgeView;
 @property IBOutlet UIImageView *goalIconImageView;
 @property IBOutlet UILabel *headline;
 @property IBOutlet UILabel *deadlline;

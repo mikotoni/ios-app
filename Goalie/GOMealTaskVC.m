@@ -113,11 +113,10 @@
         pointInTime = [NSDate date];
     }
     NSString *stringDate = [formatterComplete stringFromDate:pointInTime];
-    int selectedHour = [_timePicker selectedRowInComponent:0]+1;
-    int selectedMinute = [_timePicker selectedRowInComponent:1]+1;
-    NSString *selectedAmPm = [_timePicker selectedRowInComponent:2]==0?@"AM":@"PM";
-    stringDate = [NSString stringWithFormat:@"%@ %d:%02d %@",stringDate,selectedHour,selectedMinute,selectedAmPm];
-    [formatterComplete setDateFormat:@"dd-MM-yyyy h:mm a"];
+    int selectedHour = [_timePicker selectedRowInComponent:0];
+    int selectedMinute = [_timePicker selectedRowInComponent:1];
+    stringDate = [NSString stringWithFormat:@"%@ %d:%02d",stringDate,selectedHour,selectedMinute];
+    [formatterComplete setDateFormat:@"dd-MM-yyyy h:mm"];
     
     if(done)
         pointInTime = [formatterComplete dateFromString:stringDate];
@@ -237,7 +236,7 @@
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    return 3;
+    return 2;
 }
 - (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component{
     return 50;
@@ -245,12 +244,12 @@
 // returns the # of rows in each component..
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     if (component == 0) {
-        return 12;
+        return 24;
     }
     else if (component == 1) {
         return 60;
     }
-    return 2;
+    return 0;
 }
 //- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:  (NSInteger)component {
 //    return [NSString stringWithFormat:@"%d",row];
@@ -261,12 +260,8 @@
     [label setBackgroundColor:[UIColor clearColor]];
     [label setTextColor:[UIColor whiteColor]];
     [label setFont:[UIFont boldSystemFontOfSize:30.0]];
-    [label setText:[NSString stringWithFormat:@"%d",row+1]];
-    if (component == 2) {
-        [label setFont:[UIFont boldSystemFontOfSize:24.0]];
-        [label setText:[NSString stringWithFormat:@"%@",row==0?@"AM":@"PM"]];
-    }
-    
+    [label setText:[NSString stringWithFormat:@"%d",row]];
+    [label setTextAlignment:NSTextAlignmentCenter];
     return label;
 }
 @end

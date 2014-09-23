@@ -47,13 +47,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,50)];
-    lbNavTitle.textAlignment = NSTextAlignmentLeft;
-    lbNavTitle.text = [[self.activeGoal title] uppercaseString];
-    lbNavTitle.adjustsFontSizeToFitWidth = NO;
-    lbNavTitle.font = [UIFont fontWithName:@"ProximaNova-Bold" size:17];
-    [lbNavTitle setTextColor:[UIColor whiteColor]];
-    self.navigationItem.titleView = lbNavTitle;
+//    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,50)];
+//    lbNavTitle.textAlignment = NSTextAlignmentLeft;
+//    lbNavTitle.text = [[self.activeGoal title] uppercaseString];
+//    lbNavTitle.adjustsFontSizeToFitWidth = NO;
+//    lbNavTitle.font = [UIFont fontWithName:@"ProximaNova-Bold" size:17];
+//    [lbNavTitle setTextColor:[UIColor whiteColor]];
+//    self.navigationItem.titleView = lbNavTitle;
+    self.title = [[self.activeGoal title] uppercaseString];
 //    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,40)];
 //    lbNavTitle.textAlignment = NSTextAlignmentLeft;
 //    lbNavTitle.text = @"GOALIE";

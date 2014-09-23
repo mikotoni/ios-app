@@ -10,10 +10,14 @@
 #import "GOMainApp.h"
 #import "GOGoalieServices.h"
 #import "GOSensePlatform.h"
+#import "RightMenuViewController.h"
 
 @implementation GOAppDelegate
 
-//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+//    [self setSlideMenu];
+    return YES;
+}
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UILocalNotification *notification =
         [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
@@ -26,6 +30,8 @@
     [[UITextView appearance] setFont:[UIFont fontWithName:@"ProximaNova-Regular" size:14]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{UITextAttributeTextColor:[UIColor whiteColor],UITextAttributeFont:[UIFont fontWithName:@"ProximaNova-Bold" size:16]}];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    
     return YES;
 }
 							
@@ -70,7 +76,8 @@
     GOGoalieServices *goalieServices = [[GOMainApp sharedMainApp] goalieServices];
     [goalieServices processLocalNotification:notification whileInForeground:!isBecomingForeground];
 }
-
+- (void)setSlideMenu{
+}
 #pragma mark - Application's Documents directory
 
 @end

@@ -15,6 +15,14 @@
 		F57DF4B519AEF5640037BA40 /* GONewGoalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A39172176EE00123D1B /* GONewGoalVC.m */; };
 		F57DF4BC19AEF8960037BA40 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
 		F57DF4BD19AEF8960037BA40 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
+		F57EB07819D1B8970086AD86 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB07719D1B8970086AD86 /* RightMenuViewController.m */; };
+		F57EB09619D1D3FB0086AD86 /* GONavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB09519D1D3FB0086AD86 /* GONavigationViewController.m */; };
+		F57EB0A419D1D42E0086AD86 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB09919D1D42E0086AD86 /* RECommonFunctions.m */; };
+		F57EB0A519D1D42E0086AD86 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB09B19D1D42E0086AD86 /* REFrostedContainerViewController.m */; };
+		F57EB0A619D1D42E0086AD86 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB09D19D1D42E0086AD86 /* REFrostedViewController.m */; };
+		F57EB0A819D1D42E0086AD86 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB0A119D1D42E0086AD86 /* UIView+REFrostedViewController.m */; };
+		F57EB0A919D1D42E0086AD86 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB0A319D1D42E0086AD86 /* UIViewController+REFrostedViewController.m */; };
+		F57EB0AC19D1D5A50086AD86 /* GORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB0AB19D1D5A50086AD86 /* GORootViewController.m */; };
 		F59622E519AE79E8000BB553 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */; };
 		F59622E619AE79E8000BB553 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */; };
 		F5A7022119B8C037007FD23C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A7021B19B8C037007FD23C /* libTestFlight.a */; };
@@ -225,6 +233,22 @@
 		F5796B7519B0C7D70087525A /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
 		F5796B7619B0C7D80087525A /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
 		F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F57EB07619D1B8970086AD86 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
+		F57EB07719D1B8970086AD86 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
+		F57EB09419D1D3FB0086AD86 /* GONavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONavigationViewController.h; sourceTree = "<group>"; };
+		F57EB09519D1D3FB0086AD86 /* GONavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONavigationViewController.m; sourceTree = "<group>"; };
+		F57EB09819D1D42E0086AD86 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		F57EB09919D1D42E0086AD86 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		F57EB09A19D1D42E0086AD86 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		F57EB09B19D1D42E0086AD86 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		F57EB09C19D1D42E0086AD86 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		F57EB09D19D1D42E0086AD86 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		F57EB0A019D1D42E0086AD86 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F57EB0A119D1D42E0086AD86 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F57EB0A219D1D42E0086AD86 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F57EB0A319D1D42E0086AD86 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F57EB0AA19D1D5A50086AD86 /* GORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORootViewController.h; sourceTree = "<group>"; };
+		F57EB0AB19D1D5A50086AD86 /* GORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORootViewController.m; sourceTree = "<group>"; };
 		F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 		F5A7021B19B8C037007FD23C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
@@ -594,6 +618,23 @@
 				F5796B7619B0C7D80087525A /* KGModal.m */,
 			);
 			path = KGModal;
+			sourceTree = "<group>";
+		};
+		F57EB09719D1D42E0086AD86 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F57EB09819D1D42E0086AD86 /* RECommonFunctions.h */,
+				F57EB09919D1D42E0086AD86 /* RECommonFunctions.m */,
+				F57EB09A19D1D42E0086AD86 /* REFrostedContainerViewController.h */,
+				F57EB09B19D1D42E0086AD86 /* REFrostedContainerViewController.m */,
+				F57EB09C19D1D42E0086AD86 /* REFrostedViewController.h */,
+				F57EB09D19D1D42E0086AD86 /* REFrostedViewController.m */,
+				F57EB0A019D1D42E0086AD86 /* UIView+REFrostedViewController.h */,
+				F57EB0A119D1D42E0086AD86 /* UIView+REFrostedViewController.m */,
+				F57EB0A219D1D42E0086AD86 /* UIViewController+REFrostedViewController.h */,
+				F57EB0A319D1D42E0086AD86 /* UIViewController+REFrostedViewController.m */,
+			);
+			path = REFrostedViewController;
 			sourceTree = "<group>";
 		};
 		F5A7021A19B8C037007FD23C /* TestFlightSDK3.0.2 */ = {
@@ -1049,6 +1090,7 @@
 		F8929C9A171D5AC200E02F35 /* Goalie */ = {
 			isa = PBXGroup;
 			children = (
+				F57EB09719D1D42E0086AD86 /* REFrostedViewController */,
 				F5796B7419B0C7D70087525A /* KGModal */,
 				F8FFD59317CF9F6B004806F7 /* CastFunctions.h */,
 				F8FFD59417CF9F6D004806F7 /* CastFunctions.m */,
@@ -1258,6 +1300,8 @@
 		F8FACEE81737E34A00081CA6 /* UI Home View */ = {
 			isa = PBXGroup;
 			children = (
+				F57EB0AA19D1D5A50086AD86 /* GORootViewController.h */,
+				F57EB0AB19D1D5A50086AD86 /* GORootViewController.m */,
 				F8929CB2171D5AC300E02F35 /* GOMasterViewController.h */,
 				F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */,
 				F5DD99B219ABA83500543962 /* GODashboardViewController.h */,
@@ -1266,6 +1310,10 @@
 				F8FACEE61737E33900081CA6 /* GOGoalCell.m */,
 				F5DD99AF19AB970B00543962 /* GOGoalCollenctionCell.h */,
 				F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */,
+				F57EB09419D1D3FB0086AD86 /* GONavigationViewController.h */,
+				F57EB09519D1D3FB0086AD86 /* GONavigationViewController.m */,
+				F57EB07619D1B8970086AD86 /* RightMenuViewController.h */,
+				F57EB07719D1B8970086AD86 /* RightMenuViewController.m */,
 				F820951A17B8EAF900D1D0BC /* UI Settings Views */,
 			);
 			name = "UI Home View";
@@ -1488,10 +1536,12 @@
 				F8E6E80A174E64A5002B1BAD /* GOMealTaskVC.m in Sources */,
 				F8E6E80D174E65D9002B1BAD /* GOMealTask.m in Sources */,
 				F8E6E810174E6839002B1BAD /* GOAbstractTaskVC.m in Sources */,
+				F57EB0A519D1D42E0086AD86 /* REFrostedContainerViewController.m in Sources */,
 				F8115FDA1754D82000143FD4 /* GOShootPhotoTaskVC.m in Sources */,
 				F8115FDF1754E58600143FD4 /* GOShootPhotoTask.m in Sources */,
 				F8115FE41754F40200143FD4 /* GOMoodTaskVC.m in Sources */,
 				F8A8BF70175601D70096D60E /* GOMoodTask.m in Sources */,
+				F57EB0AC19D1D5A50086AD86 /* GORootViewController.m in Sources */,
 				F80B5335177304A500F62C84 /* PaigeConnection.m in Sources */,
 				F80B533C17730D5600F62C84 /* GOGoalieServices.m in Sources */,
 				F867805517730F3F006D1C71 /* KeychainItemWrapper.m in Sources */,
@@ -1499,6 +1549,7 @@
 				F8813979177AFA1700CF6F6A /* GOExerciseStateSensor.m in Sources */,
 				F881397C177AFA4C00CF6F6A /* GOExerciseSummarySensor.m in Sources */,
 				F881397F177AFAA500CF6F6A /* GOAnxietyLogSensor.m in Sources */,
+				F57EB0A419D1D42E0086AD86 /* RECommonFunctions.m in Sources */,
 				F8813984177AFB7800CF6F6A /* GOAgoraphobiaSensor.m in Sources */,
 				F87AB886177DCFF300DBC99E /* GOSliderTask.m in Sources */,
 				F5DD99B419ABA83500543962 /* GODashboardViewController.m in Sources */,
@@ -1509,6 +1560,7 @@
 				F89FE18E1782F2DA004D4EA6 /* GOSwitchTaskVC.m in Sources */,
 				F8AFD1BD17841F9B00ED99DC /* GOSensePlatform.m in Sources */,
 				F8AFD1C11784241A00ED99DC /* GOCouchCocoa.m in Sources */,
+				F57EB0A819D1D42E0086AD86 /* UIView+REFrostedViewController.m in Sources */,
 				F8AFD1C41784269500ED99DC /* GORestKit.m in Sources */,
 				F8AFD1C7178426E100ED99DC /* GOCoreData.m in Sources */,
 				F8AFD1CA1784283600ED99DC /* GOTestFlight.m in Sources */,
@@ -1519,6 +1571,7 @@
 				F8D778381784870200929584 /* GOAgoraphobiaGoal.m in Sources */,
 				F8D7783B1784878D00929584 /* GOEmotionAwarenessGoal.m in Sources */,
 				F8D7783E178487CE00929584 /* GOPhysicalActivityGoal.m in Sources */,
+				F57EB09619D1D3FB0086AD86 /* GONavigationViewController.m in Sources */,
 				F8D7784117848AD100929584 /* GORegularSleepGoal.m in Sources */,
 				F8B696B717859EDD00CDDF8C /* GOActiveTrigger.m in Sources */,
 				F8B696BC1785A5DA00CDDF8C /* GOTaskBrew.m in Sources */,
@@ -1561,11 +1614,14 @@
 				F8515FA617C62F2000D0DA80 /* GOSleepManager.m in Sources */,
 				F8515FAA17C632D700D0DA80 /* GOReachabilityManager.m in Sources */,
 				F8EC7F8E17C75D920006DD71 /* GOSleepState.m in Sources */,
+				F57EB0A619D1D42E0086AD86 /* REFrostedViewController.m in Sources */,
 				F89F95E617CA4A0E000EEBA3 /* GOGoalExplanationVC.m in Sources */,
 				F8318F1A17CBA3C800E5AFE3 /* CouchExtendedModel.m in Sources */,
 				F8D23A0617CF427200A26191 /* GOActiveSwitchCell.m in Sources */,
 				F8D23A0917CF4DA900A26191 /* GOActiveSliderCell.m in Sources */,
+				F57EB0A919D1D42E0086AD86 /* UIViewController+REFrostedViewController.m in Sources */,
 				F8D23A0C17CF4DB600A26191 /* GOActiveShootPhotoCell.m in Sources */,
+				F57EB07819D1B8970086AD86 /* RightMenuViewController.m in Sources */,
 				F8FFD59217CF7A41004806F7 /* GOTasksTableVC.m in Sources */,
 				F8FFD59517CF9F70004806F7 /* CastFunctions.m in Sources */,
 				F8F0080C17D8CC3700D351D4 /* GOTranslation.m in Sources */,

@@ -2,7 +2,7 @@
 //  GOGoalCollenctionCell.m
 //  Goalie
 //
-//  Created by Reza on 8/25/14.
+//  Created by Basytyan on 8/25/14.
 //  Copyright (c) 2014 Stefan Kroon. All rights reserved.
 //
 
@@ -39,9 +39,10 @@
     //NSLog(@"%s isVisible:%d text:%@", __PRETTY_FUNCTION__, isVisible, text);
     UIView *badgeView = self.badgeView;
     if(isVisible) {
+        [self.badgeView setText:text];
         if(!_customBadge) {
             _customBadge = [CustomBadge customBadgeWithString:text];
-            [badgeView addSubview:_customBadge];
+//            [badgeView addSubview:_customBadge];
             [badgeView layoutIfNeeded];
             CGRect frame = _customBadge.frame;
             CGRect bounds = badgeView.bounds;
@@ -58,7 +59,8 @@
     if((!badgeIsVisible && isVisible) || (badgeIsVisible && !isVisible)) {
         _customBadge.alpha = (isVisible ? 0.0 : 1.0);
         [UIView animateWithDuration:1.0 animations:^{
-            _customBadge.alpha = (isVisible ? 1.0 : 0.0);
+//            _customBadge.alpha = (isVisible ? 1.0 : 0.0);
+            self.badgeView.alpha = (isVisible ? 1.0 : 0.0);
         }];
     }
     badgeIsVisible = isVisible;
@@ -80,9 +82,12 @@
     
     self.goalIconImageView.image = [UIImage imageNamed:iconImageName];
     self.headline.text = [headline uppercaseString];
-    self.headline.font = [UIFont fontWithName:@"ProximaNova-Bold" size:12];
+    self.headline.font = [UIFont fontWithName:@"ProximaNova-Bold" size:11];
     self.headline.enabled = YES;
-    
+    self.badgeView.font = [UIFont fontWithName:@"ProximaNova-Regular" size:10];
+    self.badgeView.layer.cornerRadius = 10;
+    self.badgeView.backgroundColor = self.activeGoal.colorProgress;
+    self.progressLabel.font = [UIFont fontWithName:@"ProximaNova-Bold" size:26];
     if([activeGoal isKindOfClass:[GOAgoraphobiaGoal class]] || [activeGoal isKindOfClass:[GORegularSleepGoal class]]) {
         //self.headline.enabled = NO;
     }

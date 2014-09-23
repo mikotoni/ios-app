@@ -29,6 +29,7 @@
 
 // Frameworks
 #import <QuartzCore/QuartzCore.h>
+#import "RightMenuViewController.h"
 
 @interface GOMasterViewController()
 
@@ -41,13 +42,13 @@
     UIActivityIndicatorView *_activityIndicator;
 }
 
-- (void)awakeFromNib
-{
-    [super awakeFromNib];
+//- (void)awakeFromNib
+//{
+//    [super awakeFromNib];
     //GOAppDelegate *appDelegate = (id)[[UIApplication sharedApplication] delegate];
     //self.managedObjectContext = [[GOMainApp sharedMainApp] managedObjectContext];
     //[self.tableView setAllowsSelectionDuringEditing:YES];
-}
+//}
 
 /*
 - (void)refreshControlAction {
@@ -87,20 +88,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+//    self.navigationItem.leftBarButtonItem = self.editButtonItem;
     //activeGoals = [[NSMutableDictionary alloc] init];
     //goals = [[NSMutableDictionary alloc] init];
     
-    self.navigationController.toolbar.tintColor = self.navigationController.navigationBar.tintColor;
+//    self.navigationController.toolbar.tintColor = self.navigationController.navigationBar.tintColor;
     UITableView *tableView = self.tableView;
-    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,40)];
-    lbNavTitle.textAlignment = NSTextAlignmentLeft;
-    lbNavTitle.text = @"GOALIE";
-    lbNavTitle.font = [UIFont fontWithName:@"ProximaNova-Bold" size:17];
-    [lbNavTitle setTextColor:[UIColor whiteColor]];
-    self.navigationItem.titleView = lbNavTitle;
+//    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,40)];
+//    lbNavTitle.textAlignment = NSTextAlignmentLeft;
+//    lbNavTitle.text = @"GOALIE";
+//    lbNavTitle.font = [UIFont fontWithName:@"ProximaNova-Bold" size:17];
+//    [lbNavTitle setTextColor:[UIColor whiteColor]];
+//    self.navigationItem.titleView = lbNavTitle;
     //tableView.backgroundColor = [UIColor clearColor];
     //tableView.opaque = NO;
     /*
@@ -108,9 +108,14 @@
     backgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"NSTexturedFullScreenBackgroundColor.png"]];
     tableView.backgroundView = backgroundView;
      */
-
+    weekLabel.font = [UIFont fontWithName:@"ProximaNova-Bold" size:14];
     //UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     //self.navigationItem.rightBarButtonItem = addButton;
+//    UIButton *button  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+//	[button setImage:[UIImage imageNamed:@"menu-button"] forState:UIControlStateNormal];
+//	[button addTarget:[SlideNavigationController sharedInstance] action:@selector(toggleRightMenu) forControlEvents:UIControlEventTouchUpInside];
+//	UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+//	[SlideNavigationController sharedInstance].rightBarButtonItem = rightBarButtonItem;
     //[self setupRefreshControl];
     _deadlineFormatter = [[NSDateFormatter alloc] init];
     [_deadlineFormatter setDateStyle:NSDateFormatterMediumStyle];
@@ -132,7 +137,10 @@
     GOSensePlatform *sensePlatform = [[GOMainApp sharedMainApp] sensePlatform];
     [self updateLogoImageIsOnline:[sensePlatform isConnected] animated:NO];
 }
-
+- (BOOL)slideNavigationControllerShouldDisplayRightMenu
+{
+    return YES;
+}
 - (GOGoalieServices *)goalieServices {
     return __goalieServices;
 }
@@ -448,6 +456,18 @@
     GOActiveGoal *activeGoal = [[CouchModelFactory sharedInstance] modelForDocument:document];
     [cell configureForActiveGoal:activeGoal];
     return cell;
+}
+
+- (IBAction)showMenu
+{
+    // Dismiss keyboard (optional)
+    //
+    [self.view endEditing:YES];
+    [self.frostedViewController.view endEditing:YES];
+    
+    // Present the view controller
+    //
+    [self.frostedViewController presentMenuViewController];
 }
 @end
 

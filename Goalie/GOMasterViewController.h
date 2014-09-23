@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 //#import <CoreData/CoreData.h>
 #import <CouchCocoa/CouchUITableSource.h>
-
 //@interface GOMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
 
 //@interface GOMasterViewController : UITableViewController <CouchUITableDelegate>
@@ -21,6 +20,7 @@
     
     UIImageView *logoImageView;
     IBOutlet UIBarButtonItem *barButton;
+    IBOutlet UILabel *weekLabel;
 }
 
 //@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;

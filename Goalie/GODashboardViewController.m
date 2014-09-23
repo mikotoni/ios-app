@@ -94,14 +94,14 @@
     //goals = [[NSMutableDictionary alloc] init];
     
     self.navigationController.toolbar.tintColor = self.navigationController.navigationBar.tintColor;
-    UITableView *tableView = self.tableView;
-    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,40)];
-    lbNavTitle.textAlignment = NSTextAlignmentLeft;
-    lbNavTitle.text = @"GOALIE";
-    lbNavTitle.font = [UIFont fontWithName:@"ProximaNova-Bold" size:16];
-    [lbNavTitle setTextColor:[UIColor whiteColor]];
-    
-    self.navigationItem.titleView = lbNavTitle;
+//    UITableView *tableView = self.tableView;
+//    UILabel* lbNavTitle = [[UILabel alloc] initWithFrame:CGRectMake(0,40,320,40)];
+//    lbNavTitle.textAlignment = NSTextAlignmentLeft;
+//    lbNavTitle.text = @"GOALIE";
+//    lbNavTitle.font = [UIFont fontWithName:@"ProximaNova-Bold" size:16];
+//    [lbNavTitle setTextColor:[UIColor whiteColor]];
+//    
+//    self.navigationItem.titleView = lbNavTitle;
     //tableView.backgroundColor = [UIColor clearColor];
     //tableView.opaque = NO;
     /*
@@ -121,9 +121,9 @@
     
     // Query the view
     self.uiTableSource = [[CouchUITableSource alloc] init];
-    self.uiTableSource.tableView = tableView;
-    [tableView setDataSource:self.uiTableSource];
-    [tableView setDelegate:self];
+//    self.uiTableSource.tableView = tableView;
+//    [tableView setDataSource:self.uiTableSource];
+//    [tableView setDelegate:self];
     
     self.goalieServices = [[GOMainApp sharedMainApp] goalieServices];
     [self startObservingSensePlatformStatus];
