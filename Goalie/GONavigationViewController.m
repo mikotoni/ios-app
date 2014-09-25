@@ -2,8 +2,7 @@
 //  GONavigationViewController.m
 //  Goalie
 //
-//  Created by Reza on 9/23/14.
-//  Copyright (c) 2014 Stefan Kroon. All rights reserved.
+//  Created by Basytyan on 9/23/14.
 //
 
 #import "GONavigationViewController.h"

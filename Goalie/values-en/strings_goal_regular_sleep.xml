@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="goal_title_regular_sleep">Regular sleep</string>
+    <string name="goal_title_regular_sleep">Sleep</string>
     <string name="goal_intro_regular_sleep">A healthy sleeping pattern is important to help you feel better during the day. Therefore, try to get enough sleep at regular times.</string>
     <string name="goal_descr_regular_sleep">A healthy sleeping pattern is important to help you feel better during the day. Therefore, try to get enough sleep at regular times.</string>
     <string name="goal_help_regular_sleep">Goalie monitors when you go to sleep and when you wake up, by looking at the sound levels and amount of movement of your phone.\n\nGoalie can only measure your sleep pattern correctly if you follow these guidelines:\n\n1.Carry your on you the entire day, preferably in your pocket.\n\n2. When you go to bed, see if you can put it next to your pillow or on your nightstand.\n\n3. Take your phone with you when you get up in the morning.\n\nEvery day around noon, Goalie will check how many points you earned last night. You earn eight points if you went to bed within half an hour of the desired time, and another eight points if you woke up on time.</string>

@@ -434,7 +434,7 @@
         
     [cell configureForActiveGoal:activeGoal];
     [self.collectionView reloadData];
-    [self.collectionView cellForItemAtIndexPath:indexPath];
+//    [self.collectionView cellForItemAtIndexPath:indexPath];
     return cell;
 }
 #pragma mark - UICollectionView delegate
@@ -457,7 +457,15 @@
     [cell configureForActiveGoal:activeGoal];
     return cell;
 }
-
+- (void)didSelectGoal:(NSString*)goal{
+//    [self.collectionView selectItemAtIndexPath:[NSIndexPath indexPathForRow:index-1 inSection:0] animated:YES scrollPosition:UICollectionViewScrollPositionNone];
+    for(GOGoalCollenctionCell* cell in [[self collectionView] visibleCells]){
+        if ([[cell.activeGoal.title uppercaseString] isEqualToString:[goal uppercaseString]]) {
+            [self performSegueWithIdentifier:@"SelectCollectionCellGoalSegue" sender:cell];
+            break;
+        }
+    }
+}
 - (IBAction)showMenu
 {
     // Dismiss keyboard (optional)

@@ -7,6 +7,13 @@
 
 #import "RightMenuViewController.h"
 #import "UIViewController+REFrostedViewController.h"
+#import "GOMasterViewController.h"
+#import <CouchCocoa/CouchUITableSource.h>
+#import <CouchCocoa/CouchCocoa.h>
+#import <CouchCocoa/CouchModelFactory.h>
+#import "GOActiveGoal.h"
+#import "GOMainApp.h"
+
 @implementation RightMenuViewController
 
 #pragma mark - UIViewController Methods -
@@ -25,11 +32,18 @@
 }
 
 #pragma mark - UITableView Delegate & Datasrouce -
-
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-//{
-//	return 6;
-//}
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 2;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (section == 0) {
+        GOMasterViewController *masterVC =(GOMasterViewController*) [(UINavigationController*)self.frostedViewController.contentViewController topViewController];
+        CouchUITableSource *uiTableSource = masterVC.uiTableSource;
+        return uiTableSource.query.rows.count;
+    }
+	return 4;
+}
 //
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
@@ -59,48 +73,89 @@
 {
 	return 4;
 }
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"rightMenuCell"];
-//	
-//	switch (indexPath.row)
-//	{
-//		case 0:
-//			cell.textLabel.text = @"None";
-//			break;
-//			
-//		case 1:
-//			cell.textLabel.text = @"Slide";
-//			break;
-//			
-//		case 2:
-//			cell.textLabel.text = @"Fade";
-//			break;
-//			
-//		case 3:
-//			cell.textLabel.text = @"Slide And Fade";
-//			break;
-//			
-//		case 4:
-//			cell.textLabel.text = @"Scale";
-//			break;
-//			
-//		case 5:
-//			cell.textLabel.text = @"Scale And Fade";
-//			break;
-//	}
-//	
-//	cell.backgroundColor = [UIColor clearColor];
-//	
-//	return cell;
-//}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	UITableViewCell *cell = nil;
+    if (indexPath.section == 0) {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"goalCell"];
+        if (indexPath.row == 0) {
+            UILabel *labelTitle=(UILabel*)[cell viewWithTag:1];
+            [labelTitle setText:@"Home"];
+            UILabel *labelNotification=(UILabel*)[cell viewWithTag:2];
+            labelNotification.hidden = YES;
+        }
+        else{
+            UILabel *labelTitle=(UILabel*)[cell viewWithTag:1];
+            NSIndexPath *newIndexPath = [NSIndexPath indexPathForRow:indexPath.row-1 inSection:indexPath.section];
+            GOMasterViewController *masterVC =(GOMasterViewController*) [(UINavigationController*)self.frostedViewController.contentViewController topViewController];
+            CouchUITableSource *uiTableSource = masterVC.uiTableSource;
+            CouchDocument *document = [uiTableSource documentAtIndexPath:newIndexPath];
+            GOActiveGoal *activeGoal = [[CouchModelFactory sharedInstance] modelForDocument:document];
+            [labelTitle setText:activeGoal.title];
+            UILabel *labelNotification=(UILabel*)[cell viewWithTag:2];
+            
+            labelNotification.layer.cornerRadius = 10;
+            NSDate *nowDate = [[GOMainApp sharedMainApp] nowDate];
+            NSUInteger nofUncompletedTasks = [activeGoal nofUncompletedTasksForDate:nowDate];
+            NSString *badgeText = nil;
+            labelNotification.hidden = YES;
+            if(nofUncompletedTasks > 0) {
+                badgeText = [[NSNumber numberWithUnsignedInteger:nofUncompletedTasks] stringValue];
+                labelNotification.hidden = NO;
+                labelNotification.text = badgeText;
+            }
+        }
+    }
+    else{
+        cell = [tableView dequeueReusableCellWithIdentifier:@"otherCell"];
+        switch (indexPath.row)
+        {
+            case 0:
+                cell.textLabel.text = @"Settings";
+                break;
+                
+            case 1:
+                cell.textLabel.text = @"About";
+                break;
+                
+            case 2:
+                cell.textLabel.text = @"Legal Notices";
+                break;
+                
+            case 3:
+                cell.textLabel.text = @"Refresh";
+                break;
+        }
+    }
+	
+	cell.backgroundColor = [UIColor clearColor];
+	
+	return cell;
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.frostedViewController hideMenuViewController];
+    if (indexPath.section == 0 && indexPath.row != 0) {
+        GOMasterViewController *masterVC =(GOMasterViewController*) [(UINavigationController*)self.frostedViewController.contentViewController topViewController];
+        [masterVC didSelectGoal:[[self staticArrayGoal] objectAtIndex:indexPath.row]];
+    } else {
+//        DEMOSecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondController"];
+//        navigationController.viewControllers = @[secondViewController];
+    }
+    
+//    self.frostedViewController.contentViewController = navigationController;
+    
 }
-
+- (NSArray *)staticArrayGoal {
+    static NSArray *timeWindows = nil;
+    if(!timeWindows) {
+        timeWindows = @[@"Home",@"Exploring",@"Time active",@"Sleep",@"Eating",@"Emotion",@"FunActivity"];
+    }
+    return timeWindows;
+}
 
 
 @end

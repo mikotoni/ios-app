@@ -31,5 +31,5 @@
 @property (strong, nonatomic) CouchLiveQuery *query;
 
 - (IBAction)syncGoals:(id)sender;
-
+- (void)didSelectGoal:(NSString*)goal;
 @end

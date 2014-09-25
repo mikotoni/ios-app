@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="goal_title_agoraphobia">Explore environment</string>
+    <string name="goal_title_agoraphobia">Exploring</string>
     <string name="goal_intro_agoraphobia">This exercise is meant to lower your anxiety and expand the area where you feel safe.</string>
     <string name="goal_descr_agoraphobia">This exercise is meant to lower your anxiety and expand the area where you feel safe.\n\nPeople with feelings similar to yours can have the tendency to focus too much on how they feel when at uncomfortable places. With this exercise, we try to help to better deal with such feelings.</string>
     <string name="goal_help_agoraphobia">There are two ways to start the exercise. It can be started manually with the button below, or Goalie can detect that you are at the designated exercise location.\n\nDuring the exercise Goalie will ask you to enter your feelings of anxiety every two minutes. Once you arrive at the designated location, you can take a picture of something that you decided on together with your therapist.\n\nYou get 50 points for finishing the exercise. When you feel you have spent enough time at the location, you can stop the exercise manually.</string>
