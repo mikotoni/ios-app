@@ -11,10 +11,21 @@
 		3E4B781417B244D90001FCC7 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E4B781317B244D90001FCC7 /* Settings.plist */; };
 		3EC9791D180C1AA600EA042A /* goal-keeper-dive-square_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */; };
 		F5796B7719B0C7D80087525A /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = F5796B7619B0C7D80087525A /* KGModal.m */; };
+		F57D593D19D3CD8A0005C5F1 /* GOAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D593C19D3CD8A0005C5F1 /* GOAboutViewController.m */; };
+		F57D63C019D451A000D32A62 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F57D63BC19D451A000D32A62 /* LICENSE */; };
+		F57D63C119D451A000D32A62 /* KILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D63BF19D451A000D32A62 /* KILabel.m */; };
+		F57D63C519D4539D00D32A62 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D63C419D4539D00D32A62 /* TTTAttributedLabel.m */; };
+		F57D63C719D456B500D32A62 /* strings_activity_legal_notices.xml in Resources */ = {isa = PBXBuildFile; fileRef = F57D63C619D456B500D32A62 /* strings_activity_legal_notices.xml */; };
+		F57D63CA19D4573D00D32A62 /* GOLegalNoticesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D63C919D4573D00D32A62 /* GOLegalNoticesViewController.m */; };
+		F57D63DA19D4658200D32A62 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57D63D919D4658200D32A62 /* CoreText.framework */; };
+		F57D63DB19D465D700D32A62 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
+		F57D63DC19D4661300D32A62 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
+		F57D63DF19D466A900D32A62 /* GOTestFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D63DE19D466A900D32A62 /* GOTestFlight.m */; };
+		F57D63E819D4670000D32A62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F57D63E219D4670000D32A62 /* README.md */; };
+		F57D63E919D4670000D32A62 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F57D63E319D4670000D32A62 /* release_notes.md */; };
+		F57D63EA19D467AE00D32A62 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F57D63E119D4670000D32A62 /* libTestFlight.a */; };
 		F57DF4B419AEF5450037BA40 /* GOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CD9171D660400E02F35 /* GOLoginViewController.m */; };
 		F57DF4B519AEF5640037BA40 /* GONewGoalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8946A39172176EE00123D1B /* GONewGoalVC.m */; };
-		F57DF4BC19AEF8960037BA40 /* Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85B7FBA17CCF536000CA0D4 /* Cortex.framework */; };
-		F57DF4BD19AEF8960037BA40 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */; };
 		F57EB07819D1B8970086AD86 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB07719D1B8970086AD86 /* RightMenuViewController.m */; };
 		F57EB09619D1D3FB0086AD86 /* GONavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB09519D1D3FB0086AD86 /* GONavigationViewController.m */; };
 		F57EB0A419D1D42E0086AD86 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB09919D1D42E0086AD86 /* RECommonFunctions.m */; };
@@ -25,9 +36,6 @@
 		F57EB0AC19D1D5A50086AD86 /* GORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57EB0AB19D1D5A50086AD86 /* GORootViewController.m */; };
 		F59622E519AE79E8000BB553 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */; };
 		F59622E619AE79E8000BB553 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */; };
-		F5A7022119B8C037007FD23C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A7021B19B8C037007FD23C /* libTestFlight.a */; };
-		F5A7022219B8C037007FD23C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F5A7021C19B8C037007FD23C /* README.md */; };
-		F5A7022319B8C037007FD23C /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F5A7021D19B8C037007FD23C /* release_notes.md */; };
 		F5DD99AC19AB927100543962 /* GOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8929CB3171D5AC300E02F35 /* GOMasterViewController.m */; };
 		F5DD99AE19AB94A000543962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD99AD19AB94A000543962 /* Assets.xcassets */; };
 		F5DD99B119AB970B00543962 /* GOGoalCollenctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */; };
@@ -171,7 +179,6 @@
 		F8AFD1C11784241A00ED99DC /* GOCouchCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C01784241A00ED99DC /* GOCouchCocoa.m */; };
 		F8AFD1C41784269500ED99DC /* GORestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C31784269500ED99DC /* GORestKit.m */; };
 		F8AFD1C7178426E100ED99DC /* GOCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C6178426E100ED99DC /* GOCoreData.m */; };
-		F8AFD1CA1784283600ED99DC /* GOTestFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AFD1C91784283500ED99DC /* GOTestFlight.m */; };
 		F8B15D201782160B00FC0317 /* MostRecentActivityByGoalMap.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B15D1F1782160B00FC0317 /* MostRecentActivityByGoalMap.js */; };
 		F8B15D221782162700FC0317 /* MostRecentActivityByGoalReduce.js in Resources */ = {isa = PBXBuildFile; fileRef = F8B15D211782162700FC0317 /* MostRecentActivityByGoalReduce.js */; };
 		F8B15D251782175E00FC0317 /* GODescriptiveTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B15D241782175E00FC0317 /* GODescriptiveTask.m */; };
@@ -232,6 +239,25 @@
 		3EC9791C180C1AA600EA042A /* goal-keeper-dive-square_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goal-keeper-dive-square_120x120.png"; sourceTree = SOURCE_ROOT; };
 		F5796B7519B0C7D70087525A /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
 		F5796B7619B0C7D80087525A /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
+		F57D593B19D3CD8A0005C5F1 /* GOAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAboutViewController.h; sourceTree = "<group>"; };
+		F57D593C19D3CD8A0005C5F1 /* GOAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAboutViewController.m; sourceTree = "<group>"; };
+		F57D63BC19D451A000D32A62 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F57D63BE19D451A000D32A62 /* KILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KILabel.h; sourceTree = "<group>"; };
+		F57D63BF19D451A000D32A62 /* KILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KILabel.m; sourceTree = "<group>"; };
+		F57D63C319D4539D00D32A62 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		F57D63C419D4539D00D32A62 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		F57D63C619D456B500D32A62 /* strings_activity_legal_notices.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = strings_activity_legal_notices.xml; path = "Goalie/values-en/strings_activity_legal_notices.xml"; sourceTree = "<group>"; };
+		F57D63C819D4573D00D32A62 /* GOLegalNoticesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLegalNoticesViewController.h; sourceTree = "<group>"; };
+		F57D63C919D4573D00D32A62 /* GOLegalNoticesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLegalNoticesViewController.m; sourceTree = "<group>"; };
+		F57D63D919D4658200D32A62 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F57D63DD19D466A900D32A62 /* GOTestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTestFlight.h; sourceTree = "<group>"; };
+		F57D63DE19D466A900D32A62 /* GOTestFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTestFlight.m; sourceTree = "<group>"; };
+		F57D63E119D4670000D32A62 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		F57D63E219D4670000D32A62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F57D63E319D4670000D32A62 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		F57D63E419D4670000D32A62 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		F57D63E519D4670000D32A62 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		F57D63E619D4670000D32A62 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F57EB07619D1B8970086AD86 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
 		F57EB07719D1B8970086AD86 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
@@ -251,12 +277,6 @@
 		F57EB0AB19D1D5A50086AD86 /* GORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORootViewController.m; sourceTree = "<group>"; };
 		F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
 		F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		F5A7021B19B8C037007FD23C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		F5A7021C19B8C037007FD23C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		F5A7021D19B8C037007FD23C /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		F5A7021E19B8C037007FD23C /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		F5A7021F19B8C037007FD23C /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		F5A7022019B8C037007FD23C /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		F5DD99AD19AB94A000543962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DD99AF19AB970B00543962 /* GOGoalCollenctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGoalCollenctionCell.h; sourceTree = "<group>"; };
 		F5DD99B019AB970B00543962 /* GOGoalCollenctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGoalCollenctionCell.m; sourceTree = "<group>"; };
@@ -490,8 +510,6 @@
 		F8AFD1C31784269500ED99DC /* GORestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORestKit.m; sourceTree = "<group>"; };
 		F8AFD1C5178426E100ED99DC /* GOCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCoreData.h; sourceTree = "<group>"; };
 		F8AFD1C6178426E100ED99DC /* GOCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCoreData.m; sourceTree = "<group>"; };
-		F8AFD1C81784283500ED99DC /* GOTestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTestFlight.h; sourceTree = "<group>"; };
-		F8AFD1C91784283500ED99DC /* GOTestFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTestFlight.m; sourceTree = "<group>"; };
 		F8B15D1F1782160B00FC0317 /* MostRecentActivityByGoalMap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MostRecentActivityByGoalMap.js; sourceTree = "<group>"; };
 		F8B15D211782162700FC0317 /* MostRecentActivityByGoalReduce.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MostRecentActivityByGoalReduce.js; sourceTree = "<group>"; };
 		F8B15D231782175E00FC0317 /* GODescriptiveTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODescriptiveTask.h; sourceTree = "<group>"; };
@@ -572,12 +590,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57DF4BC19AEF8960037BA40 /* Cortex.framework in Frameworks */,
-				F57DF4BD19AEF8960037BA40 /* CouchCocoa.framework in Frameworks */,
+				F57D63EA19D467AE00D32A62 /* libTestFlight.a in Frameworks */,
+				F57D63DC19D4661300D32A62 /* Cortex.framework in Frameworks */,
+				F57D63DB19D465D700D32A62 /* CouchCocoa.framework in Frameworks */,
+				F57D63DA19D4658200D32A62 /* CoreText.framework in Frameworks */,
 				F87A5F5B17D7322900ABED38 /* AssetsLibrary.framework in Frameworks */,
 				F8515F9B17C6186B00D0DA80 /* QuartzCore.framework in Frameworks */,
 				F878F61917B5361A00776E69 /* MapKit.framework in Frameworks */,
-				F5A7022119B8C037007FD23C /* libTestFlight.a in Frameworks */,
 				F8575855175F8099006E6B84 /* SystemConfiguration.framework in Frameworks */,
 				F8AFD1B517841E0900ED99DC /* CoreTelephony.framework in Frameworks */,
 				F8AFD1B317841E0300ED99DC /* AudioToolbox.framework in Frameworks */,
@@ -620,6 +639,46 @@
 			path = KGModal;
 			sourceTree = "<group>";
 		};
+		F57D63BB19D451A000D32A62 /* KILabel */ = {
+			isa = PBXGroup;
+			children = (
+				F57D63BC19D451A000D32A62 /* LICENSE */,
+				F57D63BD19D451A000D32A62 /* Source */,
+			);
+			path = KILabel;
+			sourceTree = "<group>";
+		};
+		F57D63BD19D451A000D32A62 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F57D63BE19D451A000D32A62 /* KILabel.h */,
+				F57D63BF19D451A000D32A62 /* KILabel.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F57D63C219D4539D00D32A62 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F57D63C319D4539D00D32A62 /* TTTAttributedLabel.h */,
+				F57D63C419D4539D00D32A62 /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		F57D63E019D4670000D32A62 /* TestFlightSDK3.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				F57D63E119D4670000D32A62 /* libTestFlight.a */,
+				F57D63E219D4670000D32A62 /* README.md */,
+				F57D63E319D4670000D32A62 /* release_notes.md */,
+				F57D63E419D4670000D32A62 /* TestFlight+AsyncLogging.h */,
+				F57D63E519D4670000D32A62 /* TestFlight+ManualSessions.h */,
+				F57D63E619D4670000D32A62 /* TestFlight.h */,
+			);
+			path = TestFlightSDK3.0.2;
+			sourceTree = "<group>";
+		};
 		F57EB09719D1D42E0086AD86 /* REFrostedViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,20 +694,6 @@
 				F57EB0A319D1D42E0086AD86 /* UIViewController+REFrostedViewController.m */,
 			);
 			path = REFrostedViewController;
-			sourceTree = "<group>";
-		};
-		F5A7021A19B8C037007FD23C /* TestFlightSDK3.0.2 */ = {
-			isa = PBXGroup;
-			children = (
-				F5A7021B19B8C037007FD23C /* libTestFlight.a */,
-				F5A7021C19B8C037007FD23C /* README.md */,
-				F5A7021D19B8C037007FD23C /* release_notes.md */,
-				F5A7021E19B8C037007FD23C /* TestFlight+AsyncLogging.h */,
-				F5A7021F19B8C037007FD23C /* TestFlight+ManualSessions.h */,
-				F5A7022019B8C037007FD23C /* TestFlight.h */,
-			);
-			name = TestFlightSDK3.0.2;
-			path = ../../../../Downloads/TestFlightSDK3.0.2;
 			sourceTree = "<group>";
 		};
 		F80198801733FC8E00642D1D /* UI Task Views */ = {
@@ -1035,7 +1080,8 @@
 		F8929C86171D5AC200E02F35 = {
 			isa = PBXGroup;
 			children = (
-				F5A7021A19B8C037007FD23C /* TestFlightSDK3.0.2 */,
+				F57D63E019D4670000D32A62 /* TestFlightSDK3.0.2 */,
+				F57D63C619D456B500D32A62 /* strings_activity_legal_notices.xml */,
 				F844C25417D9D99500D5F8E6 /* Localizable.strings */,
 				F59622E319AE74D5000BB553 /* ProximaNova-Bold.otf */,
 				F59622E419AE74D5000BB553 /* ProximaNova-Regular.otf */,
@@ -1060,6 +1106,7 @@
 		F8929C91171D5AC200E02F35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F57D63D919D4658200D32A62 /* CoreText.framework */,
 				F57DF4BE19AEFA590037BA40 /* SenTestingKit.framework */,
 				F8CD547F17EB2EA600377766 /* TouchDB.framework */,
 				F8CD547D17EB2C6F00377766 /* CouchCocoa.framework */,
@@ -1090,6 +1137,8 @@
 		F8929C9A171D5AC200E02F35 /* Goalie */ = {
 			isa = PBXGroup;
 			children = (
+				F57D63C219D4539D00D32A62 /* TTTAttributedLabel */,
+				F57D63BB19D451A000D32A62 /* KILabel */,
 				F57EB09719D1D42E0086AD86 /* REFrostedViewController */,
 				F5796B7419B0C7D70087525A /* KGModal */,
 				F8FFD59317CF9F6B004806F7 /* CastFunctions.h */,
@@ -1236,10 +1285,10 @@
 				F8AFD1C01784241A00ED99DC /* GOCouchCocoa.m */,
 				F8AFD1C5178426E100ED99DC /* GOCoreData.h */,
 				F8AFD1C6178426E100ED99DC /* GOCoreData.m */,
-				F8AFD1C81784283500ED99DC /* GOTestFlight.h */,
-				F8AFD1C91784283500ED99DC /* GOTestFlight.m */,
 				F85FC5491784319A0074F692 /* GOKeychain.h */,
 				F85FC54A1784319A0074F692 /* GOKeychain.m */,
+				F57D63DD19D466A900D32A62 /* GOTestFlight.h */,
+				F57D63DE19D466A900D32A62 /* GOTestFlight.m */,
 				F8515FA817C632D700D0DA80 /* GOReachabilityManager.h */,
 				F8515FA917C632D700D0DA80 /* GOReachabilityManager.m */,
 				F8EC7F8C17C75D920006DD71 /* GOSleepState.h */,
@@ -1314,6 +1363,10 @@
 				F57EB09519D1D3FB0086AD86 /* GONavigationViewController.m */,
 				F57EB07619D1B8970086AD86 /* RightMenuViewController.h */,
 				F57EB07719D1B8970086AD86 /* RightMenuViewController.m */,
+				F57D593B19D3CD8A0005C5F1 /* GOAboutViewController.h */,
+				F57D593C19D3CD8A0005C5F1 /* GOAboutViewController.m */,
+				F57D63C819D4573D00D32A62 /* GOLegalNoticesViewController.h */,
+				F57D63C919D4573D00D32A62 /* GOLegalNoticesViewController.m */,
 				F820951A17B8EAF900D1D0BC /* UI Settings Views */,
 			);
 			name = "UI Home View";
@@ -1423,7 +1476,6 @@
 				F8AEC2691745197E00D375DA /* GreenCheckmark.tiff in Resources */,
 				F8AEC26A1745197E00D375DA /* RedCross.tiff in Resources */,
 				F8E6E803174E297F002B1BAD /* GreenCheckmark.png in Resources */,
-				F5A7022319B8C037007FD23C /* release_notes.md in Resources */,
 				F8E6E804174E297F002B1BAD /* RedCross.png in Resources */,
 				F8115FE11754EC9F00143FD4 /* image_placeholder.png in Resources */,
 				F8A8BF721756047D0096D60E /* affectbutton in Resources */,
@@ -1437,10 +1489,12 @@
 				F85FC55F178443910074F692 /* Default.png in Resources */,
 				F8A2A408178AEF8E0020585B /* EmptyCheckbox.png in Resources */,
 				F8D24C821790F3C5002C770A /* AllGoals.json in Resources */,
+				F57D63C719D456B500D32A62 /* strings_activity_legal_notices.xml in Resources */,
 				F8D24C841790F3F1002C770A /* AllTasks.json in Resources */,
 				F81822F517B11B7F00182A7E /* goal-keeper-dive-green.png in Resources */,
 				F81822F717B11BC100182A7E /* goal-keeper-dive-green_57x57.png in Resources */,
 				F81822FC17B11F5B00182A7E /* goal-keeper-basic.png in Resources */,
+				F57D63E819D4670000D32A62 /* README.md in Resources */,
 				F818230117B123DB00182A7E /* goal-keeper-dive-square_114x114.png in Resources */,
 				F818230217B123E200182A7E /* goal-keeper-dive-square_57x57.png in Resources */,
 				F818230517B1247000182A7E /* Default@2x.png in Resources */,
@@ -1451,14 +1505,15 @@
 				F878F5F417B262A700776E69 /* mood.png in Resources */,
 				F878F5F517B262A700776E69 /* sleep.png in Resources */,
 				F878F5F717B262B500776E69 /* activity.png in Resources */,
+				F57D63E919D4670000D32A62 /* release_notes.md in Resources */,
 				F878F5FB17B270D000776E69 /* NSTexturedFullScreenBackgroundColor.png in Resources */,
 				3E4B781417B244D90001FCC7 /* Settings.plist in Resources */,
 				3E4B781217B244D30001FCC7 /* CommonSense.plist in Resources */,
-				F5A7022219B8C037007FD23C /* README.md in Resources */,
 				F8515F9E17C6231000D0DA80 /* goal-keeper-basic-20.png in Resources */,
 				F8515F9F17C6231000D0DA80 /* goal-keeper-basic-20@2x.png in Resources */,
 				F8515FA217C6298B00D0DA80 /* goal-keeper-basic-33.png in Resources */,
 				F8515FA317C6298B00D0DA80 /* goal-keeper-basic-33@2x.png in Resources */,
+				F57D63C019D451A000D32A62 /* LICENSE in Resources */,
 				F84BAB7F17D9BD08003C0D1F /* update_storyboard_strings.sh in Resources */,
 				3EC9791D180C1AA600EA042A /* goal-keeper-dive-square_120x120.png in Resources */,
 				F844C24C17D9C7EA00D5F8E6 /* values-en in Resources */,
@@ -1559,11 +1614,12 @@
 				F89FE18B1782EEBA004D4EA6 /* GOSliderTaskVC.m in Sources */,
 				F89FE18E1782F2DA004D4EA6 /* GOSwitchTaskVC.m in Sources */,
 				F8AFD1BD17841F9B00ED99DC /* GOSensePlatform.m in Sources */,
+				F57D63C119D451A000D32A62 /* KILabel.m in Sources */,
 				F8AFD1C11784241A00ED99DC /* GOCouchCocoa.m in Sources */,
 				F57EB0A819D1D42E0086AD86 /* UIView+REFrostedViewController.m in Sources */,
+				F57D63DF19D466A900D32A62 /* GOTestFlight.m in Sources */,
 				F8AFD1C41784269500ED99DC /* GORestKit.m in Sources */,
 				F8AFD1C7178426E100ED99DC /* GOCoreData.m in Sources */,
-				F8AFD1CA1784283600ED99DC /* GOTestFlight.m in Sources */,
 				F85FC54B1784319A0074F692 /* GOKeychain.m in Sources */,
 				F8D77828178444C800929584 /* GOLaunchVC.m in Sources */,
 				F8D7782B1784603300929584 /* GORegularMealsGoal.m in Sources */,
@@ -1586,6 +1642,7 @@
 				F878F60F17B5229400776E69 /* GOVisitTaskVC.m in Sources */,
 				F878F61217B525C500776E69 /* GOVisitTask.m in Sources */,
 				F878F61517B52D6100776E69 /* GOScheduledNotificationsTableVC.m in Sources */,
+				F57D593D19D3CD8A0005C5F1 /* GOAboutViewController.m in Sources */,
 				F885698717B5AD98002048D4 /* GOMonitoredRegionsTableVC.m in Sources */,
 				F820950F17B834FC00D1D0BC /* GOBrewTableVC.m in Sources */,
 				F820951317B8CF6100D1D0BC /* GOBrewValueCell.m in Sources */,
@@ -1613,6 +1670,7 @@
 				F8515F9717C6055C00D0DA80 /* Reachability.m in Sources */,
 				F8515FA617C62F2000D0DA80 /* GOSleepManager.m in Sources */,
 				F8515FAA17C632D700D0DA80 /* GOReachabilityManager.m in Sources */,
+				F57D63CA19D4573D00D32A62 /* GOLegalNoticesViewController.m in Sources */,
 				F8EC7F8E17C75D920006DD71 /* GOSleepState.m in Sources */,
 				F57EB0A619D1D42E0086AD86 /* REFrostedViewController.m in Sources */,
 				F89F95E617CA4A0E000EEBA3 /* GOGoalExplanationVC.m in Sources */,
@@ -1625,6 +1683,7 @@
 				F8FFD59217CF7A41004806F7 /* GOTasksTableVC.m in Sources */,
 				F8FFD59517CF9F70004806F7 /* CastFunctions.m in Sources */,
 				F8F0080C17D8CC3700D351D4 /* GOTranslation.m in Sources */,
+				F57D63C519D4539D00D32A62 /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1777,8 +1836,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
 					/Users/reza/Downloads/TestFlightSDK3.0.2,
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -1817,8 +1876,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Goalie/TestFlightSDK1.2.4\"",
 					/Users/reza/Downloads/TestFlightSDK3.0.2,
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",

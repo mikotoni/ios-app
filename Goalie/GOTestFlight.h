@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestFlight.h"
 
 @interface GOTestFlight : NSObject
 

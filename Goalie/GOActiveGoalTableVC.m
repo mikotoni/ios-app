@@ -95,9 +95,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    if ([self.activeGoal isKindOfClass:[GORegularMealsGoal class]]) {
-//        return 5;
-//    }
+    if ([self.activeGoal isKindOfClass:[GORegularMealsGoal class]]) {
+        return 5;
+    }
     return 2 + [brews count];
 }
 
@@ -121,8 +121,7 @@
         [activeGoalCell setActiveGoal:self.activeGoal];
         cell = activeGoalCell;
     }
-    else if((rowIndex == 1 + [brews count])){// && ![self.activeGoal isKindOfClass:[GORegularMealsGoal class]])||
-        //    (rowIndex == 4 && [self.activeGoal isKindOfClass:[GORegularMealsGoal class]])){
+    else if(((rowIndex == 1 + [brews count]) && ![self.activeGoal isKindOfClass:[GORegularMealsGoal class]])||(rowIndex == 4 && [self.activeGoal isKindOfClass:[GORegularMealsGoal class]])){
         cellIdentifier = @"ActiveInformationCell";
         cell =
         [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];

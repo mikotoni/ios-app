@@ -138,12 +138,29 @@
 {
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self.frostedViewController hideMenuViewController];
+    GOMasterViewController *masterVC =(GOMasterViewController*) [(UINavigationController*)self.frostedViewController.contentViewController topViewController];
     if (indexPath.section == 0 && indexPath.row != 0) {
-        GOMasterViewController *masterVC =(GOMasterViewController*) [(UINavigationController*)self.frostedViewController.contentViewController topViewController];
+        
         [masterVC didSelectGoal:[[self staticArrayGoal] objectAtIndex:indexPath.row]];
     } else {
-//        DEMOSecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondController"];
-//        navigationController.viewControllers = @[secondViewController];
+        switch (indexPath.row)
+        {
+            case 0:
+                
+                break;
+                
+            case 1:
+                [masterVC performSegueWithIdentifier:@"aboutSegue" sender:nil];
+                break;
+                
+            case 2:
+                [masterVC performSegueWithIdentifier:@"legalNoticeSegue" sender:nil];
+                break;
+                
+            case 3:
+                
+                break;
+        }
     }
     
 //    self.frostedViewController.contentViewController = navigationController;

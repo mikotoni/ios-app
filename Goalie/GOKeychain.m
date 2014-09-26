@@ -56,7 +56,7 @@
     if(username && password && ![username isEqualToString:@""] && ![password isEqualToString:@""]) {
         return YES;
     }
-    [TestFlight passCheckpoint:@"hasNoAutoLoginCredentials"];
+//    [TestFlight passCheckpoint:@"hasNoAutoLoginCredentials"];
     TFLog(@"hasNoAutoLoginCredentials username:%@ password-length:%d", username, [password length]);
     return NO;
 }

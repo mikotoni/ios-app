@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="title_activity_about">Goalie</string>
+    <string name="title_disclaimer">Disclaimer</string>
+    <string name="deskripsi_disclaimer">Goalie respects the privacy of the user. The data collected by Goalie will only be shared with the PsyQ therapist. Personal data of client and visitors is processed and secured very carefully. The privacy is protected according to PsyQ's general terms. See the disclaimer for more information.</string>
+    <string name="title_open_source">Open source projects</string>
+    <string name="deskription_open_source">Goalie uses the following open source projects:
+        
+* Sense iOS library
+* ASK iOS library</string>
+    
+</resources>

@@ -26,7 +26,7 @@
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
         //[TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
 #pragma clang diagnostic pop
-        [TestFlight takeOff:@"16bc0ba4-3f6e-4b8f-9601-8fdad812b295"];
+        [TestFlight takeOff:@"1b13b559-3a69-4ab9-9027-1c31a2fc7324"];
         UIApplication *sharedApplication = [UIApplication sharedApplication];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(processApplicationNotification:) name:nil object:sharedApplication];
     }

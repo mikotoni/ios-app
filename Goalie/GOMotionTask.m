@@ -59,7 +59,7 @@
     // Reset the activity to 0 once for every brew
     NSString *activityResetDate = [brew valueForKey:kGOActivityResetDate];
     if(!activityResetDate) {
-        [TestFlight passCheckpoint:@"Time Active Reset"];
+//        [TestFlight passCheckpoint:@"Time Active Reset"];
         newTimeActiveInterval = 0;
         [[[GOMainApp sharedMainApp] sensePlatform] resetTimeActiveSensor];
         activityResetDate = [RESTBody JSONObjectWithDate:[[GOMainApp sharedMainApp] nowDate]];

@@ -93,48 +93,48 @@
 }
 
 - (void)notifyGoodBusyLocation:(GOTaskBrew *)brew {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyGoodBusy]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyGoodBusy]"];
     [[[GOMainApp sharedMainApp] goalieServices] deliverLocalNotificationForBrew:brew title:@"Gearriveerd" body:@"Heel goed. U bent aangekomen op de afgesproken locatie."];
 }
 
 - (void)notifyGoodBusyAnxiety:(GOTaskBrew *)brew {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyGoodBusyAnxiety]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyGoodBusyAnxiety]"];
     [[[GOMainApp sharedMainApp] goalieServices] deliverLocalNotificationForBrew:brew title:@"Spanning ingevuld" body:@"Ga verder op weg naar de afgesproken locatie."];
 }
 
 - (void)notifyQuestionStartExercise:(GOTaskBrew *)brew {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyQuestionStartExercise]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyQuestionStartExercise]"];
     [[[GOMainApp sharedMainApp] goalieServices] deliverLocalNotificationForBrew:brew title:@"Oefening starten?" body:@"U bent aangekomen op de locatie voor een oefening. U kunt nu de oefening starten."];
 }
 
 - (void)notifyGoBack:(GOTaskBrew *)brew {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyGoBack]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyGoBack]"];
     [[[GOMainApp sharedMainApp] goalieServices] deliverLocalNotificationForBrew:brew title:@"Locatie verlaten" body:@"U heeft de locatie verlaten. Ga terug om verder te gaan met de oefening."];
 }
 
 - (void)maybeTooBusyForExercise {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal maybeTooBusyForExercise]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal maybeTooBusyForExercise]"];
 }
 
 - (void)shouldNotHappen {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal shouldNotHappen]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal shouldNotHappen]"];
 }
 
 - (void)waitForAnxietyLog {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal waitForAnxietyLog]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal waitForAnxietyLog]"];
 }
 
 - (void)notifyInvalidLocation:(GOTaskBrew *)brew {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyInvalidLocation]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal notifyInvalidLocation]"];
     [[[GOMainApp sharedMainApp] goalieServices] deliverLocalNotificationForBrew:brew title:@"Locatie onjuist" body:@"Voor deze oefening moet u een foto maken op de afgesproken locatie."];
 }
 
 - (void)waitForPhoto {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal waitForPhoto]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal waitForPhoto]"];
 }
 
 - (void)waitForReachingLocation {
-    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal waitForReachingLocation]"];
+//    [TestFlight passCheckpoint:@"[GOAgoraphobiaGoal waitForReachingLocation]"];
 }
 
 
