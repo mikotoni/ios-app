@@ -269,6 +269,10 @@
     }
 }
 
+- (NSString *)description {
+    return [[[GOMainApp sharedMainApp] translation] translate:@"goal_agoraphobia" string:@"goal_descr_agoraphobia"];
+}
+
 - (NSString *)explanation {
     return [[[GOMainApp sharedMainApp] translation] translate:@"goal_agoraphobia" string:@"goal_help_agoraphobia"];
 }

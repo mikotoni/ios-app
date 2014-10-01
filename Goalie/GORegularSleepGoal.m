@@ -98,6 +98,9 @@
     return;
 }
 
+- (NSString *)description {
+    return [[[GOMainApp sharedMainApp] translation] translate:@"goal_regular_sleep" string:@"goal_descr_regular_sleep"];
+}
 - (NSString *)explanation {
     return [[[GOMainApp sharedMainApp] translation] translate:@"goal_regular_sleep" string:@"goal_help_regular_sleep"];
 }

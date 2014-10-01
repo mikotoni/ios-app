@@ -80,6 +80,9 @@
 //        
 //    }
 }
+- (NSString *)description {
+    return [[[GOMainApp sharedMainApp] translation] translate:@"goal_physical_activity" string:@"goal_descr_physical_activity"];
+}
 
 - (NSString *)explanation {
     return [[[GOMainApp sharedMainApp] translation] translate:@"goal_physical_activity" string:@"goal_help_physical_activity"];

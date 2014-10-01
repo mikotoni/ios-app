@@ -125,7 +125,7 @@
         cellIdentifier = @"ActiveInformationCell";
         cell =
         [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-        NSString *strText = [NSString stringWithFormat:@"%@",self.activeGoal.explanation];
+        NSString *strText = [NSString stringWithFormat:@"%@ %@",self.activeGoal.description,self.activeGoal.explanation];
         UILabel *label = (UILabel*)[cell viewWithTag:1];
         CGRect paragraphRect =
         [strText boundingRectWithSize:CGSizeMake(300, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:informationFont} context:nil];
@@ -247,7 +247,7 @@
     
     if((row == 1 + [brews count] && ![self.activeGoal isKindOfClass:[GORegularMealsGoal class]])||
        (row == 4 && [self.activeGoal isKindOfClass:[GORegularMealsGoal class]])){
-        NSString *strText = [NSString stringWithFormat:@"%@",self.activeGoal.explanation];
+        NSString *strText = [NSString stringWithFormat:@"%@ %@",self.activeGoal.description,self.activeGoal.explanation];
         CGRect paragraphRect =
         [strText boundingRectWithSize:CGSizeMake(300, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:informationFont} context:nil];
         return paragraphRect.size.height+14;

@@ -90,6 +90,10 @@
         NSLog(@"WARNING: %s assumed moodTask doesn't respond to setAbstractVisibleWindows", __PRETTY_FUNCTION__);
 }
 
+- (NSString *)description {
+    return [[[GOMainApp sharedMainApp] translation] translate:@"goal_emotion_awareness" string:@"goal_descr_emotion_awareness"];
+}
+
 - (NSString *)explanation {
     return [[[GOMainApp sharedMainApp] translation] translate:@"goal_emotion_awareness" string:@"goal_help_emotion_awareness"];
 }

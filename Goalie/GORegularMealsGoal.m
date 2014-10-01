@@ -65,6 +65,10 @@
     [activeMealTask setAbstractMealMoment:abstractMealMoment];
 }
 
+- (NSString *)description {
+    return [[[GOMainApp sharedMainApp] translation] translate:@"goal_regular_meals" string:@"goal_descr_regular_meals"];
+}
+
 - (NSString *)explanation {
     GOTranslation *translation = [[GOMainApp sharedMainApp] translation];
     return [translation translate:@"goal_regular_meals" string:@"goal_help_regular_meals"];

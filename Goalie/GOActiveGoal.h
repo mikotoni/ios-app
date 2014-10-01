@@ -21,7 +21,7 @@
 
 @property (nonatomic, readonly) NSString *title;
 @property (nonatomic, readonly) NSString *explanation;
-
+@property (nonatomic, readonly) NSString *description;
 @property bool firstEarnedPointsValue;
 @property (nonatomic, retain) GOGoal *goal;
 @property (nonatomic, retain) NSString *type;
